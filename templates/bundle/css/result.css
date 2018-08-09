@@ -1,0 +1,300 @@
+/* HEADER */
+#top-section {
+    display: -ms-flexbox;
+    display: flex;
+    padding: 9px 20px;
+    -ms-flex-align: center;
+        align-items: center;
+}
+
+#home-title {
+    margin-right: 10px;
+    font-size: 31px;
+    text-decoration: none;
+    color: #939393;
+}
+
+#main-section {
+    height: calc(100vh - 58px);
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#search-wrapper {
+    background: #e2e2e2;
+    padding-right: 10px;
+    white-space: nowrap;
+    width: 450px;
+}
+
+#search-input {
+    background-color: transparent;
+    width: 407px;
+    padding: 0 0 0 10px;
+}
+
+.search-icon {
+    padding: 12px;
+    cursor: pointer;
+}
+
+#submit {
+    display: none;
+}
+/* HEADER */
+
+/* LEFT */
+#left-wrapper {
+    width: 200px;
+    height: 100%;
+    position: relative;
+}
+
+#left-title {
+    padding: 17px;
+}
+
+.left-subtitle {
+    text-align: center;
+    font-weight: normal;
+    padding: 11px 0;
+}
+
+#craigslist-input {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 7px auto;
+    padding: 7px;
+    background: #eeeeee;
+    border: solid 1px #d6d6d6;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 120px;
+}
+
+/* LEFT */
+
+/* RIGHT */
+#right-wrapper {
+    width: 100%;
+    height: 100%;
+    background: #f0f0f0;
+    position: relative;
+}
+
+.links-wrapper {
+    border: #dddddd solid 1px;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 30px 25px;
+    width: 520px;
+    position: relative;
+}
+
+.links-wrapper a {
+    min-height: 50px;
+    display: inline-block;
+    border-radius: 1px;
+    cursor: pointer;
+    width: 90px;
+    line-height: 50px;
+    text-align: center;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.links-wrapper a:hover {
+    -webkit-filter: brightness(1) hue-rotate(10deg) contrast(1);
+            filter: brightness(1) hue-rotate(10deg) contrast(1);
+    box-shadow: 0 10px 15px -1px rgba(0, 0, 0, 0.1), 0 25px 50px -4px rgba(0, 0, 0, 0.3);
+}
+
+#right-title {
+    margin: 10px 23px;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.right-subtitle {
+    position: absolute;
+    top: -14px;
+    left: 20px;
+    font-weight: normal;
+    background: #e6e6e6;
+    padding: 1px 7px;
+}
+
+.coming-soon {
+    opacity: 0.35;
+}
+/* RIGHT */
+
+/* LINKS */
+#amazon-link {
+    background-color: #232f3e;
+    color: #febd69;
+}
+
+#rakuten-link {
+    background-color: #bf0000;
+    color: #ffffff;
+}
+
+#etsy-link {
+    background-color: #F56400;
+    color: #ffffff;
+}
+
+#ebay-link {
+    background-color: #ffffff;
+}
+
+#ebay-link #ebay-e {
+    color: #e53238;
+}
+
+#ebay-link #ebay-b {
+    color: #0064d3;
+}
+
+#ebay-link #ebay-a {
+    color: #f4ae01;
+}
+
+#ebay-link #ebay-y {
+    color: #88b719;
+}
+
+#walmart-link {
+    background-color: #ffc220;
+    color: #007dc6;
+}
+
+#google-link {
+    background-color: #ffffff;
+}
+
+#google-link .google-blue {
+    color: #0057e7;
+}
+
+#google-link .google-red {
+    color: #d62d20;
+}
+
+#google-link .google-yellow {
+    color: 	#ffa700;
+}
+
+#google-link .google-green {
+    color: #008744;
+}
+
+#craigslist-link {
+    color: #ffffff;
+    background-color: #7E1B80;
+}
+
+#facebook-link {
+    background-color: #4267b2;
+    color: #ffffff;
+}
+/* LINKS */
+
+/* CRAIGSLIST POPUP */
+#selection-wrapper {
+    display: none;
+    position: absolute;
+    top: 200px;
+    left: 45px;
+    width: 280px;
+    background: #ffffff;
+    padding: 4px;
+    max-height: 180px;
+    border: 1px #dbdbdb solid;
+}
+
+#selection-wrapper.active {
+    display: block;
+}
+
+#selection-input {
+    width: 92%;
+    height: 35px;
+}
+
+#selection-container {
+    border-radius: 1px;
+    cursor: default;
+    max-height: 142px;
+    overflow-y: auto;
+    margin-top: 2px;
+}
+
+.outer-wrapper ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.outer-wrapper li {
+    padding: 4px 20px;
+}
+
+.outer-wrapper .outer-wrapper label {
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.outer-wrapper .selected {
+    background: #dadada;
+}
+
+#selection-container::-webkit-scrollbar {
+    width: 10px;
+    background-color: #D8E2EC;
+}
+
+#selection-container::-webkit-scrollbar-thumb {
+    background-color: #616565;
+    border-radius: 1px;
+}
+/* CRAIGSLIST POPUP */#tip-popup {
+    z-index: 9999;
+    position: absolute;
+    opacity: 0;
+    transition-timing-function: cubic-bezier(.165,.84,.44,1);
+    pointer-events: none;
+    color: #fff;
+    border-radius: 4px;
+    font-size: .95rem;
+    padding: .4rem .8rem;
+    text-align: center;
+    background-color: #333;
+    display: none;
+}
+
+#tip-arrow {
+    border-top: 7px solid #333;
+    border-right: 7px solid transparent;
+    border-left: 7px solid transparent;
+    bottom: -7px;
+    margin: 0 9px;
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+.mouse-leave {
+    opacity: 0 !important;
+    transform: translate3d(0, 0, 0) !important;
+}
+
+.tippy:hover {
+    -webkit-filter: brightness(1.15) hue-rotate(10deg) contrast(1.5);
+            filter: brightness(1.15) hue-rotate(10deg) contrast(1.5);
+    box-shadow: 0 10px 15px -1px rgba(0, 0, 0, 0.1), 0 25px 50px -4px rgba(0, 0, 0, 0.3);
+}

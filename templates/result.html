@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ q }}</title>
+
+    <script>
+        var globals = {};
+        globals.base_url = '{{ base_url }}';
+        globals.q = '{{ q }}';
+    </script>
+</head>
+<body>
+    <div id="top-section">
+        <a id="home-title" href="{{ base_url }}">Legitsky</a>
+        <form id="search-wrapper" action="/search/" method="get">
+            <input id="search-input" name="q" value="{{ q }}" autocomplete="off" />
+            <span class="search-icon"><i class="fas fa-search"></i></span>
+            <input type="submit" id="submit" />
+        </form>
+    </div>
+
+    <div id="main-section">
+        <div id="left-wrapper">
+            <h3 id="left-title">Options</h3>
+            <h4 class="left-subtitle">Craigslist Site</h4>
+            <div id="craigslist-input">
+                <span id="craigslist-value">None</span>
+                <span class="dropdown-icon"><i class="fas fa-sort-down"></i></span>
+            </div>
+        </div>
+        <div id="right-wrapper">
+            <h2 id="right-title">Search Links</h2>
+            <div class="links-wrapper">
+                <h3 class="right-subtitle">Everything</h3>
+                <a class="coming-soon tippy" id="amazon-link" target="_blank" data-title="Coming soon..">Amazon</a>
+                <a id="ebay-link" target="_blank"><span id="ebay-e">e</span><span id="ebay-b">b</span><span id="ebay-a">a</span><span id="ebay-y">y</span></a>
+                <a class="coming-soon tippy" id="rakuten-link" target="_blank" data-title="Coming soon..">Rakuten</a>
+                <a id="google-link" target="_blank"><span class="google-blue">G</span><span class="google-red">o</span><span class="google-yellow">o</span><span class="google-blue">g</span><span class="google-green">l</span><span class="google-red">e</span></a>
+            </div>
+            <div class="links-wrapper">
+                <h3 class="right-subtitle">For Sale</h3>
+                <a id="craigslist-link" target="_blank">Craigslist</a>
+                <a id="facebook-link" target="_blank">Facebook</a>
+            </div>
+            <div class="links-wrapper">
+                <h3 class="right-subtitle">Unique Goods</h3>
+                <a class="coming-soon tippy" id="etsy-link" target="_blank" data-title="Coming soon..">Etsy</a>
+            </div>
+            <div class="links-wrapper">
+                <h3 class="right-subtitle">Stores</h3>
+                <a class="coming-soon tippy" id="walmart-link" target="_blank" data-title="Coming soon..">Walmart</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="tip-popup">
+        <div id="tip-arrow"></div>
+        <div id="tip-content"></div>
+    </div>
+
+    <%= require('html-loader!./partial/craigslist.html') %>
+</body>
+</html>
