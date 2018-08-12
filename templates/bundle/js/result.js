@@ -37,13 +37,34 @@ function getEbayUrl() {
     });
 }
 
-function getAmazonUrl() {
-
-}
-
 function getFacebookUrl() {
     //https://www.facebook.com/marketplace/search?query=goku%20shirt
     $('#facebook-link').attr('href', 'https://www.facebook.com/marketplace/search?query=' + encodeURIComponent(globals.q));
+}
+
+//Affiliate
+function getRakutenUrl() {
+    //https://www.rakuten.com/search/goku%20shirt/
+    $('#rakuten-link').attr('href', 'https://www.rakuten.com/search/' +  encodeURIComponent(globals.q));
+
+}
+
+//Affiliate
+function getEtsyUrl() {
+    //https://www.etsy.com/search?q=test
+    $('#etsy-link').attr('href', 'https://www.etsy.com/search?q=' +  encodeURIComponent(globals.q));
+}
+
+//Affiliate
+function getAmazonUrl() {
+    //https://www.amazon.com/s?url=search-alias%3Daps&field-keywords=goku+shirt
+    $('#amazon-link').attr('href', 'https://www.amazon.com/s?url=search-alias%3Daps&field-keywords=' +  encodeURIComponent(globals.q).replace(/%20/g, "+"));
+}
+
+//Affiliate
+function getWalmartUrl() {
+    //https://www.walmart.com/search/?query=goku%20shirt
+    $('#walmart-link').attr('href', 'https://www.walmart.com/search/?query=' + encodeURIComponent(globals.q))
 }
 
 function init() {
@@ -59,6 +80,10 @@ function init() {
     getEbayUrl();
     getFacebookUrl();
     getGoogleUrl();
+    getEtsyUrl();
+    getRakutenUrl();
+    getWalmartUrl();
+    getAmazonUrl();
 }
 
 $(document).ready(function() {

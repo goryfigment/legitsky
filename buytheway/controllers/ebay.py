@@ -7,8 +7,8 @@ from buytheway.decorators import data_required
 
 @data_required(['q'], 'GET')
 def search(request):
-    # api = SearchEbay(debug=True, appid=ebay_s_appid, config_file=None, domain='svcs.sandbox.ebay.com')
-    api = SearchEbay(debug=True, appid=ebay_p_appid, config_file=None)
+    api = SearchEbay(debug=True, appid=ebay_s_appid, config_file=None, domain='svcs.sandbox.ebay.com')
+    # api = SearchEbay(debug=True, appid=ebay_p_appid, config_file=None)
 
     api_request = {
         'keywords': request.GET['q'],
