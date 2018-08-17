@@ -9,5 +9,7 @@ urlpatterns = [
 
     # Ebay
     url(r'^ebay/search$', ebay.search, name='site'),
-    url(r'^search/$', site.search, name='search_view')
+    url(r'^search$', site.search, name='search_view'),
+    url(r'^category/(?P<name>[_A-Za-z]+)$', site.category, name='anime'),
+
 ]

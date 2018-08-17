@@ -27,3 +27,7 @@ def site(request):
 
 def search(request):
     return render(request, 'result.html', {'base_url': get_base_url(), 'q': request.GET['q']})
+
+
+def category(request, name):
+    return render(request, 'category.html', {'base_url': get_base_url(), 'title': name.title()})

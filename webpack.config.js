@@ -10,14 +10,15 @@ const PurifyCSSPlugin = require('purifycss-webpack');
 module.exports = {
     entry: {
         home: './templates/js/home.js',
-        result: './templates/js/result.js'
+        result: './templates/js/result.js',
+        category: './templates/js/category.js',
     },
     output: {path: __dirname + '/templates/bundle', filename: 'js/[name].js', publicPath: '/templates/bundle/'},
     module: {
         loaders: [
             {test: /\.css$/, loader: ExtractTextPlugin.extract({use: ['css-loader', 'postcss-loader'], publicPath: '../'})},
             //{test: /\.(eot|svg|ttf|woff|woff2)$/, loader: 'file-loader?name=assets/fonts/[name].[ext]'},
-            //{test: /\.(jpe?g|png|gif|svg)$/i, loader: ["file-loader?name=../../[path][name].[ext]", 'image-webpack-loader']},
+            {test: /\.(jpe?g|png|gif|svg)$/i, loader: ["file-loader?name=../../[path][name].[ext]", 'image-webpack-loader']},
             {test: /\.hbs$/, loader: 'handlebars-loader', options:{helperDirs: path.resolve(__dirname, "./templates/handlebars/helpers")}}
         ]
     },
@@ -37,6 +38,7 @@ module.exports = {
         //new HtmlWebpackPlugin({filename: '500.html', chunks: ['vendors','error'], minify: {collapseWhitespace: true}, hash: true, template: './templates/500.html'}),
         new HtmlWebpackPlugin({filename: 'home.html', chunks: ['vendors','home'], minify: {collapseWhitespace: true}, hash: true, template: './templates/home.html'}),
         new HtmlWebpackPlugin({filename: 'result.html', chunks: ['vendors','result'], minify: {collapseWhitespace: true}, hash: true, template: './templates/result.html'}),
+        new HtmlWebpackPlugin({filename: 'category.html', chunks: ['vendors','category'], minify: {collapseWhitespace: true}, hash: true, template: './templates/category.html'}),
     ],
     resolve: {
         alias: {

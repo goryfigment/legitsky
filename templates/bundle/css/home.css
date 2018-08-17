@@ -1,38 +1,5 @@
 body {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-        flex-direction: column;
-    -ms-flex-pack: center;
-        justify-content: center;
-    -ms-flex-align: center;
-        align-items: center;
-    min-width: 600px;
-    min-height: 400px;
-}
 
-form {
-    width: 100%;
-}
-
-.dark {
-    background: #1b1b1b;
-    color: #98a0a7;
-}
-
-.dark #home-title {
-    color: #373b40;
-}
-
-.dark #search-input {
-    background-color: #353535;
-    color: #bababa;
-}
-
-.dark #search-submit {
-    border: 1px solid #373737;
-    background: #0e0e0e;
-    color: #9e9c9c;
 }
 
 #wrapper {
@@ -41,7 +8,7 @@ form {
 
 #header-wrapper {
     text-align: center;
-    margin-bottom: 10px;
+    padding: 25px;
 }
 
 #home-title {
@@ -51,23 +18,112 @@ form {
     cursor: default;
 }
 
-#search-submit {
+/*SEARCH INPUT*/
+#search-wrapper {
+    background: #e2e2e2;
+    padding-right: 10px;
+    white-space: nowrap;
+    width: 450px;
     margin: 0 auto;
-    display: block;
-    outline: none;
-    font-size: 13px;
-    cursor: pointer;
-    font-weight: bold;
-    padding: 10px 29px;
-    border-radius: 1px;
-    background: #cbcbcb;
-    color: #ffffff;
-    border: solid 1px #e3e3e3;
 }
 
 #search-input {
-    display: block;
-    margin: 0 auto 30px auto;
-    width: 60%;
-    max-width: 510px;
+    background-color: transparent;
+    width: 407px;
+    padding: 0 0 0 10px;
 }
+
+.search-icon {
+    padding: 12px;
+    cursor: pointer;
+}
+
+#submit {
+    display: none;
+}
+/*SEARCH INPUT*/
+
+/*CATEGORY BANNER*/
+#category-wrapper {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: 528px;
+    margin: 15px auto;
+}
+
+.premier.banner {
+    width: 486px;
+    box-shadow: 0 0 18px #ea9310;
+}
+
+.premier.banner:hover {
+    width: 486px;
+    box-shadow: 0 0 28px #ea9310;
+}
+
+.banner {
+    display: inline-block;
+    width: 220px;
+    height: 70px;
+    margin: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #e0e0e0ee;
+    box-shadow: 0 0 1px #d9d9d9;
+    transition: all 0.4s;
+}
+
+.banner:hover {
+    box-shadow: 0 0 8px #d9d9d9;
+}
+
+.banner-icon {
+    position: absolute;
+}
+
+.banner-text {
+    z-index: 1;
+    position: absolute;
+    font-size: 30px;
+    color: #0a0a0a;
+    right: 5px;
+    top: 15px;
+    letter-spacing: -2px;
+}
+
+#halloween .banner-icon {
+    height: 165px;
+    top: -36px;
+    transform: rotate(28deg);
+    left: -6px;
+}
+
+#halloween .banner-text {
+    right: 27px;
+}
+
+#anime .banner-icon {
+    height: 148px;
+    top: -32px;
+    left: -6px;
+    -webkit-filter: brightness(120%);
+            filter: brightness(120%);
+    transform: rotate(-30deg);
+}
+
+#gamer .banner-icon {
+    height: 102px;
+    top: -11px;
+    left: -8px;
+    transform: rotate(-25deg);
+}
+
+#coming-soon .banner-icon {
+    font-size: 40px;
+    top: 12px;
+    left: 9px;
+    color: #c7c7c7;
+}
+/*CATEGORY BANNER*/
