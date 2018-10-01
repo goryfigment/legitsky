@@ -9,7 +9,7 @@ $(document).ready(function() {
         var $searchInput =  $('#search-input');
 
         if ($searchInput.val().trim().length > 0 && e.keyCode == 13) {
-            $('#search-submit').click();
+            $('#submit').click();
             $searchInput.prop('disabled', true);
         }
     });
