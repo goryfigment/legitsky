@@ -1,1 +1,95 @@
-{% load staticfiles %}<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>{{ title }}</title><link rel="shortcut icon" type="image/x-icon" href="{% static 'assets/bundle/assets/legitsky/legitskyw.ico' %}"><link href="/templates/bundle/css/vendors.css?674de0d18634e7a22978" rel="stylesheet"><link href="/templates/bundle/css/category.css?674de0d18634e7a22978" rel="stylesheet"></head><body><header><span id="logo">Legitsky</span><ul id="action-wrapper"><a href="#"><i class="fas fa-user"></i><li>Account</li></a><a href="#"><i class="fas fa-heart"></i><li>Favorites</li></a></ul></header><div id="wrapper"><div id="left-wrapper"><select id="category-input"><option value="tshirt">T-Shirt</option><option value="hoodies">Hoodies</option><option value="sweatshirts">Sweatshirts</option><option value="tanktops">Tank Tops</option><option value="baseball_tees">Baseball Tees</option><option value="hats">Hats</option><option value="mugs">Mugs</option><option value="phone_cases">Phone Cases</option><option value="video_game">Video Games</option></select><nav><a>Dragon Ball Z</a> <a>Pokemon</a> <a>Naruto</a> <a>Death Note</a> <a>Attack on Titan</a> <a>Fullmetal Alchemist</a> <a>Fairy Tail</a></nav></div><div id="main-wrapper"><h2 id="type-title">Dragon Ball Z</h2><h3 id="category-title">T-shirts</h3><ul id="catalog-wrapper"><li class="catalog-item"><div class="catalog-item-container"><div class="catalog-header">{# <span class="catalog-type new">New</span>#}<div class="catalog-source">Ebay</div></div><img src="http://localhost:8000/templates/assets/anime/anime-shirt.jpg"><div class="catalog-footer"><span class="catalog-name">Sakura</span> <span class="catalog-price">$27.00</span></div></div><div class="favorite-button"><i class="far fa-heart"></i></div></li><li class="catalog-item"><div class="catalog-item-container"><div class="catalog-header">{# <span class="catalog-type new">New</span>#}<div class="catalog-source">Ebay</div></div><img src="http://localhost:8000/templates/assets/anime/anime-shirt.jpg"><div class="catalog-footer"><span class="catalog-name">Sakura</span> <span class="catalog-price">$27.00</span></div></div><div class="favorite-button"><i class="far fa-heart"></i></div></li><li class="catalog-item"><div class="catalog-item-container"><div class="catalog-header">{# <span class="catalog-type new">New</span>#}<div class="catalog-source">Ebay</div></div><img src="http://localhost:8000/templates/assets/anime/anime-shirt.jpg"><div class="catalog-footer"><span class="catalog-name">Sakura</span> <span class="catalog-price">$27.00</span></div></div><div class="favorite-button"><i class="far fa-heart"></i></div></li><li class="catalog-item"><div class="catalog-item-container"><div class="catalog-header">{# <span class="catalog-type new">New</span>#}<div class="catalog-source">Ebay</div></div><img src="http://localhost:8000/templates/assets/anime/anime-shirt.jpg"><div class="catalog-footer"><span class="catalog-name">Sakura</span> <span class="catalog-price">$27.00</span></div></div><div class="favorite-button"><i class="far fa-heart"></i></div></li><li class="catalog-item"><div class="catalog-item-container"><div class="catalog-header">{# <span class="catalog-type new">New</span>#}<div class="catalog-source">Ebay</div></div><img src="http://localhost:8000/templates/assets/anime/anime-shirt.jpg"><div class="catalog-footer"><span class="catalog-name">Sakura</span> <span class="catalog-price">$27.00</span></div></div><div class="favorite-button"><i class="far fa-heart"></i></div></li></ul></div><div id="right-wrapper"></div></div><script type="text/javascript" src="/templates/bundle/js/vendors.js?674de0d18634e7a22978"></script><script type="text/javascript" src="/templates/bundle/js/category.js?674de0d18634e7a22978"></script></body></html>
+Html Webpack Plugin:<pre>
+  Error: Child compilation failed:
+  Entry module not found: Error: Can't resolve 'C:\Users\Gory\pycharmprojects\bu  ytheway\templates\category.html' in 'C:\Users\Gory\pycharmprojects\buytheway':  Error: Can't resolve 'C:\Users\Gory\pycharmprojects\buytheway\templates\catego  ry.html' in 'C:\Users\Gory\pycharmprojects\buytheway'
+  
+  - compiler.js:76 
+    [buytheway]/[html-webpack-plugin]/lib/compiler.js:76:16
+  
+  - Compiler.js:304 compile
+    [buytheway]/[webpack]/lib/Compiler.js:304:11
+  
+  - Compiler.js:514 applyPluginsAsync.err
+    [buytheway]/[webpack]/lib/Compiler.js:514:14
+  
+  - Tapable.js:202 next
+    [buytheway]/[tapable]/lib/Tapable.js:202:11
+  
+  - CachePlugin.js:78 Compiler.<anonymous>
+    [buytheway]/[webpack]/lib/CachePlugin.js:78:5
+  
+  - Tapable.js:206 Compiler.applyPluginsAsyncSeries
+    [buytheway]/[tapable]/lib/Tapable.js:206:13
+  
+  - Compiler.js:511 compilation.seal.err
+    [buytheway]/[webpack]/lib/Compiler.js:511:11
+  
+  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
+    [buytheway]/[tapable]/lib/Tapable.js:195:46
+  
+  - Compilation.js:680 self.applyPluginsAsync.err
+    [buytheway]/[webpack]/lib/Compilation.js:680:19
+  
+  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
+    [buytheway]/[tapable]/lib/Tapable.js:195:46
+  
+  - Compilation.js:671 self.applyPluginsAsync.err
+    [buytheway]/[webpack]/lib/Compilation.js:671:11
+  
+  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
+    [buytheway]/[tapable]/lib/Tapable.js:195:46
+  
+  - Compilation.js:666 self.applyPluginsAsync.err
+    [buytheway]/[webpack]/lib/Compilation.js:666:10
+  
+  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
+    [buytheway]/[tapable]/lib/Tapable.js:195:46
+  
+  - Compilation.js:662 sealPart2
+    [buytheway]/[webpack]/lib/Compilation.js:662:9
+  
+  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
+    [buytheway]/[tapable]/lib/Tapable.js:195:46
+  
+  - Compilation.js:605 Compilation.seal
+    [buytheway]/[webpack]/lib/Compilation.js:605:8
+  
+  - Compiler.js:508 applyPluginsParallel.err
+    [buytheway]/[webpack]/lib/Compiler.js:508:17
+  
+  - Tapable.js:289 
+    [buytheway]/[tapable]/lib/Tapable.js:289:11
+  
+  - Compilation.js:507 _addModuleChain
+    [buytheway]/[webpack]/lib/Compilation.js:507:11
+  
+  - Compilation.js:390 errorAndCallback.bail
+    [buytheway]/[webpack]/lib/Compilation.js:390:4
+  
+  - Compilation.js:413 moduleFactory.create
+    [buytheway]/[webpack]/lib/Compilation.js:413:13
+  
+  - NormalModuleFactory.js:235 factory
+    [buytheway]/[webpack]/lib/NormalModuleFactory.js:235:20
+  
+  - NormalModuleFactory.js:60 resolver
+    [buytheway]/[webpack]/lib/NormalModuleFactory.js:60:20
+  
+  - NormalModuleFactory.js:127 asyncLib.parallel.e
+    [buytheway]/[webpack]/lib/NormalModuleFactory.js:127:20
+  
+  - async.js:3888 
+    [buytheway]/[async]/dist/async.js:3888:9
+  
+  - async.js:473 
+    [buytheway]/[async]/dist/async.js:473:16
+  
+  - async.js:1062 iteratorCallback
+    [buytheway]/[async]/dist/async.js:1062:13
+  
+  - async.js:969 
+    [buytheway]/[async]/dist/async.js:969:16
+  
+  - async.js:3885 
+    [buytheway]/[async]/dist/async.js:3885:13
+  
+</anonymous></pre><script type="text/javascript" src="/templates/bundle/js/vendors.js?bf60afc855856c3c27a6"></script>

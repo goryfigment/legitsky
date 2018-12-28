@@ -1,0 +1,9 @@
+{{#each items}}
+    <div class="item" data-category="{{category}}">
+        <img src={{concat 'base_url' '/templates/assets/banner/' 'banner_name' '/' picture}}/>
+        <div class="item-details-wrapper">
+            <a class="item-name" href="{{url}}" title="{{name}}">{{name}}</a>
+            <div class="item-price">{{price}}</div>
+        </div>
+    </div>
+{{/each}}

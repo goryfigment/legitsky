@@ -1,0 +1,161 @@
+body {
+    position: relative;
+}
+
+/* HEADER */
+#header-wrapper {
+    display: flex;
+    margin: 10px 15px;
+    align-items: center;
+}
+
+#nav-wrapper {
+    margin: 0 30px;
+    display: flex;
+}
+
+#nav-wrapper a {
+    color: #131313;
+    text-decoration: none;
+    transition: 0.3s all ease;
+    margin: 0 20px;
+}
+
+#nav-wrapper a:hover {
+    color: #14b582;
+}
+/* HEADER */
+
+/* SIDE BAR */
+#side-bar-toggle {
+    padding: 12px;
+    margin: 0 0 -5px 10px;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+#side-bar-toggle:hover {
+    color: #14b582;
+}
+
+#side-nav-wrapper.active {
+    left: 0;
+}
+
+#side-nav-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: -140px;
+    width: 100px;
+    background: white;
+    padding: 10px 20px;
+    height: 100vh;
+    transition: 0.3s all ease;
+}
+
+#side-nav-wrapper a {
+    color: #131313;
+    text-decoration: none;
+    transition: 0.3s all ease;
+}
+
+#side-nav-wrapper a:hover {
+    color: #14b582;
+}
+/* SIDE BAR */
+
+/*SEARCH INPUT*/
+#search-wrapper {
+    background: #e2e2e2;
+    padding-right: 10px;
+    white-space: nowrap;
+    width: 300px;
+    margin-left: auto;
+}
+
+#search-input {
+    background-color: transparent;
+    width: 255px;
+    padding: 0 0 0 10px;
+}
+
+.search-icon {
+    padding: 12px;
+    cursor: pointer;
+}
+
+#submit {
+    display: none;
+}
+/*SEARCH INPUT*/
+
+/*BANNER*/
+#banner-wrapper {
+    background: url(/templates/bundle/assets/banner/nintendo.png) no-repeat;
+    width: 1519px;
+    height: 400px;
+}
+/*BANNER*/
+
+/*CATEGORY*/
+.category {
+    cursor: pointer;
+    color: #131313;
+    text-decoration: none;
+    transition: 0.3s all ease;
+}
+/*CATEGORY*/
+
+/*BANNER SEARCH INPUT*/
+#banner-search-wrapper {
+    background: #e2e2e2;
+    padding-right: 10px;
+    white-space: nowrap;
+    width: 500px;
+    margin: 20px auto;
+}
+
+#banner-search-input {
+    background-color: transparent;
+    width: 456px;
+    padding: 0 0 0 10px;
+}
+/*BANNER SEARCH INPUT*/
+
+/* INVENTORY */
+#inventory-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: calc(100vw - 200px);
+    padding: 0 100px;
+}
+
+.item {
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.item:hover {
+    background: #d2d2d2;
+}
+
+.item img {
+    max-width: 200px;
+    max-height: 175px;
+}
+
+.item-name {
+    display: block;
+    text-align: center;
+}
+
+.item-price {
+    color: #000;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 5px;
+}
+/* INVENTORY */

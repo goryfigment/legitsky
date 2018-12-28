@@ -1,35 +1,39 @@
-body {
-
-}
-
-#wrapper {
-    height: 70vh;
-}
-
+/* HEADER */
 #header-wrapper {
-    text-align: center;
-    padding: 25px;
+    display: flex;
+    margin: 10px 15px;
+    align-items: center;
 }
 
-#home-title {
-    color: #cfcbcb;
-    letter-spacing: 1px;
-    font-size: 45px;
-    cursor: default;
+#nav-wrapper {
+    margin: 0 30px;
+    display: flex;
 }
+
+#nav-wrapper a {
+    color: #131313;
+    text-decoration: none;
+    transition: 0.3s all ease;
+    margin: 0 20px;
+}
+
+#nav-wrapper a:hover {
+    color: #14b582;
+}
+/* HEADER */
 
 /*SEARCH INPUT*/
 #search-wrapper {
     background: #e2e2e2;
     padding-right: 10px;
     white-space: nowrap;
-    width: 450px;
-    margin: 0 auto;
+    width: 300px;
+    margin-left: auto;
 }
 
 #search-input {
     background-color: transparent;
-    width: 407px;
+    width: 255px;
     padding: 0 0 0 10px;
 }
 
@@ -43,84 +47,48 @@ body {
 }
 /*SEARCH INPUT*/
 
-/*CATEGORY BANNER*/
-#category-wrapper {
-    height: fit-content;
-    width: 528px;
-    margin: 15px auto;
+/*BANNER*/
+#banner-wrapper {
+    background: url(/templates/bundle/assets/banner/nintendo.png) no-repeat;
+    width: 1519px;
+    height: 400px;
+}
+/*BANNER*/
+
+/*HIGHLIGHT ITEMS*/
+#highlights-wrapper img {
+    height: 110px;
 }
 
-.premier.banner {
-    width: 486px;
-    box-shadow: 0 0 18px #ea9310;
+.highlight-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    color: #1f1f1f;
+    margin-bottom: 10px;
 }
 
-.premier.banner:hover {
-    width: 486px;
-    box-shadow: 0 0 28px #ea9310;
+#new-items-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+/*HIGHLIGHT ITEMS*/
+
+/* CATEGORY */
+#category-wrapper h2 {
+    text-align: center;
 }
 
-.banner {
-    display: inline-block;
-    width: 220px;
-    height: 70px;
-    margin: 20px;
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-item {
+    width: 100px;
+    height: 85px;
+    text-align: center;
     cursor: pointer;
-    overflow: hidden;
-    position: relative;
-    border: 1px solid #e0e0e0ee;
-    box-shadow: 0 0 1px #d9d9d9;
-    transition: all 0.4s;
 }
-
-.banner:hover {
-    box-shadow: 0 0 8px #d9d9d9;
-}
-
-.banner-icon {
-    position: absolute;
-}
-
-.banner-text {
-    z-index: 1;
-    position: absolute;
-    font-size: 30px;
-    color: #0a0a0a;
-    right: 5px;
-    top: 15px;
-    letter-spacing: -2px;
-}
-
-#halloween .banner-icon {
-    height: 165px;
-    top: -36px;
-    transform: rotate(28deg);
-    left: -6px;
-}
-
-#halloween .banner-text {
-    right: 27px;
-}
-
-#anime .banner-icon {
-    height: 148px;
-    top: -32px;
-    left: -6px;
-    filter: brightness(120%);
-    transform: rotate(-30deg);
-}
-
-#gamer .banner-icon {
-    height: 102px;
-    top: -11px;
-    left: -8px;
-    transform: rotate(-25deg);
-}
-
-#coming-soon .banner-icon {
-    font-size: 40px;
-    top: 12px;
-    left: 9px;
-    color: #c7c7c7;
-}
-/*CATEGORY BANNER*/
+/* CATEGORY */

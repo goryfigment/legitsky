@@ -1,8 +1,9 @@
 from django.shortcuts import render
 from buytheway.modules.base import get_base_url
 from django.forms.models import model_to_dict
-import json, time
+import json, time, os
 from django.shortcuts import redirect
+from django.http import HttpResponse
 
 
 def error_page(request):
@@ -22,7 +23,14 @@ def server_error(request):
 
 
 def site(request):
-    return render(request, 'home.html', {'base_url': get_base_url()})
+    try:
+        file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'static_data/banner.json'))
+        banners = json.loads(open(file_path).read())
+    except:
+        data = {'success': False, 'error_id': 2, 'error_msg:': 'IO Error', 'directory': file_path}
+        return HttpResponse(json.dumps(data), 'application/json')
+
+    return render(request, 'home.html', {'base_url': get_base_url(), 'banners': banners})
 
 
 def search(request):
@@ -31,3 +39,19 @@ def search(request):
 
 def category(request, name):
     return render(request, 'category.html', {'base_url': get_base_url(), 'title': name.title()})
+
+
+def banner_site(request, name):
+    try:
+        file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'static_data/items.json'))
+        banners = json.loads(open(file_path).read())
+    except:
+        data = {'success': False, 'error_id': 2, 'error_msg:': 'IO Error', 'directory': file_path}
+        return HttpResponse(json.dumps(data), 'application/json')
+
+    if name in banners.keys():
+        banner = json.dumps(banners[name])
+    else:
+        return render(request, '404.html', {'base_url': get_base_url()})
+
+    return render(request, 'banner.html', {'base_url': get_base_url(), 'title': name.replace('-', ' ').title(), 'banner_name': name, 'banner': banner})

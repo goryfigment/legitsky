@@ -1,0 +1,39 @@
+{
+  "nintendo-switch": {
+    "category": ["Console", "Video Game", "Accessory", "FREAK ME"],
+    "items": [
+      {
+        "name": "Nintendo Switch - 32GB",
+        "category": "Console",
+        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNintendo-Switch-32GB-Gray-Console-with-Neon-Red-Neon-Blue-Joy-Con%2F264105667290%3Fepid%3D23024812516%26hash%3Ditem3d7decaada%3Ag%3AhH0AAOSwJd1b49Uw%3Ark%3A17%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+        "price": "285.00",
+        "brand": "Ebay",
+        "picture": "nintendo-switch-32gb.png"
+      },
+      {
+        "name": "Nintendo Switch - 32GB",
+        "category": "Console",
+        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNintendo-Switch-32GB-Gray-Console-with-Neon-Red-Neon-Blue-Joy-Con%2F264105667290%3Fepid%3D23024812516%26hash%3Ditem3d7decaada%3Ag%3AhH0AAOSwJd1b49Uw%3Ark%3A17%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+        "price": "285.00",
+        "brand": "Ebay",
+        "picture": "nintendo-switch-32gb.png"
+      },
+      {
+        "name": "Nintendo Switch - 32GB",
+        "category": "Console",
+        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNintendo-Switch-32GB-Gray-Console-with-Neon-Red-Neon-Blue-Joy-Con%2F264105667290%3Fepid%3D23024812516%26hash%3Ditem3d7decaada%3Ag%3AhH0AAOSwJd1b49Uw%3Ark%3A17%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+        "price": "285.00",
+        "brand": "Ebay",
+        "picture": "nintendo-switch-32gb.png"
+      },
+      {
+        "name": "Nintendo Switch - 32GB",
+        "category": "Console",
+        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNintendo-Switch-32GB-Gray-Console-with-Neon-Red-Neon-Blue-Joy-Con%2F264105667290%3Fepid%3D23024812516%26hash%3Ditem3d7decaada%3Ag%3AhH0AAOSwJd1b49Uw%3Ark%3A17%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+        "price": "285.00",
+        "brand": "Ebay",
+        "picture": "nintendo-switch-32gb.png"
+      }
+    ]
+  }
+}

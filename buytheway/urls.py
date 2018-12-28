@@ -6,10 +6,10 @@ from buytheway.controllers import ebay
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', site.site, name='site'),
+    url(r'^banner/(?P<name>[-A-Za-z]+)$', site.banner_site, name='banner'),
 
     # Ebay
     url(r'^ebay/search$', ebay.search, name='site'),
     url(r'^search$', site.search, name='search_view'),
     url(r'^category/(?P<name>[_A-Za-z]+)$', site.category, name='anime'),
-
 ]
