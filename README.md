@@ -57,7 +57,7 @@
 > In this example we added Console and Video Games as categories for this banner.
 
 ## Adding an Item
-1. To start go to the directory [legitsky/static_data/banner.json](https://github.com/goryfigment/legitsky/blob/master/static_data/banner.json).
+1. To start go to the directory [legitsky/static_data/items.json](https://github.com/goryfigment/legitsky/blob/master/static_data/items.json).
 2. Add the following data to the array to successfully create an item:
 
 #### Details
