@@ -30,7 +30,7 @@
 ```
 > The url should now exist in [https://www.legitsky.com/banner/nintendo-switch](https://www.legitsky.com/banner/nintendo-switch)
 
-3. Add the banner picture to the following directory: [legitsky/templates/bundle/assets/banner](https://github.com/goryfigment/legitsky/tree/master/templates/bundle/assets)
+3. Add the banner picture to the following directory: [legitsky/templates/bundle/assets/home](https://github.com/goryfigment/legitsky/tree/master/templates/bundle/assets/home)
 4. Add the following to this directory: [legitsky/static_data/items.json](https://github.com/goryfigment/legitsky/blob/master/static_data/banner.json).
 
 #### Example:
@@ -108,5 +108,5 @@
 ```
 > This example adds 2 items to the banner.
 
-5. Add the item picture to the following directory: [legitsky/templates/bundle/assets/banner/nintendo-switch](https://github.com/goryfigment/legitsky/tree/master/templates/bundle/assets)
+5. Add the item picture to the following directory: [legitsky/templates/bundle/assets/banner/nintendo-switch](https://github.com/goryfigment/legitsky/tree/master/templates/bundle/assets/banner/nintendo-switch)
 > If directory does not exist, create the directory for the banner (nintendo-switch).
