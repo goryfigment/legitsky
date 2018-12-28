@@ -1,4 +1,4 @@
-# Legitski
+# Legitsky
 [legitsky.com](https://www.legitsky.com/) 
 
 ### Table of Contents
