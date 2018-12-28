@@ -31,7 +31,7 @@
 > The url should now exist in [https://www.legitsky.com/banner/nintendo-switch](https://www.legitsky.com/banner/nintendo-switch)
 
 3. Add the banner picture to the following directory: [legitsky/templates/bundle/assets/home](https://github.com/goryfigment/legitsky/tree/master/templates/bundle/assets/home)
-4. Add the following to this directory: [legitsky/static_data/items.json](https://github.com/goryfigment/legitsky/blob/master/static_data/banner.json).
+4. Add the following to this directory: [legitsky/static_data/items.json](https://github.com/goryfigment/legitsky/blob/master/static_data/items.json).
 
 #### Example:
 ```python
@@ -44,7 +44,7 @@
 > This creates an instance of the banner in the items.json file. **Make sure the key is the same as the url name
 
 ## Adding a Category
-1. Create a category within the banner by adding a string to the array to the following directory: [legitsky/static_data/items.json](https://github.com/goryfigment/legitsky/blob/master/static_data/banner.json).
+1. Create a category within the banner by adding a string to the array to the following directory: [legitsky/static_data/items.json](https://github.com/goryfigment/legitsky/blob/master/static_data/items.json).
 
 #### Example:
 ```python
