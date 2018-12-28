@@ -10792,7 +10792,7 @@ module.exports = (Handlebars["default"] || Handlebars).template({"1":function(co
   return "    <div class=\"item\" data-category=\""
     + alias2(alias1((depth0 != null ? depth0.category : depth0), depth0))
     + "\">\r\n        <img src="
-    + alias2(__default(__webpack_require__(34)).call(depth0 != null ? depth0 : (container.nullContext || {}),"base_url","/templates/assets/banner/","banner_name","/",(depth0 != null ? depth0.picture : depth0),{"name":"concat","hash":{},"data":data}))
+    + alias2(__default(__webpack_require__(34)).call(depth0 != null ? depth0 : (container.nullContext || {}),"base_url","/templates/bundle/assets/banner/","banner_name","/",(depth0 != null ? depth0.picture : depth0),{"name":"concat","hash":{},"data":data}))
     + "/>\r\n        <div class=\"item-details-wrapper\">\r\n            <a class=\"item-name\" href=\""
     + alias2(alias1((depth0 != null ? depth0.url : depth0), depth0))
     + "\" title=\""

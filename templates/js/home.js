@@ -2,9 +2,20 @@ require('./../css/general.css');
 require('./../css/home.css');
 require('./../library/fontawesome/fontawesome.js');
 
+var bannerTemplate = require('./../handlebars/home/banner.hbs');
+
 var $ = require('jquery');
 
+function init() {
+    var $bannerContainer = $('#banner-container');
+    $bannerContainer.append(bannerTemplate({'banners': globals.banners}));
+
+    console.log(globals.banners)
+}
+
 $(document).ready(function() {
+    init();
+
     $(document).on('keydown', '#search-input', function (e) {
         var $searchInput =  $('#search-input');
 

@@ -86,9 +86,22 @@
 }
 
 .banner-item {
-    width: 100px;
-    height: 85px;
+    height: 25px;
     text-align: center;
     cursor: pointer;
+    line-height: 25px;
+}
+
+#banner-container {
+    display: flex;
+    justify-content: center;
+}
+
+#banner-container a {
+    padding: 20px;
+}
+
+#banner-container img {
+    height: 200px;
 }
 /* CATEGORY */

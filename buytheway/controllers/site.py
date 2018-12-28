@@ -30,7 +30,7 @@ def site(request):
         data = {'success': False, 'error_id': 2, 'error_msg:': 'IO Error', 'directory': file_path}
         return HttpResponse(json.dumps(data), 'application/json')
 
-    return render(request, 'home.html', {'base_url': get_base_url(), 'banners': banners})
+    return render(request, 'home.html', {'base_url': get_base_url(), 'banners': json.dumps(banners)})
 
 
 def search(request):

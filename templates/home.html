@@ -8,6 +8,7 @@
     <script>
         var globals = {};
         globals.base_url = '{{ base_url }}';
+        globals.banners = {{ banners|safe }};
     </script>
 </head>
 <body>
@@ -110,9 +111,9 @@
 
     <div id="category-wrapper">
         <h2>Category Banner</h2>
-        {% for banner in banners %}
-            <a href="/banner/{{ banner.url }}"><div class="banner-item">{{ banner.name }}</div></a>
-        {% endfor %}
+        <div id="banner-container">
+
+        </div>
     </div>
 </body>
 </html>
