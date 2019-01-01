@@ -1,10 +1,10 @@
 webpackJsonp([3],{
 
-/***/ 6:
+/***/ 24:
 /***/ (function(module, exports) {
 
 
 
 /***/ })
 
-},[6]);
+},[24]);
