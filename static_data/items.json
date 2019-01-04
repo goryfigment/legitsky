@@ -11,6 +11,22 @@
         "picture": "nintendo-switch-32gb.png"
       },
       {
+        "name": "Nintendo Switch Console + 2 Games",
+        "category": "Console",
+        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNintendo-Switch-with-Neon-Blue-and-Neon-Red-Joy-Con-2-GAMES%2F292870732415%3F_trkparms%3Daid%253D555018%2526algo%253DPL.SIM%2526ao%253D1%2526asc%253D20131003132420%2526meid%253D235cb5be63bc49c280e776f240a965ec%2526pid%253D100005%2526rk%253D2%2526rkt%253D12%2526mehot%253Dpp%2526sd%253D302901819731%2526itm%253D292870732415%26_trksid%3Dp2047675.c100005.m1851&campid=5338332315&toolid=20008",
+        "price": "319.99",
+        "brand": "Ebay",
+        "picture": "Switch + 2 games.PNG"
+      },
+      {
+        "name": "Nintendo Switch Mario Kart 8 Deluxe Console Bundle ",
+        "category": "Console",
+        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNEW-Nintendo-Switch-Mario-Kart-8-Deluxe-Gaming-Console-Bundle-w-Neon-Joy-Cons%2F303017743340%3F_trkparms%3Daid%253D555018%2526algo%253DPL.SIM%2526ao%253D1%2526asc%253D20131003132420%2526meid%253D50f7241d8cc14c3ea403e5aa694c92c8%2526pid%253D100005%2526rk%253D3%2526rkt%253D12%2526sd%253D192779376955%2526itm%253D303017743340%26_trksid%3Dp2047675.c100005.m1851&campid=5338332315&toolid=20008",
+        "price": "399.99",
+        "brand": "Ebay",
+        "picture": "NS-mario-kart-bundle.PNG"
+      },
+      {
         "name": "Nintendo Switch Super Smash Bros Ultimate Limited Edition Console",
         "category": "Console",
         "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNintendo-Switch-Super-Smash-Bros-Ultimate-Limited-Edition-Console%2F264083160400%3Fhash%3Ditem3d7c953d50%3Ag%3A6YMAAOSwKtlb~XtF%3Ark%3A5%3Apf%3A0&campid=5338332315&toolid=20008",
@@ -137,6 +153,30 @@
         "price": "96.94",
         "brand": "Ebay",
         "picture": "super-smash-bros-ultimate-pro-controller.PNG"
+      },
+      {
+        "name": "Mario Kart 8 Deluxe",
+        "category": "Video Game",
+        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMario-Kart-8-Deluxe-Nintendo-Switch%2F323619735705%3Fepid%3D237216403%26hash%3Ditem4b593d4899%3Ag%3AmsgAAOSwfBFblpsK%3Ark%3A6%3Apf%3A0&campid=5338332315&toolid=20008",
+        "price": "59.99",
+        "brand": "Ebay",
+        "picture": "Mario Kart 8.PNG"
+      },
+      {
+        "name": "Super Mario Odyssey",
+        "category": "Video Game",
+        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSuper-Mario-Odyssey-Nintendo-Switch-Brand-New-Retail-Pack%2F192532033468%3Fepid%3D238258311%26hash%3Ditem2cd3cdafbc%3Ag%3Aa~cAAOSw--xbGE6b%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
+        "price": "53.99",
+        "brand": "Ebay",
+        "picture": "Mario Odyssey.png"
+      },
+      {
+        "name": "The Legend of Zelda: Breath of the Wild Starter Pack",
+        "category": "Video Game",
+        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FThe-Legend-of-Zelda-Breath-of-the-Wild-Starter-Pack-Nintendo-Switch%2F192672786064%3Fhash%3Ditem2cdc316690%3Ag%3AHVoAAOSwSYdbrboH%3Ark%3A3%3Apf%3A0&campid=5338332315&toolid=20008",
+        "price": "59.99",
+        "brand": "Ebay",
+        "picture": "Zelda-breath-of-the-wild.jpg"
       }
     ]
   },
