@@ -13,11 +13,7 @@
     </script>
 </head>
 <body>
-    <div id="header-wrapper">
-        <h1 id="home-title">Legitsky</h1>
-
-        <div id="side-bar-toggle"><i class="fas fa-bars"></i></div>
-
+    <div class="active" id="header-wrapper">
         <nav id="nav-wrapper">
             <a href="/">Home</a>
             <a href="/blog/">Blog</a>
@@ -33,11 +29,18 @@
     </div>
 
     <nav class="active" id="side-nav-wrapper">
-
+        <div id="logo-wrapper">
+            <span id="rise-up-logo">Rise Up</span>
+            <div id="gamers-logo">Gamers</div>
+            <div id="side-bar-toggle"><i class="fas fa-bars"></i></div>
+        </div>
+        <div id="category-container"></div>
     </nav>
 
-    <div id="main-wrapper">
-        <div id="banner-wrapper"></div>
+    <div class="active" id="main-wrapper">
+        <div id="banner-wrapper">
+            <img src="/templates/bundle/assets/featured_banner/{{ banner_name }}.png" />
+        </div>
 
         <div id="banner-search-wrapper">
             <input id="banner-search-input" name="q" value="{{ q }}" autocomplete="off" />

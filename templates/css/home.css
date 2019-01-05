@@ -69,13 +69,18 @@
 }
 
 #new-items-wrapper {
-    display: flex;
+    /*display: flex;*/
+    display: none;
     justify-content: space-around;
     padding: 15px 0;
 }
 /*HIGHLIGHT ITEMS*/
 
 /* CATEGORY */
+#category-wrapper {
+    padding: 10px 0;
+}
+
 #category-wrapper h2 {
     text-align: center;
 }
@@ -99,6 +104,13 @@
 
 #banner-container a {
     padding: 20px;
+    text-decoration: none;
+    color: #0d0d0d;
+}
+
+#banner-container img:hover {
+    filter: brightness(1) hue-rotate(10deg) contrast(1);
+    box-shadow: 0 10px 15px -1px rgba(0, 0, 0, 0.1), 0 25px 50px -4px rgba(0, 0, 0, 0.3);
 }
 
 #banner-container img {

@@ -10,7 +10,7 @@ function init() {
     var $inventoryContainer = $('#inventory-container');
     $inventoryContainer.append(items(globals.banner));
 
-    var $categoryContainer = $('#side-nav-wrapper');
+    var $categoryContainer = $('#category-container');
     $categoryContainer.append(category(globals.banner));
 }
 
@@ -34,10 +34,17 @@ $(document).ready(function() {
 
     $(document).on('click', '#side-bar-toggle', function () {
         var $sideBar = $('#side-nav-wrapper');
+        var $header = $('#header-wrapper');
+        var $mainWrapper = $('#main-wrapper');
+
         if($sideBar.hasClass('active')) {
             $sideBar.removeClass('active');
+            $header.removeClass('active');
+            $mainWrapper.removeClass('active');
         } else {
             $sideBar.addClass('active');
+            $header.addClass('active');
+            $mainWrapper.addClass('active');
         }
     });
 

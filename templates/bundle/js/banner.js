@@ -11679,7 +11679,7 @@ function init() {
     var $inventoryContainer = $('#inventory-container');
     $inventoryContainer.append(items(globals.banner));
 
-    var $categoryContainer = $('#side-nav-wrapper');
+    var $categoryContainer = $('#category-container');
     $categoryContainer.append(category(globals.banner));
 }
 
@@ -11703,10 +11703,17 @@ $(document).ready(function() {
 
     $(document).on('click', '#side-bar-toggle', function () {
         var $sideBar = $('#side-nav-wrapper');
+        var $header = $('#header-wrapper');
+        var $mainWrapper = $('#main-wrapper');
+
         if($sideBar.hasClass('active')) {
             $sideBar.removeClass('active');
+            $header.removeClass('active');
+            $mainWrapper.removeClass('active');
         } else {
             $sideBar.addClass('active');
+            $header.addClass('active');
+            $mainWrapper.addClass('active');
         }
     });
 
@@ -11764,7 +11771,7 @@ module.exports = (Handlebars["default"] || Handlebars).template({"1":function(co
     + alias2(alias1((depth0 != null ? depth0.url : depth0), depth0))
     + "\" title=\""
     + alias2(alias1((depth0 != null ? depth0.name : depth0), depth0))
-    + "\">"
+    + "\" target=\"_blank\">"
     + alias2(alias1((depth0 != null ? depth0.name : depth0), depth0))
     + "</a>\r\n            <div class=\"item-price\">"
     + alias2(alias1((depth0 != null ? depth0.price : depth0), depth0))
@@ -11782,9 +11789,15 @@ module.exports = (Handlebars["default"] || Handlebars).template({"1":function(co
 var Handlebars = __webpack_require__(6);
 function __default(obj) { return obj && (obj.__esModule ? obj["default"] : obj); }
 module.exports = (Handlebars["default"] || Handlebars).template({"1":function(container,depth0,helpers,partials,data) {
-    return "    <div class=\"category\">"
-    + container.escapeExpression(container.lambda(depth0, depth0))
-    + "</div>\r\n";
+    var helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3="function", alias4=container.escapeExpression;
+
+  return "    <div class=\"category-wrapper\">\r\n        <div class=\"icon-wrapper\" style=\"color:"
+    + alias4(((helper = (helper = helpers.color || (depth0 != null ? depth0.color : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"color","hash":{},"data":data}) : helper)))
+    + "\"><i class=\""
+    + alias4(((helper = (helper = helpers.icon || (depth0 != null ? depth0.icon : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"icon","hash":{},"data":data}) : helper)))
+    + "\"></i></div>\r\n        <span class=\"category\">"
+    + alias4(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"name","hash":{},"data":data}) : helper)))
+    + "</span>\r\n    </div>\r\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
     var stack1;
 

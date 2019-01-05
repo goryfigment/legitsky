@@ -1,6 +1,17 @@
 {
   "nintendo-switch": {
-    "category": ["Console", "Video Game", "Accessory"],
+    "category": [
+      {
+        "name": "Console",
+        "icon": "fab fa-nintendo-switch",
+        "color": "#ff6666"
+      },
+      {
+        "name": "Video Game",
+        "icon": "fas fa-gamepad",
+        "color": "#000000"
+      }
+    ],
     "items": [
       {
         "name": "Nintendo Switch - 32GB",
@@ -141,7 +152,18 @@
     ]
   },
   "xbox": {
-    "category": ["Console", "Video Game"],
+    "category": [
+      {
+        "name": "Console",
+        "icon": "fab fa-xbox",
+        "color": "#0ad10a"
+      },
+      {
+        "name": "Video Game",
+        "icon": "fas fa-gamepad",
+        "color": "#000000"
+      }
+    ],
     "items": [
       {
         "name": "Xbox One Original 500GB",
@@ -262,6 +284,14 @@
         "price": "19.75",
         "brand": "Ebay",
         "picture": "mortal-kombat-xl.jpg"
+      },
+      {
+        "name": "Red Dead Redemption 2",
+        "category": "Video Game",
+        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FRed-Dead-Redemption-2-Xbox-One-Factory-Refurbished%2F264040052628%3Fepid%3D5025887523%26hash%3Ditem3d7a037794%3Ag%3AKPgAAOSwE~Zb7GnG%3Ark%3A2%3Apf%3A0&campid=5338332315&toolid=20008",
+        "price": "55.66",
+        "brand": "Ebay",
+        "picture": "red-dead-redemption-2.jpg"
       }
     ]
     }

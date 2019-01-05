@@ -59,13 +59,50 @@ input:-webkit-autofill {
     position: relative;
 }
 
+#main-wrapper {
+    margin-left: auto;
+    transition: 0.3s width ease;
+    width: 100%;
+}
+
+#main-wrapper.active {
+    width: calc(100% - 190px);
+}
+
 /* HEADER */
 #header-wrapper {
     display: -ms-flexbox;
     display: flex;
-    margin: 10px 15px;
+    margin: 10px 50px;
     -ms-flex-align: center;
         align-items: center;
+    transition: 0.3s all ease;
+}
+
+#header-wrapper.active {
+    margin: 10px 20px 10px 160px;
+}
+
+#logo-wrapper {
+    position: relative;
+    width: 132px;
+    height: 40px;
+    color: #b9caff;
+    margin: 10px 0;
+}
+
+#rise-up-logo {
+    font-size: 15px;
+    position: absolute;
+    top: -7px;
+}
+
+#gamers-logo {
+    font-size: 33px;
+    top: 4px;
+    left: -2px;
+    position: absolute;
+    font-weight: 600;
 }
 
 #nav-wrapper {
@@ -92,6 +129,9 @@ input:-webkit-autofill {
     margin: 0 0 -5px 10px;
     cursor: pointer;
     transition: 0.3s all ease;
+    position: absolute;
+    left: 116px;
+    top: -2px;
 }
 
 #side-bar-toggle:hover {
@@ -100,6 +140,25 @@ input:-webkit-autofill {
 
 #side-nav-wrapper.active {
     left: 0;
+    width: 150px;
+}
+
+#side-nav-wrapper:not(.active) #side-bar-toggle {
+    left: -16px;
+    top: -10px;
+    font-size: 23px;
+}
+
+#side-nav-wrapper:not(.active) .category, #side-nav-wrapper:not(.active) #rise-up-logo, #side-nav-wrapper:not(.active) #gamers-logo {
+    display: none;
+}
+
+#side-nav-wrapper:not(.active) .icon-wrapper  {
+    font-size: 28px;
+}
+
+#side-nav-wrapper:not(.active) .category-wrapper  {
+    text-align: center;
 }
 
 #side-nav-wrapper {
@@ -108,12 +167,13 @@ input:-webkit-autofill {
     -ms-flex-direction: column;
         flex-direction: column;
     position: fixed;
-    left: -140px;
-    width: 100px;
-    background: white;
+    top: 0;
+    left: 0;
+    width: 36px;
     padding: 10px 20px;
     height: 100vh;
-    transition: 0.3s all ease;
+    transition: 0.3s width ease;
+    background: #4b4b4b;
 }
 
 #side-nav-wrapper a {
@@ -126,6 +186,30 @@ input:-webkit-autofill {
     color: #14b582;
 }
 /* SIDE BAR */
+
+/*CATEGORY*/
+.category-wrapper {
+    padding: 5px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.icon-wrapper {
+    font-size: 20px;
+    margin: 0;
+    width: 30px;
+}
+
+.category {
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s all ease;
+    font-size: 20px;
+}
+/*CATEGORY*/
 
 /*SEARCH INPUT*/
 #search-wrapper {
@@ -154,20 +238,17 @@ input:-webkit-autofill {
 
 /*BANNER*/
 #banner-wrapper {
-    background: url(/templates/bundle/assets/banner/nintendo.png) no-repeat;
-    width: 1519px;
+    text-align: center;
+    margin-left: auto;
+}
+
+#banner-wrapper img {
+    width: 1100px;
     height: 400px;
 }
-/*BANNER*/
 
-/*CATEGORY*/
-.category {
-    cursor: pointer;
-    color: #131313;
-    text-decoration: none;
-    transition: 0.3s all ease;
-}
-/*CATEGORY*/
+
+/*BANNER*/
 
 /*BANNER SEARCH INPUT*/
 #banner-search-wrapper {
@@ -202,6 +283,8 @@ input:-webkit-autofill {
 .item {
     padding: 5px 15px;
     cursor: pointer;
+    text-align: center;
+    width: 200px;
 }
 
 .item:hover {
@@ -210,7 +293,7 @@ input:-webkit-autofill {
 
 .item img {
     max-width: 200px;
-    max-height: 175px;
+    height: 150px;
 }
 
 .item-name {
