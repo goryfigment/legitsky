@@ -11711,7 +11711,7 @@ module.exports = (Handlebars["default"] || Handlebars).template({"1":function(co
   return "    <a href=\"/banner/"
     + alias2(alias1((depth0 != null ? depth0.url : depth0), depth0))
     + "\"><img src="
-    + alias2(__default(__webpack_require__(23)).call(depth0 != null ? depth0 : (container.nullContext || {}),"base_url","/templates/bundle/assets/home/",(depth0 != null ? depth0.url : depth0),".png",{"name":"concat","hash":{},"data":data}))
+    + alias2(__default(__webpack_require__(23)).call(depth0 != null ? depth0 : (container.nullContext || {}),"/templates/bundle/assets/home/",(depth0 != null ? depth0.url : depth0),".png",{"name":"concat","hash":{},"data":data}))
     + " title=\""
     + alias2(alias1((depth0 != null ? depth0.name : depth0), depth0))
     + "\" /><div class=\"banner-item\">"
