@@ -195,7 +195,7 @@
             "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMicrosoft-Xbox-One-500gb-Black-Console-Bundle-w-accessories-ie-controller-etc%2F321472795908%3Fhash%3Ditem4ad9459504%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
             "price": "179.99",
             "shipping": "0.00",
-            "description": ""
+            
           }
         ]
       },
@@ -212,7 +212,7 @@
             "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMicrosoft-Xbox-One-1-TB-Black-Console-without-Kinect%2F192009096273%3Fepid%3D218378777%26hash%3Ditem2cb4a24c51%3Ag%3ASbgAAOSwImRYEJBj%3Ark%3A27%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
             "price": "179.99",
             "shipping": "0.00",
-            "description": ""
+            
           }
         ]
       },
@@ -228,8 +228,7 @@
             "condition": "Used",
             "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FXbox-One-S-500GB-Open-Box-Damaged-Retail-Box-Factory-Refurbished%2F263759532804%3Fhash%3Ditem3d694b1304%3Ag%3A7U8AAOSwM~taaioV%3Ark%3A3%3Apf%3A0&campid=5338332315&toolid=20008",
             "price": "199.99",
-            "shipping": "0.00",
-            "description": ""
+            "shipping": "0.00"
           }
         ]
       },
@@ -245,8 +244,7 @@
             "condition": "Used",
             "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMicrosoft-Xbox-One-S-1TB-White-Gaming-Console-Model-1681%2F372560577998%3Fepid%3D726315798%26hash%3Ditem56be5745ce%3Ag%3AVAUAAOSwPYRcJWDK%3Ark%3A45%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
             "price": "189.95",
-            "shipping": "0.00",
-            "description": ""
+            "shipping": "0.00"
           }
         ]
       },
@@ -263,14 +261,13 @@
             "condition": "Used",
             "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FXbox-One-X-1TB-Console-Discontinued%2F303023231214%3Fepid%3D238382386%26hash%3Ditem468d9790ee%3Ag%3Axf4AAOSw28dcNM8v%3Ark%3A6%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
             "price": "348.16",
-            "shipping": "0.00",
-            "description": ""
+            "shipping": "0.00"
           }
         ]
       }
 
     ]
-  }
+  },
     "PS4": {
     "category": [
       {
