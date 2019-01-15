@@ -10751,8 +10751,7 @@ module.exports = (Handlebars["default"] || Handlebars).template({"1":function(co
 /***/ (function(module, exports, __webpack_require__) {
 
 var $ = __webpack_require__(2);
-
-var bannerTemplate = __webpack_require__(8);
+var bannerTemplate = __webpack_require__(54);
 
 function init() {
     var $categoryPopup = $('#category-popup');
@@ -10772,20 +10771,16 @@ function init() {
         } else {
             $('#number-saved').text('');
         }
-
     }
 }
 
 $(document).ready(function() {
     init();
 
-    $("#category-button").hover(function() {
-        $('#category-popup').addClass('active');
-    }, function() {
-        var $categoryPopup = $('#category-popup');
-        if(!$categoryPopup.is(":hover")) {
-            $categoryPopup.removeClass('active');
-        }
+    $("#category-button").hover(function () {
+        $("#category-popup").stop(true,true).show(0);
+    }, function () {
+        $("#category-popup").stop(true,true).delay(100).hide(0);
     });
 
     $(document).on('keydown', '#search-input', function (e) {
@@ -10801,6 +10796,11 @@ $(document).ready(function() {
         if ($('#search-input').val().trim().length < 1) {
             e.preventDefault();
         }
+    });
+
+    $(document).on('click', '#category-popup .banner-item', function (e) {
+        e.stopPropagation();
+        $(this).closest('a').click();
     });
 });
 
@@ -11768,11 +11768,12 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 /* 31 */,
 /* 32 */,
 /* 33 */,
-/* 34 */
+/* 34 */,
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(6);
-__webpack_require__(35);
+__webpack_require__(36);
 __webpack_require__(9);
 __webpack_require__(10);
 __webpack_require__(7);
@@ -11788,9 +11789,9 @@ function init() {
     var $bannerContainer = $('#banner-container');
     $bannerContainer.append(bannerTemplate({'banners': globals.banners}));
     $('#banner-wrapper').slick({
-        dots: true,
+        //dots: true,
         infinite: true,
-        speed: 1500,
+        //speed: 1500,
         autoplay: true,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -11820,13 +11821,59 @@ $(document).ready(function() {
             e.preventDefault();
         }
     });
+
+    $(document).on('click', '#search-input', function (e) {
+        var $searchInput =  $('#search-input');
+
+        if ($searchInput.val().trim().length > 0 && e.keyCode == 13) {
+            $('#submit').click();
+            $searchInput.prop('disabled', true);
+        }
+    });
 });
 
 /***/ }),
-/* 35 */
+/* 36 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
+/***/ }),
+/* 37 */,
+/* 38 */,
+/* 39 */,
+/* 40 */,
+/* 41 */,
+/* 42 */,
+/* 43 */,
+/* 44 */,
+/* 45 */,
+/* 46 */,
+/* 47 */,
+/* 48 */,
+/* 49 */,
+/* 50 */,
+/* 51 */,
+/* 52 */,
+/* 53 */,
+/* 54 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Handlebars = __webpack_require__(3);
+function __default(obj) { return obj && (obj.__esModule ? obj["default"] : obj); }
+module.exports = (Handlebars["default"] || Handlebars).template({"1":function(container,depth0,helpers,partials,data) {
+    var alias1=container.lambda, alias2=container.escapeExpression;
+
+  return "    <a href=\"/banner/"
+    + alias2(alias1((depth0 != null ? depth0.url : depth0), depth0))
+    + "\"><div class=\"banner-item\">"
+    + alias2(alias1((depth0 != null ? depth0.name : depth0), depth0))
+    + "</div></a>\r\n";
+},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1;
+
+  return ((stack1 = helpers.each.call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? depth0.banners : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "");
+},"useData":true});
+
 /***/ })
-],[34]);
+],[35]);

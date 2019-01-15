@@ -51,7 +51,7 @@ table img {
     height: 100px;
 }
 
-.offer-button {
+.offer-button, .link-button {
     background: #05b346;
     padding: 10px 50px;
     border-radius: 4px;
@@ -61,7 +61,7 @@ table img {
     border: none;
 }
 
-.offer-button:hover {
+.offer-button:hover, .link-button:hover {
     filter: brightness(110%);
 }
 

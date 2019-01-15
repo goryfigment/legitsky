@@ -194,8 +194,7 @@
             "condition": "Used",
             "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMicrosoft-Xbox-One-500gb-Black-Console-Bundle-w-accessories-ie-controller-etc%2F321472795908%3Fhash%3Ditem4ad9459504%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
             "price": "179.99",
-            "shipping": "0.00",
-            
+            "shipping": "0.00"
           }
         ]
       },
@@ -211,8 +210,7 @@
             "condition": "Used",
             "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMicrosoft-Xbox-One-1-TB-Black-Console-without-Kinect%2F192009096273%3Fepid%3D218378777%26hash%3Ditem2cb4a24c51%3Ag%3ASbgAAOSwImRYEJBj%3Ark%3A27%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
             "price": "179.99",
-            "shipping": "0.00",
-            
+            "shipping": "0.00"
           }
         ]
       },
@@ -377,7 +375,7 @@
         "price": "249.99",
         "brand": "Ebay",
         "picture": "talesofvesperia-premiumbundle.PNG"
-      },
+      }
     ]
   }
 }

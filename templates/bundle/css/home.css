@@ -105,11 +105,14 @@ input:-webkit-autofill {
 }
 /* ITEM POPUP *//*BANNER*/
 #banner-wrapper {
-    width: 1519px;
-    height: 400px;
+    /*width: 1519px;*/
+    /*height: 400px;*/
+    width: 1200px;
+    height: 390px;
     opacity: 0;
     visibility: hidden;
     transition: opacity 1s ease;
+    margin: 0 auto;
 }
 
 #banner-wrapper.slick-initialized {
@@ -137,6 +140,7 @@ input:-webkit-autofill {
 /* CATEGORY */
 #category-wrapper {
     padding: 10px 0;
+    margin: 30px 0 10px 0;
 }
 
 #category-wrapper h2 {
@@ -148,13 +152,6 @@ input:-webkit-autofill {
     display: flex;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-}
-
-.banner-item {
-    height: 25px;
-    text-align: center;
-    cursor: pointer;
-    line-height: 25px;
 }
 
 #banner-container {
@@ -190,30 +187,17 @@ input:-webkit-autofill {
     position: relative;
 }
 
-#header-wrapper.active {
-    padding: 10px 20px 10px 160px;
-}
-
 #logo-wrapper {
     position: relative;
-    width: 132px;
-    height: 40px;
-    color: #b9caff;
-    margin: 10px 0;
+    width: 135px;
 }
 
-#rise-up-logo {
-    font-size: 15px;
+#riseupgamers-logo {
     position: absolute;
-    top: -7px;
-}
-
-#gamers-logo {
-    font-size: 33px;
-    top: 4px;
-    left: -2px;
-    position: absolute;
-    font-weight: 600;
+    top: -37px;
+    left: -54px;
+    height: 93px;
+    cursor: pointer;
 }
 
 #nav-wrapper {
@@ -221,15 +205,16 @@ input:-webkit-autofill {
     display: -ms-flexbox;
     display: flex;
     width: 100%;
+    height: 38px;
 }
 
-#nav-wrapper a {
+#nav-wrapper .nav-link {
     color: #131313;
     text-decoration: none;
     transition: 0.3s all ease;
     margin: 0 20px;
     cursor: pointer;
-    line-height: 22px;
+    line-height: 50px;
     white-space: nowrap;
 }
 
@@ -265,25 +250,22 @@ input:-webkit-autofill {
 }
 
 #category-popup {
+    display: none;
     position: absolute;
-    height: 172px;
-    top: 32px;
-    left: 132px;
-    width: 256px;
+    height: calc(100% + 18px);
+    top: 50px;
+    left: 224px;
+    width: 159px;
     background: #fff;
     z-index: 3;
     padding: 5px;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
     border: solid 1px #e1e1e1;
     border-radius: 1px;
-    box-shadow: 0 10px 15px -1px rgba(0, 0, 0, 0.5), 0 25px 50px -4px rgba(0, 0, 0, 0.5);
-    display: none;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1), 0 2px 12px -3px rgba(0, 0, 0, 0.1);
 }
 
 #category-popup.active {
-    display: -ms-flexbox;
-    display: flex;
+    display: block;
 }
 
 #category-popup a {
@@ -294,14 +276,11 @@ input:-webkit-autofill {
     padding: 5px 0;
 }
 
-#category-popup img {
-    height: 50px;
-}
-
-#category-popup img:hover {
-    -webkit-filter: brightness(1) hue-rotate(10deg) contrast(1);
-            filter: brightness(1) hue-rotate(10deg) contrast(1);
-    box-shadow: 0 10px 15px -1px rgba(0, 0, 0, 0.1), 0 25px 50px -4px rgba(0, 0, 0, 0.3);
+.banner-item {
+    height: 25px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 25px;
 }
 /* HEADER *//* Slider */
 .slick-slider

@@ -13,7 +13,6 @@ var category = require('./../handlebars/banner/category.hbs');
 var itemPopup = require('./../handlebars/banner/item_popup.hbs');
 
 function init() {
-    $('#header-wrapper').addClass('active');
     var $inventoryContainer = $('#inventory-container');
     var itemData = globals.banner;
 
@@ -48,13 +47,6 @@ function init() {
 
 $(document).ready(function() {
     init();
-
-    $(document).on('click', 'body', function () {
-        var $clueSearchPopup = $('#clue-search-popup');
-        if($clueSearchPopup.hasClass('active')){
-            $clueSearchPopup.removeClass('active');
-        }
-    });
 
     $(document).on('click', '#all-button', function () {
         var $items = $('.item');

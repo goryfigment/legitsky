@@ -82,6 +82,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     max-width: 100%;
+    margin: 0 auto;
 }
 
 .item {
@@ -230,4 +231,19 @@ tbody tr:hover {
 #unfavorite-button {
     border: 2px solid red;
 }
+
+.link-button {
+    background: #05b346;
+    padding: 10px 50px;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fbfbfb;
+    border: none;
+}
+
+.link-button:hover {
+    filter: brightness(110%);
+}
+
 /* ITEM POPUP */

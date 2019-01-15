@@ -1,9 +1,14 @@
 <div id="header-wrapper">
+    <div id="logo-wrapper"><a href="/"><img id="riseupgamers-logo" src="{% static 'bundle/assets/riseupgamers/riseupgamers-logo.png' %}"  /></a></div>
+
     <nav id="nav-wrapper">
-        <a href="/">Home</a>
-        <a id="category-button">Category</a>
-        <a>Deals</a>
-        <a href="/save" id="save-link"><span id="header-save-icon"><span id="number-saved"></span><i class="fas fa-star"></i></span> Saved</a>
+        <a class="nav-link" href="/">Home</a>
+        <span id="category-button">
+            <a class="nav-link">Category</a>
+            <div id="category-popup"></div>
+        </span>
+{#        <a class="nav-link">Deals</a>#}
+        <a class="nav-link" href="/save" id="save-link"><span id="header-save-icon"><span id="number-saved"></span><i class="fas fa-star"></i></span> Saved</a>
     </nav>
 
     <form id="search-wrapper" action="/search" method="get">
@@ -11,8 +16,4 @@
         <span class="search-icon"><i class="fas fa-search"></i></span>
         <input type="submit" id="submit" />
     </form>
-
-    <div id="category-popup">
-
-    </div>
 </div>

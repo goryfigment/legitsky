@@ -4,31 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Rise Up Gamers</title>
-    <link rel='shortcut icon' type='image/x-icon' href="{% static 'bundle/assets/riseupgamers/Riseupgamers-64.ico' %}" />
+    <link rel='shortcut icon' type='image/x-icon' href="{% static 'bundle/assets/riseupgamers/riseupgamers.ico' %}" />
     <script>
         var globals = {};
         globals.base_url = '{{ base_url }}';
         globals.banners = {{ banners|safe }};
     </script>
 
-    <script async src="https://epnt.ebay.com/static/epn-smart-tools.js"></script>
+{#    <script async src="https://epnt.ebay.com/static/epn-smart-tools.js"></script>#}
 </head>
 <body>
     <%= require('html-loader!./partial/header.html') %>
 
     <div id="banner-wrapper">
-        <img style="width: 1400px;height: 400px;" src="/templates/bundle/assets/banner/nintendo.png" />
-        <img style="width: 1400px;height: 400px;" src="/templates/bundle/assets/banner/nintendo.png" />
-        <img style="width: 1400px;height: 400px;" src="/templates/bundle/assets/banner/nintendo.png" />
-        <img style="width: 1400px;height: 400px;" src="/templates/bundle/assets/banner/nintendo.png" />
-        <img style="width: 1400px;height: 400px;" src="/templates/bundle/assets/banner/nintendo.png" />
+        <img style="width: 1400px;height: 400px;" src="/templates/bundle/assets/home/home-banner.png" />
     </div>
 
-    <div id="highlights-wrapper">
-        <div style="width:900px; height:220px;">
-            <ins class="epn-placement" data-config-id="5c350d28891ea378d978e10a"></ins>
-        </div>
-    </div>
+{#    <div id="highlights-wrapper">#}
+{#        <div style="width:900px; height:220px;">#}
+{#            <ins class="epn-placement" data-config-id="5c350d28891ea378d978e10a"></ins>#}
+{#        </div>#}
+{#    </div>#}
 
     <div id="category-wrapper">
         <h2>Category Banner</h2>

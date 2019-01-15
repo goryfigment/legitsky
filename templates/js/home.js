@@ -15,9 +15,9 @@ function init() {
     var $bannerContainer = $('#banner-container');
     $bannerContainer.append(bannerTemplate({'banners': globals.banners}));
     $('#banner-wrapper').slick({
-        dots: true,
+        //dots: true,
         infinite: true,
-        speed: 1500,
+        //speed: 1500,
         autoplay: true,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -45,6 +45,15 @@ $(document).ready(function() {
     $('form').submit(function(e){
         if ($('#search-input').val().trim().length < 1) {
             e.preventDefault();
+        }
+    });
+
+    $(document).on('click', '#search-input', function (e) {
+        var $searchInput =  $('#search-input');
+
+        if ($searchInput.val().trim().length > 0 && e.keyCode == 13) {
+            $('#submit').click();
+            $searchInput.prop('disabled', true);
         }
     });
 });
