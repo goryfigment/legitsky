@@ -1,6 +1,11 @@
 require('./../css/general.css');
 require('./../css/home.css');
+require('./../css/header.css');
+require('./../js/header.js');
 require('./../library/fontawesome/fontawesome.js');
+require('./../library/slick/slick/slick.css');
+require('./../library/slick/slick/slick-theme.css');
+require('./../library/slick/slick/slick.min.js');
 
 var bannerTemplate = require('./../handlebars/home/banner.hbs');
 
@@ -9,12 +14,24 @@ var $ = require('jquery');
 function init() {
     var $bannerContainer = $('#banner-container');
     $bannerContainer.append(bannerTemplate({'banners': globals.banners}));
-
-    console.log(globals.banners)
+    $('#banner-wrapper').slick({
+        dots: true,
+        infinite: true,
+        speed: 1500,
+        autoplay: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows : false
+    });
 }
 
 $(document).ready(function() {
     init();
+
+    $(document).on('click', '#category-button', function () {
+        $('html, body').animate({scrollTop: $(document).height()}, 'slow');
+        return false;
+    });
 
     $(document).on('keydown', '#search-input', function (e) {
         var $searchInput =  $('#search-input');

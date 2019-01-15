@@ -14,139 +14,156 @@
     ],
     "items": [
       {
+        "id": 1,
         "name": "Nintendo Switch - 32GB",
         "category": "Console",
         "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNintendo-Switch-32GB-Gray-Console-with-Neon-Red-Neon-Blue-Joy-Con%2F264105667290%3Fepid%3D23024812516%26hash%3Ditem3d7decaada%3Ag%3AhH0AAOSwJd1b49Uw%3Ark%3A17%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
         "price": "285.00",
-        "brand": "Ebay",
+        "affiliate": "Ebay",
         "picture": "nintendo-switch-32gb.png"
       },
       {
+        "id": 2,
         "name": "Nintendo Switch Console + 2 Games",
         "category": "Console",
         "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNintendo-Switch-with-Neon-Blue-and-Neon-Red-Joy-Con-2-GAMES%2F292870732415%3F_trkparms%3Daid%253D555018%2526algo%253DPL.SIM%2526ao%253D1%2526asc%253D20131003132420%2526meid%253D235cb5be63bc49c280e776f240a965ec%2526pid%253D100005%2526rk%253D2%2526rkt%253D12%2526mehot%253Dpp%2526sd%253D302901819731%2526itm%253D292870732415%26_trksid%3Dp2047675.c100005.m1851&campid=5338332315&toolid=20008",
         "price": "319.99",
-        "brand": "Ebay",
+        "affiliate": "Ebay",
         "picture": "Switch + 2 games.PNG"
       },
       {
+        "id": 3,
         "name": "Nintendo Switch Mario Kart 8 Deluxe Console Bundle ",
         "category": "Console",
         "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNEW-Nintendo-Switch-Mario-Kart-8-Deluxe-Gaming-Console-Bundle-w-Neon-Joy-Cons%2F303017743340%3F_trkparms%3Daid%253D555018%2526algo%253DPL.SIM%2526ao%253D1%2526asc%253D20131003132420%2526meid%253D50f7241d8cc14c3ea403e5aa694c92c8%2526pid%253D100005%2526rk%253D3%2526rkt%253D12%2526sd%253D192779376955%2526itm%253D303017743340%26_trksid%3Dp2047675.c100005.m1851&campid=5338332315&toolid=20008",
         "price": "399.99",
-        "brand": "Ebay",
+        "affiliate": "Ebay",
         "picture": "NS-mario-kart-bundle.PNG"
       },
       {
+        "id": 4,
         "name": "Nintendo Switch Super Smash Bros Ultimate Limited Edition Console",
         "category": "Console",
         "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNintendo-Switch-Super-Smash-Bros-Ultimate-Limited-Edition-Console%2F264083160400%3Fhash%3Ditem3d7c953d50%3Ag%3A6YMAAOSwKtlb~XtF%3Ark%3A5%3Apf%3A0&campid=5338332315&toolid=20008",
         "price": "480.00",
-        "brand": "Ebay",
+        "affiliate": "Ebay",
         "picture": "NS-super-smash-bros-ultimate-console.PNG"
       },
       {
+        "id": 5,
         "name": "Nintendo Switch Pokemon Let's Go Pikachu Limited Edition Console",
         "category": "Console",
         "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNintendo-Switch-Pokemon-Lets-Go-Pikachu-Limited-Edition-Console%2F292893728877%3Fepid%3D20025867439%26hash%3Ditem4431d3a06d%3Ag%3AU5IAAOSwzFhcFm1f%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
         "price": "515.00",
-        "brand": "Ebay",
+        "affiliate": "Ebay",
         "picture": "NS-pokemon-pikachu-console.PNG"
       },
       {
+        "id": 6,
         "name": "Nintendo Switch Pokemon Let's Go Eevee Limited Edition Console",
         "category": "Console",
         "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FPokemon-Lets-Go-Eevee-Poke-Ball-Plus-Nintendo-Switch-Eevee-Console%2F153317587362%3Fhash%3Ditem23b270b9a2%3Ark%3A4%3Apf%3A0&campid=5338332315&toolid=20008",
         "price": "539.83",
-        "brand": "Ebay",
+        "affiliate": "Ebay",
         "picture": "NS-pokemon-eevee-console.PNG"
       },
       {
+        "id": 7,
         "name": "Super Smash Bros Ultimate Special Edition",
         "category": "Video Game",
         "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSuper-Smash-Bros-Ultimate-Special-Edition-Nintendo-Switch%2F123552698201%3Fepid%3D24025221394%26hash%3Ditem1cc4508f59%3Ag%3AoPwAAOSwPVFcGbIq%3Ark%3A20%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
         "price": "175.00",
-        "brand": "Ebay",
+        "affiliate": "Ebay",
         "picture": "super smash bros ultimate special edition.PNG"
       },
       {
+        "id": 8,
         "name": "Super Smash Bros Ultimate Limited Edition Bundle",
         "category": "Video Game",
         "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSuper-Smash-Bros-Ultimate-Limited-Edition-Nintendo-Switch%2F233044434712%3Fhash%3Ditem364287df18%3Ag%3Ae1sAAOSwZbVcEa05%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
         "price": "169.99",
-        "brand": "Ebay",
+        "affiliate": "Ebay",
         "picture": "super-smash-bros-ultimate-Limited-edition-bundle.PNG"
       },
       {
+        "id": 9,
         "name": "Nintendo Switch Super Smash Bros Ultimate Pro Controller",
         "category": "Accessory",
         "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNintendo-Super-Smash-Bros-Ultimate-Edition-Pro-Controller-Switch%2F233031081582%3Fhash%3Ditem3641bc1e6e%3Ag%3A11gAAOSwu9JcBOxY%3Asc%3AUSPSFirstClass!85353!US!-1%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
         "price": "81.00",
-        "brand": "Ebay",
+        "affiliate": "Ebay",
         "picture": "super-smash-bros-ultimate-pro-controller.PNG"
       },
       {
+        "id": 10,
         "name": "Mario Kart 8 Deluxe",
         "category": "Video Game",
         "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMario-Kart-8-Deluxe-Nintendo-Switch%2F323619735705%3Fepid%3D237216403%26hash%3Ditem4b593d4899%3Ag%3AmsgAAOSwfBFblpsK%3Ark%3A6%3Apf%3A0&campid=5338332315&toolid=20008",
         "price": "59.99",
-        "brand": "Ebay",
+        "affiliate": "Ebay",
         "picture": "Mario Kart 8.PNG"
       },
       {
+        "id": 11,
         "name": "Super Mario Odyssey",
         "category": "Video Game",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSuper-Mario-Odyssey-Nintendo-Switch-Brand-New-Retail-Pack%2F192532033468%3Fepid%3D238258311%26hash%3Ditem2cd3cdafbc%3Ag%3Aa~cAAOSw--xbGE6b%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
+        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSuper-Mario-Odyssey-Nintendo-Switch-affiliate-New-Retail-Pack%2F192532033468%3Fepid%3D238258311%26hash%3Ditem2cd3cdafbc%3Ag%3Aa~cAAOSw--xbGE6b%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
         "price": "53.99",
-        "brand": "Ebay",
+        "affiliate": "Ebay",
         "picture": "Mario Odyssey.png"
       },
       {
+        "id": 12,
         "name": "The Legend of Zelda: Breath of the Wild Starter Pack",
         "category": "Video Game",
         "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FThe-Legend-of-Zelda-Breath-of-the-Wild-Starter-Pack-Nintendo-Switch%2F192672786064%3Fhash%3Ditem2cdc316690%3Ag%3AHVoAAOSwSYdbrboH%3Ark%3A3%3Apf%3A0&campid=5338332315&toolid=20008",
         "price": "59.99",
-        "brand": "Ebay",
+        "affiliate": "Ebay",
         "picture": "Zelda-breath-of-the-wild.jpg"
       },
       {
+        "id": 13,
         "name": "Dragon Ball Fighterz",
         "category": "Video Game",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FDragon-Ball-Z-FighterZ-Brand-New-Dragonball-Z-Fighters-Nintendo-Switch-2018%2F233075068748%3Fepid%3D7022382614%26hash%3Ditem36445b4f4c%3Ag%3ATPEAAOSwiE1b9QPS%3Ark%3A2%3Apf%3A0&campid=5338332315&toolid=20008",
+        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FDragon-Ball-Z-FighterZ-affiliate-New-Dragonball-Z-Fighters-Nintendo-Switch-2018%2F233075068748%3Fepid%3D7022382614%26hash%3Ditem36445b4f4c%3Ag%3ATPEAAOSwiE1b9QPS%3Ark%3A2%3Apf%3A0&campid=5338332315&toolid=20008",
         "price": "39.95",
-        "brand": "Ebay",
+        "affiliate": "Ebay",
         "picture": "Dragon-ball-fighterz-switch.jpg"
       },
       {
+        "id": 14,
         "name": "Crash Bandicoot N Sane Trilogy",
         "category": "Video Game",
         "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FCrash-Bandicoot-N-Sane-Trilogy-W-Bonus-Levels-Nintendo-Switch-NEW%2F153301403572%3Fepid%3D245239710%26hash%3Ditem23b179c7b4%3Ag%3AClEAAOSwFWdbCz9-%3Ark%3A2%3Apf%3A0&campid=5338332315&toolid=20008",
         "price": "34.00",
-        "brand": "Ebay",
+        "affiliate": "Ebay",
         "picture": "crash-bandicot-trilogy.jpg"
       },
       {
+        "id": 15,
         "name": "Diablo 3",
         "category": "Video Game",
         "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FDiablo-III-3-Eternal-Collection-Nintendo-Switch-2018-New-SEALED-Fast-Shipping%2F323634388509%3Fhash%3Ditem4b5a1cde1d%3Ag%3A6CwAAOSwdZBcLswZ%3Asc%3AUSPSFirstClass!85353!US!-1%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
         "price": "34.00",
-        "brand": "Ebay",
+        "affiliate": "Ebay",
         "picture": "Diablo3.jpg"
       },
       {
+        "id": 16,
         "name": "Splatoon 2",
         "category": "Video Game",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSplatoon-2-Nintendo-Switch-2017-Brand-New%2F183073775567%3Fepid%3D237011110%26hash%3Ditem2aa00c1fcf%3Ag%3A28EAAOSwydpa53ay%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
+        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSplatoon-2-Nintendo-Switch-2017-affiliate-New%2F183073775567%3Fepid%3D237011110%26hash%3Ditem2aa00c1fcf%3Ag%3A28EAAOSwydpa53ay%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
         "price": "51.79",
-        "brand": "Ebay",
+        "affiliate": "Ebay",
         "picture": "Splatoon2.jpg"
       },
       {
+        "id": 17,
         "name": "Super Mario Party",
         "category": "Video Game",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSuper-Mario-Party-Nintendo-Switch-Video-Game-Sealed-Brand-New%2F192679279993%3Fhash%3Ditem2cdc947d79%3Ag%3A2agAAOSwa6Jbtlky%3Ark%3A2%3Apf%3A0&campid=5338332315&toolid=20008",
+        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSuper-Mario-Party-Nintendo-Switch-Video-Game-Sealed-affiliate-New%2F192679279993%3Fhash%3Ditem2cdc947d79%3Ag%3A2agAAOSwa6Jbtlky%3Ark%3A2%3Apf%3A0&campid=5338332315&toolid=20008",
         "price": "54.89",
-        "brand": "Ebay",
+        "affiliate": "Ebay",
         "picture": "Super-mario-party.jpg"
       }
     ]
@@ -166,133 +183,92 @@
     ],
     "items": [
       {
+        "id": 1,
         "name": "Xbox One Original 500GB",
         "category": "Console",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMicrosoft-Xbox-One-500gb-Black-Console-Bundle-w-accessories-ie-controller-etc%2F321472795908%3Fhash%3Ditem4ad9459504%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "179.99",
-        "brand": "Ebay",
-        "picture": "xbox-original.jpg"
+        "picture": "xbox-original.jpg",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "Used",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMicrosoft-Xbox-One-500gb-Black-Console-Bundle-w-accessories-ie-controller-etc%2F321472795908%3Fhash%3Ditem4ad9459504%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "179.99",
+            "shipping": "0.00",
+            "description": ""
+          }
+        ]
       },
       {
-        "name": "Xbox One Original 1TB - No Controller/HDMI",
+        "id": 2,
+        "name": "Xbox One Original 1TB",
         "category": "Console",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMicrosoft-Xbox-One-Original-1TB-Black-Home-1540-Gaming-Console-Charger%2F312377442981%3Fepid%3D218378767%26hash%3Ditem48bb2582a5%3Ark%3A1%3Apf%3A0%23viTabs_0&campid=5338332315&toolid=20008",
-        "price": "179.99",
-        "brand": "Ebay",
-        "picture": "xbox-original.jpg"
+        "picture": "xbox-original.jpg",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "Used",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMicrosoft-Xbox-One-1-TB-Black-Console-without-Kinect%2F192009096273%3Fepid%3D218378777%26hash%3Ditem2cb4a24c51%3Ag%3ASbgAAOSwImRYEJBj%3Ark%3A27%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "179.99",
+            "shipping": "0.00",
+            "description": ""
+          }
+        ]
       },
       {
+        "id": 3,
         "name": "Xbox One S 500GB",
         "category": "Console",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FXbox-One-S-500GB-Open-Box-Damaged-Retail-Box-Factory-Refurbished%2F263759532804%3Fhash%3Ditem3d694b1304%3Ag%3A7U8AAOSwM~taaioV%3Ark%3A3%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "169.99",
-        "brand": "Ebay",
-        "picture": "xbox-s.jpg"
+        "picture": "xbox-s.jpg",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "Used",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FXbox-One-S-500GB-Open-Box-Damaged-Retail-Box-Factory-Refurbished%2F263759532804%3Fhash%3Ditem3d694b1304%3Ag%3A7U8AAOSwM~taaioV%3Ark%3A3%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "199.99",
+            "shipping": "0.00",
+            "description": ""
+          }
+        ]
       },
       {
+        "id": 4,
         "name": "Xbox One S 1TB",
         "category": "Console",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FXbox-One-S-500GB-Open-Box-Damaged-Retail-Box-Factory-Refurbished%2F263759532804%3Fhash%3Ditem3d694b1304%3Ag%3A7U8AAOSwM~taaioV%3Ark%3A3%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "222.99",
-        "brand": "Ebay",
-        "picture": "xbox-s.jpg"
+        "picture": "xbox-s.jpg",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "Used",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMicrosoft-Xbox-One-S-1TB-White-Gaming-Console-Model-1681%2F372560577998%3Fepid%3D726315798%26hash%3Ditem56be5745ce%3Ag%3AVAUAAOSwPYRcJWDK%3Ark%3A45%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "189.95",
+            "shipping": "0.00",
+            "description": ""
+          }
+        ]
       },
       {
+        "id": 5,
         "name": "Xbox One X 1TB",
         "category": "Console",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FXbox-One-X-1TB-Console-Open-Box-Good-Retail-Box-Factory-Refurbished%2F263648332879%3Fepid%3D23017240027%26hash%3Ditem3d62aa4c4f%3Ag%3ADZ0AAOSwMk1aumf3%3Ark%3A7%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
-        "price": "351.99",
-        "brand": "Ebay",
-        "picture": "xbox-x.jpg"
-      },
-      {
-        "name": "DOOM",
-        "category": "Video Game",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FDOOM-Xbox-One-Factory-Refurbished%2F263005217208%3Fhash%3Ditem3d3c5521b8%3Ag%3A7oMAAOSw8vNaVkTM%3Ark%3A6%3Apf%3A0%26autorefresh%3Dtrue&campid=5338332315&toolid=20008",
-        "price": "8.85",
-        "brand": "Ebay",
-        "picture": "doom.jpg"
-      },
-      {
-        "name": "Fallout 4",
-        "category": "Video Game",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FFallout-4-Xbox-One-Factory-Refurbished%2F263105312945%3Fhash%3Ditem3d424c78b1%3Ag%3A8VcAAOSwZrhaVkTj%3Ark%3A7%3Apf%3A0%26autorefresh%3Dtrue&campid=5338332315&toolid=20008",
-        "price": "7.25",
-        "brand": "Ebay",
-        "picture": "fallout-4.jpg"
-      },
-      {
-        "name": "Skate 3",
-        "category": "Video Game",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSkate-3-Xbox-360-Factory-Refurbished%2F263145789214%3Fhash%3Ditem3d44b6171e%3Ag%3AwCQAAOSwALtaVkSy%3Ark%3A9%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "7.54",
-        "brand": "Ebay",
-        "picture": "skate-3.jpg"
-      },
-      {
-        "name": "State of Decay 2",
-        "category": "Video Game",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FState-of-Decay-2-Xbox-One-Factory-Refurbished%2F263959659873%3Fhash%3Ditem3d7538c561%3Ag%3AkAkAAOSwlY5bq-A1%3Ark%3A10%3Apf%3A0%26autorefresh%3Dtrue&campid=5338332315&toolid=20008",
-        "price": "12.65",
-        "brand": "Ebay",
-        "picture": "state-of-decay-2.jpg"
-      },
-      {
-        "name": "Call of Duty: Infinite Warfare",
-        "category": "Video Game",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FCall-of-Duty-Infinite-Warfare-Xbox-One-Factory-Refurbished%2F263005211203%3Fhash%3Ditem3d3c550a43%3Ag%3A7tsAAOSw5KtaVkTM%3Ark%3A11%3Apf%3A0%26autorefresh%3Dtrue&campid=5338332315&toolid=20008",
-        "price": "7.01",
-        "brand": "Ebay",
-        "picture": "cod-infinite-warfare.jpg"
-      },
-      {
-        "name": "Call of Duty: Black Ops 4",
-        "category": "Video Game",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FCall-of-Duty-Black-Ops-4-Xbox-One-Factory-Refurbished%2F264020116656%3Fhash%3Ditem3d78d344b0%3Ag%3Ap3sAAOSwfplb3JTF%3Ark%3A18%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "32.03",
-        "brand": "Ebay",
-        "picture": "cod-black-ops-4.jpg"
-      },
-      {
-        "name": "Assassin's Creed: Origins",
-        "category": "Video Game",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FAssassins-Creed-Origins-Xbox-One-Factory-Refurbished%2F263572836069%3Fhash%3Ditem3d5e2a4ee5%3Ag%3AmWIAAOSwoX5aupUV%3Ark%3A17%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "17.65",
-        "brand": "Ebay",
-        "picture": "assassins-creed-origins.jpg"
-      },
-      {
-        "name": "Grand Theft Auto V",
-        "category": "Video Game",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FGrand-Theft-Auto-V-Xbox-One-Factory-Refurbished%2F263046364632%3Fhash%3Ditem3d3ec8fdd8%3Ag%3Atk0AAOSwEW9aVkTN%3Ark%3A20%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "12.20",
-        "brand": "Ebay",
-        "picture": "grand-theft-5.jpg"
-      },
-      {
-        "name": "Star Wars: Battlefront",
-        "category": "Video Game",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FStar-Wars-Battlefront-Xbox-One-Factory-Refurbished%2F263005211276%3Fhash%3Ditem3d3c550a8c%3Ag%3Aox4AAOSw1GlaVkTR%3Ark%3A22%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "5.67",
-        "brand": "Ebay",
-        "picture": "star-war-battlefront.jpg"
-      },
-      {
-        "name": "Mortal Kombat XL",
-        "category": "Video Game",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMortal-Kombat-XL-Xbox-One-Brand-New%2F263575879267%3Fepid%3D219520922%26hash%3Ditem3d5e58be63%3Ag%3AIKcAAOSw9vlaVkes%3Ark%3A3%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "19.75",
-        "brand": "Ebay",
-        "picture": "mortal-kombat-xl.jpg"
-      },
-      {
-        "name": "Red Dead Redemption 2",
-        "category": "Video Game",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FRed-Dead-Redemption-2-Xbox-One-Factory-Refurbished%2F264040052628%3Fepid%3D5025887523%26hash%3Ditem3d7a037794%3Ag%3AKPgAAOSwE~Zb7GnG%3Ark%3A2%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "55.66",
-        "brand": "Ebay",
-        "picture": "red-dead-redemption-2.jpg"
+        "price": "348.16",
+        "picture": "xbox-x.jpg",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "Used",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FXbox-One-X-1TB-Console-Discontinued%2F303023231214%3Fepid%3D238382386%26hash%3Ditem468d9790ee%3Ag%3Axf4AAOSw28dcNM8v%3Ark%3A6%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "348.16",
+            "shipping": "0.00",
+            "description": ""
+          }
+        ]
       }
+
     ]
   }
 }

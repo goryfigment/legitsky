@@ -1,0 +1,119 @@
+/* HEADER */
+#header-wrapper {
+    display: flex;
+    padding: 10px 50px;
+    align-items: center;
+    transition: 0.3s all ease;
+    position: relative;
+}
+
+#header-wrapper.active {
+    padding: 10px 20px 10px 160px;
+}
+
+#logo-wrapper {
+    position: relative;
+    width: 132px;
+    height: 40px;
+    color: #b9caff;
+    margin: 10px 0;
+}
+
+#rise-up-logo {
+    font-size: 15px;
+    position: absolute;
+    top: -7px;
+}
+
+#gamers-logo {
+    font-size: 33px;
+    top: 4px;
+    left: -2px;
+    position: absolute;
+    font-weight: 600;
+}
+
+#nav-wrapper {
+    margin: 0 30px;
+    display: flex;
+    width: 100%;
+}
+
+#nav-wrapper a {
+    color: #131313;
+    text-decoration: none;
+    transition: 0.3s all ease;
+    margin: 0 20px;
+    cursor: pointer;
+    line-height: 22px;
+    white-space: nowrap;
+}
+
+#nav-wrapper a:hover {
+    color: #14b582;
+}
+
+#nav-wrapper #save-link {
+    margin-left: auto;
+}
+
+#header-save-icon {
+    position: relative;
+    font-size: 22px;
+    color: #ffb8b8;
+}
+
+#number-saved {
+    position: absolute;
+    z-index: 1;
+    color: black;
+    right: 21%;
+    font-size: 12px;
+    top: 8px;
+    font-weight: 600;
+    line-height: 10px;
+    width: 14px;
+    text-align: center;
+}
+
+#number-saved.two-digit {
+    right: 26%;
+}
+
+#category-popup {
+    position: absolute;
+    height: 172px;
+    top: 32px;
+    left: 132px;
+    width: 256px;
+    background: #fff;
+    z-index: 3;
+    padding: 5px;
+    flex-wrap: wrap;
+    border: solid 1px #e1e1e1;
+    border-radius: 1px;
+    box-shadow: 0 10px 15px -1px rgba(0, 0, 0, 0.5), 0 25px 50px -4px rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+#category-popup.active {
+    display: flex;
+}
+
+#category-popup a {
+    text-decoration: none;
+    color: #0d0d0d;
+    text-align: center;
+    width: 125px;
+    padding: 5px 0;
+}
+
+#category-popup img {
+    height: 50px;
+}
+
+#category-popup img:hover {
+    filter: brightness(1) hue-rotate(10deg) contrast(1);
+    box-shadow: 0 10px 15px -1px rgba(0, 0, 0, 0.1), 0 25px 50px -4px rgba(0, 0, 0, 0.3);
+}
+/* HEADER */

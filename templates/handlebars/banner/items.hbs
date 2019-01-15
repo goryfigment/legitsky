@@ -1,9 +1,16 @@
 {{#each items}}
-    <div class="item" data-category="{{category}}">
-        <img src="{{concat '/templates/bundle/assets/banner/' 'banner_name' '/' picture}}"/>
-        <div class="item-details-wrapper">
-            <a class="item-name" href="{{url}}" title="{{name}}" target="_blank">{{name}}</a>
-            <div class="item-price">{{price}}</div>
+    <div class="item {{#contains id ../saved}}saved{{/contains}}" data-category="{{category}}" data-id="{{id}}" data-index="{{@index}}">
+        <div class="details-container">
+            <div class="save-icon"><i class="fas fa-star"></i></div>
+            <img src="{{concat '/templates/bundle/assets/banner/' 'banner_name' '/' picture}}"/>
+            <div class="item-details-wrapper">
+                <h3 class="item-name">{{name}}</h3>
+                <div class="item-price">{{lowest_price}}</div>
+            </div>
+        </div>
+        <div class="save-button-wrapper">
+            <div class="save-button"><i class="far fa-star"></i></div>
+            <div class="remove-button"><i class="fas fa-star"></i></div>
         </div>
     </div>
 {{/each}}

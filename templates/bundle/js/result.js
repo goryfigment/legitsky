@@ -1,4 +1,4 @@
-webpackJsonp([2],{
+webpackJsonp([3],{
 
 /***/ 2:
 /***/ (function(module, exports, __webpack_require__) {
@@ -10372,17 +10372,17 @@ return jQuery;
 
 /***/ }),
 
-/***/ 28:
+/***/ 36:
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(3);
-__webpack_require__(29);
-__webpack_require__(30);
-__webpack_require__(4);
+__webpack_require__(6);
+__webpack_require__(37);
+__webpack_require__(38);
+__webpack_require__(7);
 
 var $ = __webpack_require__(2);
-var helper = __webpack_require__(31);
-__webpack_require__(32);
+var helper = __webpack_require__(39);
+__webpack_require__(40);
 
 function getGoogleUrl() {
     $('#google-link').attr('href', 'https://www.google.com/search?tbm=shop&q=' + encodeURIComponent(globals.q).replace(/%20/g, "+"));
@@ -10575,28 +10575,21 @@ $(document).ready(function() {
 
 /***/ }),
 
-/***/ 29:
+/***/ 37:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 3:
+/***/ 38:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 
-/***/ 30:
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ 31:
+/***/ 39:
 /***/ (function(module, exports) {
 
 function numberCommaFormat(x) {
@@ -10733,7 +10726,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 32:
+/***/ 40:
 /***/ (function(module, exports, __webpack_require__) {
 
 var $ = __webpack_require__(2);
@@ -10782,7 +10775,14 @@ $(document).ready(function() {
 
 /***/ }),
 
-/***/ 4:
+/***/ 6:
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ 7:
 /***/ (function(module, exports) {
 
 /*!
@@ -10793,4 +10793,4 @@ $(document).ready(function() {
 
 /***/ })
 
-},[28]);
+},[36]);

@@ -1,78 +1,29 @@
-/* HEADER */
-#header-wrapper {
-    display: flex;
-    margin: 10px 15px;
-    align-items: center;
-}
-
-#nav-wrapper {
-    margin: 0 30px;
-    display: flex;
-}
-
-#nav-wrapper a {
-    color: #131313;
-    text-decoration: none;
-    transition: 0.3s all ease;
-    margin: 0 20px;
-}
-
-#nav-wrapper a:hover {
-    color: #14b582;
-}
-/* HEADER */
-
-/*SEARCH INPUT*/
-#search-wrapper {
-    background: #e2e2e2;
-    padding-right: 10px;
-    white-space: nowrap;
-    width: 300px;
-    margin-left: auto;
-}
-
-#search-input {
-    background-color: transparent;
-    width: 255px;
-    padding: 0 0 0 10px;
-}
-
-.search-icon {
-    padding: 12px;
-    cursor: pointer;
-}
-
-#submit {
-    display: none;
-}
-/*SEARCH INPUT*/
-
 /*BANNER*/
 #banner-wrapper {
-    background: url(/templates/bundle/assets/banner/nintendo.png) no-repeat;
     width: 1519px;
     height: 400px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s ease;
+}
+
+#banner-wrapper.slick-initialized {
+    visibility: visible;
+    opacity: 1;
+}
+
+#banner-wrapper img {
+    background: #ccc;
+    height: 200px;
+    margin: 10px 30px;
+    text-align: center;
 }
 /*BANNER*/
 
 /*HIGHLIGHT ITEMS*/
-#highlights-wrapper img {
-    height: 110px;
-}
-
-.highlight-title {
-    text-align: center;
-    font-weight: 600;
-    font-size: 18px;
-    color: #1f1f1f;
-    margin-bottom: 10px;
-}
-
-#new-items-wrapper {
-    /*display: flex;*/
-    display: none;
-    justify-content: space-around;
-    padding: 15px 0;
+#highlights-wrapper {
+    display: flex;
+    justify-content: center;
 }
 /*HIGHLIGHT ITEMS*/
 

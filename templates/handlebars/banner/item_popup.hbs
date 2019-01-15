@@ -1,0 +1,31 @@
+<div id="item-wrapper-popup">
+    <div id="top-section-wrapper">
+        <img id="" src="{{concat '/templates/bundle/assets/banner/' banner_name '/' picture}}"/>
+        <div class="item-details-wrapper">
+            <h2>{{name}}</h2>
+            <div class="item-description">{{description}}</div>
+        </div>
+        <div class="right-section">
+            <button class="favorite-button" id="{{#if saved}}favorite{{else}}unfavorite{{/if}}-button" data-id="{{id}}">{{#if saved}}Favorite{{else}}Undo Favorite{{/if}}</button>
+        </div>
+    </div>
+
+    <table cellpadding="10px">
+        <thead>
+            <tr>
+                <th scope="col">Seller</th>
+                <th scope="col">Condition</th>
+                <th scope="col">Price</th>
+            </tr>
+        </thead>
+        <tbody>
+        {{#each offers}}
+            <tr>
+                <td>{{seller}}</td>
+                <td>{{condition}}</td>
+                <td>{{price}}</td>
+            </tr>
+        {{/each}}
+        </tbody>
+    </table>
+</div>

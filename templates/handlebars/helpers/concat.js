@@ -8,7 +8,6 @@ module.exports = function() {
                 arguments[arg] = globals.banner_name;
             }
             outStr += arguments[arg];
-
         }
     }
     return outStr;

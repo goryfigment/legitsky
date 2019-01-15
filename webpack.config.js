@@ -12,7 +12,8 @@ module.exports = {
         home: './templates/js/home.js',
         result: './templates/js/result.js',
         banner: './templates/js/banner.js',
-        404: './templates/js/404.js',
+        save: './templates/js/save.js',
+        404: './templates/js/404.js'
     },
     output: {path: __dirname + '/templates/bundle', filename: 'js/[name].js', publicPath: '/templates/bundle/'},
     module: {
@@ -40,6 +41,7 @@ module.exports = {
         new HtmlWebpackPlugin({filename: 'home.html', chunks: ['vendors','home'], minify: {collapseWhitespace: true}, hash: true, template: './templates/home.html'}),
         new HtmlWebpackPlugin({filename: 'result.html', chunks: ['vendors','result'], minify: {collapseWhitespace: true}, hash: true, template: './templates/result.html'}),
         new HtmlWebpackPlugin({filename: 'banner.html', chunks: ['vendors','banner'], minify: {collapseWhitespace: true}, hash: true, template: './templates/banner.html'}),
+        new HtmlWebpackPlugin({filename: 'save.html', chunks: ['vendors','save'], minify: {collapseWhitespace: true}, hash: true, template: './templates/save.html'}),
     ],
     resolve: {
         alias: {

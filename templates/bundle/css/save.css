@@ -1,0 +1,361 @@
+@font-face {
+    font-family: Karla;
+    src: url(/templates/bundle/assets/fonts/Karla-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Karla;
+    src: url(/templates/bundle/assets/fonts/Karla-Italic.ttf);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Karla;
+    src: url(/templates/bundle/assets/fonts/Karla-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Karla;
+    src: url(/templates/bundle/assets/fonts/Karla-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+body {
+    font-family: 'Karla', Arial, Helvetica, sans-serif, Georgia, serif;
+    margin: 0;
+    min-height: 100vh;
+    height: 100%;
+    min-width: -webkit-fit-content;
+    min-width: -moz-fit-content;
+    min-width: fit-content;
+    background: #ffffff;
+    color: #939393;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+
+input {
+    outline: none;
+    border: none;
+    border-radius: 1px;
+    height: 40px;
+    line-height: 20px;
+    padding: 0 10px;
+    background-color: #e2e2e2;
+    color: #000;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px #353535 inset;
+    -webkit-text-fill-color: #c2c3c3;
+}
+
+/*SEARCH INPUT*/
+#search-wrapper {
+    background: #e2e2e2;
+    padding-right: 10px;
+    white-space: nowrap;
+    width: 300px;
+    margin-left: auto;
+}
+
+#search-input {
+    background-color: transparent;
+    width: 255px;
+    padding: 0 0 0 10px;
+}
+
+.search-icon {
+    padding: 12px;
+    cursor: pointer;
+}
+
+#submit {
+    display: none;
+}
+/*SEARCH INPUT*/
+
+/* ITEM POPUP */
+#overlay {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    height: 100vh;
+    background: #000000c7;
+    display: none;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+}
+
+#overlay.active {
+    display: block;
+}
+/* ITEM POPUP *//* HEADER */
+#header-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px 50px;
+    -ms-flex-align: center;
+        align-items: center;
+    transition: 0.3s all ease;
+    position: relative;
+}
+
+#header-wrapper.active {
+    padding: 10px 20px 10px 160px;
+}
+
+#logo-wrapper {
+    position: relative;
+    width: 132px;
+    height: 40px;
+    color: #b9caff;
+    margin: 10px 0;
+}
+
+#rise-up-logo {
+    font-size: 15px;
+    position: absolute;
+    top: -7px;
+}
+
+#gamers-logo {
+    font-size: 33px;
+    top: 4px;
+    left: -2px;
+    position: absolute;
+    font-weight: 600;
+}
+
+#nav-wrapper {
+    margin: 0 30px;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+}
+
+#nav-wrapper a {
+    color: #131313;
+    text-decoration: none;
+    transition: 0.3s all ease;
+    margin: 0 20px;
+    cursor: pointer;
+    line-height: 22px;
+    white-space: nowrap;
+}
+
+#nav-wrapper a:hover {
+    color: #14b582;
+}
+
+#nav-wrapper #save-link {
+    margin-left: auto;
+}
+
+#header-save-icon {
+    position: relative;
+    font-size: 22px;
+    color: #ffb8b8;
+}
+
+#number-saved {
+    position: absolute;
+    z-index: 1;
+    color: black;
+    right: 21%;
+    font-size: 12px;
+    top: 8px;
+    font-weight: 600;
+    line-height: 10px;
+    width: 14px;
+    text-align: center;
+}
+
+#number-saved.two-digit {
+    right: 26%;
+}
+
+#category-popup {
+    position: absolute;
+    height: 172px;
+    top: 32px;
+    left: 132px;
+    width: 256px;
+    background: #fff;
+    z-index: 3;
+    padding: 5px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    border: solid 1px #e1e1e1;
+    border-radius: 1px;
+    box-shadow: 0 10px 15px -1px rgba(0, 0, 0, 0.5), 0 25px 50px -4px rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+#category-popup.active {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#category-popup a {
+    text-decoration: none;
+    color: #0d0d0d;
+    text-align: center;
+    width: 125px;
+    padding: 5px 0;
+}
+
+#category-popup img {
+    height: 50px;
+}
+
+#category-popup img:hover {
+    -webkit-filter: brightness(1) hue-rotate(10deg) contrast(1);
+            filter: brightness(1) hue-rotate(10deg) contrast(1);
+    box-shadow: 0 10px 15px -1px rgba(0, 0, 0, 0.1), 0 25px 50px -4px rgba(0, 0, 0, 0.3);
+}
+/* HEADER */#save-header {
+    font-weight: 500;
+    border-bottom: 1px solid #0000000d;
+    padding: 2px;
+    height: 36px;
+    margin: 0 20px;
+}
+
+.remove-button {
+    cursor: pointer;
+    background: red;
+    color: white;
+    padding: 10px;
+}
+
+#item-wrapper-popup h2 {
+    margin: 30px 10px;
+    font-size: 18px;
+    width: 500px;
+}
+
+table {
+    margin: 0 auto;
+    width: 80%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+tbody {
+    margin: 25px auto 0 auto;
+    width: 80%;
+    text-align: left;
+    border-collapse: collapse;
+    border: 1px solid #dcdcdc;
+}
+
+tr {
+    height: 50px;
+    cursor: default;
+}
+
+#item-wrapper tbody tr:hover {
+    -webkit-filter: brightness(90%);
+            filter: brightness(90%);
+}
+
+tbody tr:hover {
+    background: #f9f9f9;
+}
+
+table img {
+    height: 100px;
+}
+
+.offer-button {
+    background: #05b346;
+    padding: 10px 50px;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fbfbfb;
+    border: none;
+}
+
+.offer-button:hover {
+    -webkit-filter: brightness(110%);
+            filter: brightness(110%);
+}
+
+/* ITEM POPUP */
+#item-wrapper-popup {
+    background: white;
+    height: 90%;
+    min-height: 600px;
+    min-width: 500px;
+    width: 90%;
+    margin: 25px auto;
+}
+
+#item-wrapper-popup h2 {
+    margin: 30px 10px;
+    font-size: 18px;
+    width: 500px;
+}
+
+#item-wrapper-popup table {
+    margin: 0 auto;
+    width: 80%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+#item-wrapper-popup tbody {
+    margin: 25px auto 0 auto;
+    width: 80%;
+    text-align: left;
+    border-collapse: collapse;
+    border: 1px solid #dcdcdc;
+}
+
+#item-wrapper-popup tr {
+    height: 50px;
+    cursor: pointer;
+}
+
+#item-wrapper-popup tbody tr:hover {
+    background: #f9f9f9;
+}
+
+#top-section-wrapper {
+    padding: 15px 20px;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.favorite-button {
+    background: transparent;
+    padding: 10px 50px;
+    border-radius: 3px;
+    margin: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#favorite-button {
+    border: 2px solid #27b727;
+}
+
+#unfavorite-button {
+    border: 2px solid red;
+}
+/* ITEM POPUP */

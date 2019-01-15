@@ -45,6 +45,9 @@ def banner_site(request, name):
     try:
         file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'static_data/items.json'))
         banners = json.loads(open(file_path).read())
+
+        file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'static_data/banner.json'))
+        banner_list = json.loads(open(file_path).read())
     except:
         data = {'success': False, 'error_id': 2, 'error_msg:': 'IO Error', 'directory': file_path}
         return HttpResponse(json.dumps(data), 'application/json')
@@ -54,4 +57,18 @@ def banner_site(request, name):
     else:
         return render(request, '404.html', {'base_url': get_base_url()})
 
-    return render(request, 'banner.html', {'base_url': get_base_url(), 'title': name.replace('-', ' ').title(), 'banner_name': name, 'banner': banner})
+    return render(request, 'banner.html', {'base_url': get_base_url(), 'title': name.replace('-', ' ').title(), 'banner_name': name, 'banner': banner, 'banners': json.dumps(banner_list)})
+
+
+def save(request):
+    try:
+        file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'static_data/items.json'))
+        banners = json.loads(open(file_path).read())
+
+        file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'static_data/banner.json'))
+        banner_list = json.loads(open(file_path).read())
+    except:
+        data = {'success': False, 'error_id': 2, 'error_msg:': 'IO Error', 'directory': file_path}
+        return HttpResponse(json.dumps(data), 'application/json')
+
+    return render(request, 'save.html', {'base_url': get_base_url(), 'banner': json.dumps(banners), 'banners': json.dumps(banner_list)})

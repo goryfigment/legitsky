@@ -7,6 +7,7 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', site.site, name='site'),
     url(r'^banner/(?P<name>[-A-Za-z]+)$', site.banner_site, name='banner'),
+    url(r'^save/', site.save, name='save_view'),
 
     # Ebay
     url(r'^ebay/search$', ebay.search, name='site'),

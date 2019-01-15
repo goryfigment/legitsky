@@ -1,0 +1,26 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rise Up Gamers</title>
+    <link rel='shortcut icon' type='image/x-icon' href="{% static 'bundle/assets/riseupgamers/riseupgamer-64.png' %}" />
+    <script>
+        var globals = {};
+        globals.base_url = '{{ base_url }}';
+        globals.banner_name = '{{ banner_name }}';
+        globals.banner = {{banner|safe}};
+        globals.banners = {{banners|safe}};
+    </script>
+</head>
+<body>
+    <%= require('html-loader!./partial/header.html') %>
+
+    <div id="save-wrapper">
+        <h2 id="save-header">Saved for Later</h2>
+        <div id="item-wrapper"></div>
+    </div>
+
+    <div id="overlay"></div>
+</body>
+</html>

@@ -1,0 +1,129 @@
+#save-header {
+    font-weight: 500;
+    border-bottom: 1px solid #0000000d;
+    padding: 2px;
+    height: 36px;
+    margin: 0 20px;
+}
+
+.remove-button {
+    cursor: pointer;
+    background: red;
+    color: white;
+    padding: 10px;
+}
+
+#item-wrapper-popup h2 {
+    margin: 30px 10px;
+    font-size: 18px;
+    width: 500px;
+}
+
+table {
+    margin: 0 auto;
+    width: 80%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+tbody {
+    margin: 25px auto 0 auto;
+    width: 80%;
+    text-align: left;
+    border-collapse: collapse;
+    border: 1px solid #dcdcdc;
+}
+
+tr {
+    height: 50px;
+    cursor: default;
+}
+
+#item-wrapper tbody tr:hover {
+    filter: brightness(90%);
+}
+
+tbody tr:hover {
+    background: #f9f9f9;
+}
+
+table img {
+    height: 100px;
+}
+
+.offer-button {
+    background: #05b346;
+    padding: 10px 50px;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #fbfbfb;
+    border: none;
+}
+
+.offer-button:hover {
+    filter: brightness(110%);
+}
+
+/* ITEM POPUP */
+#item-wrapper-popup {
+    background: white;
+    height: 90%;
+    min-height: 600px;
+    min-width: 500px;
+    width: 90%;
+    margin: 25px auto;
+}
+
+#item-wrapper-popup h2 {
+    margin: 30px 10px;
+    font-size: 18px;
+    width: 500px;
+}
+
+#item-wrapper-popup table {
+    margin: 0 auto;
+    width: 80%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+#item-wrapper-popup tbody {
+    margin: 25px auto 0 auto;
+    width: 80%;
+    text-align: left;
+    border-collapse: collapse;
+    border: 1px solid #dcdcdc;
+}
+
+#item-wrapper-popup tr {
+    height: 50px;
+    cursor: pointer;
+}
+
+#item-wrapper-popup tbody tr:hover {
+    background: #f9f9f9;
+}
+
+#top-section-wrapper {
+    padding: 15px 20px;
+    display: flex;
+}
+
+.favorite-button {
+    background: transparent;
+    padding: 10px 50px;
+    border-radius: 3px;
+    margin: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#favorite-button {
+    border: 2px solid #27b727;
+}
+
+#unfavorite-button {
+    border: 2px solid red;
+}
+/* ITEM POPUP */

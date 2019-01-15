@@ -8,183 +8,51 @@ body {
     width: 100%;
 }
 
-#main-wrapper.active {
-    width: calc(100% - 190px);
-}
-
-/* HEADER */
-#header-wrapper {
-    display: flex;
-    margin: 10px 50px;
-    align-items: center;
-    transition: 0.3s all ease;
-}
-
-#header-wrapper.active {
-    margin: 10px 20px 10px 160px;
-}
-
-#logo-wrapper {
-    position: relative;
-    width: 132px;
-    height: 40px;
-    color: #b9caff;
-    margin: 10px 0;
-}
-
-#rise-up-logo {
-    font-size: 15px;
-    position: absolute;
-    top: -7px;
-}
-
-#gamers-logo {
-    font-size: 33px;
-    top: 4px;
-    left: -2px;
-    position: absolute;
-    font-weight: 600;
-}
-
-#nav-wrapper {
-    margin: 0 30px;
-    display: flex;
-}
-
-#nav-wrapper a {
-    color: #131313;
-    text-decoration: none;
-    transition: 0.3s all ease;
-    margin: 0 20px;
-}
-
-#nav-wrapper a:hover {
-    color: #14b582;
-}
-/* HEADER */
-
-/* SIDE BAR */
-#side-bar-toggle {
-    padding: 12px;
-    margin: 0 0 -5px 10px;
-    cursor: pointer;
-    transition: 0.3s all ease;
-    position: absolute;
-    left: 116px;
-    top: -2px;
-}
-
-#side-bar-toggle:hover {
-    color: #14b582;
-}
-
-#side-nav-wrapper.active {
-    left: 0;
-    width: 150px;
-}
-
-#side-nav-wrapper:not(.active) #side-bar-toggle {
-    left: -16px;
-    top: -10px;
-    font-size: 23px;
-}
-
-#side-nav-wrapper:not(.active) .category, #side-nav-wrapper:not(.active) #rise-up-logo, #side-nav-wrapper:not(.active) #gamers-logo {
-    display: none;
-}
-
-#side-nav-wrapper:not(.active) .icon-wrapper  {
-    font-size: 28px;
-}
-
-#side-nav-wrapper:not(.active) .category-wrapper  {
-    text-align: center;
-}
-
-#side-nav-wrapper {
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 36px;
-    padding: 10px 20px;
-    height: 100vh;
-    transition: 0.3s width ease;
-    background: #4b4b4b;
-}
-
-#side-nav-wrapper a {
-    color: #131313;
-    text-decoration: none;
-    transition: 0.3s all ease;
-}
-
-#side-nav-wrapper a:hover {
-    color: #14b582;
-}
-/* SIDE BAR */
-
 /*CATEGORY*/
-.category-wrapper {
-    padding: 5px 0;
-    overflow: hidden;
-    white-space: nowrap;
-    cursor: pointer;
-    display: flex;
+.category:hover, #all-button:hover {
+    background: #eaeaea;
 }
 
-.icon-wrapper {
-    font-size: 20px;
-    margin: 0;
-    width: 30px;
+#all-button {
+    padding: 5px 20px 5px 20px;
+    cursor: pointer;
 }
 
 .category {
-    color: #ffffff;
+    color: #000;
     text-decoration: none;
     transition: 0.3s all ease;
     font-size: 20px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-left: 10px;
+    padding: 5px 20px 5px 30px;
 }
 /*CATEGORY*/
 
-/*SEARCH INPUT*/
-#search-wrapper {
-    background: #e2e2e2;
-    padding-right: 10px;
-    white-space: nowrap;
-    width: 300px;
-    margin-left: auto;
-}
-
-#search-input {
-    background-color: transparent;
-    width: 255px;
-    padding: 0 0 0 10px;
-}
-
-.search-icon {
-    padding: 12px;
-    cursor: pointer;
-}
-
-#submit {
-    display: none;
-}
-/*SEARCH INPUT*/
-
 /*BANNER*/
 #banner-wrapper {
-    text-align: center;
+    width: 1519px;
+    height: 400px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s ease;
     margin-left: auto;
 }
 
-#banner-wrapper img {
-    width: 1100px;
-    height: 400px;
+#banner-wrapper.slick-initialized {
+    visibility: visible;
+    opacity: 1;
 }
 
 
+#banner-wrapper img {
+    background: #ccc;
+    height: 200px;
+    margin: 10px 30px;
+    text-align: center;
+}
 /*BANNER*/
 
 /*BANNER SEARCH INPUT*/
@@ -204,13 +72,16 @@ body {
 /*BANNER SEARCH INPUT*/
 
 /* INVENTORY */
+#inventory-wrapper {
+    display: flex;
+}
+
 #inventory-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: calc(100vw - 200px);
-    padding: 0 100px;
+    max-width: 100%;
 }
 
 .item {
@@ -218,10 +89,16 @@ body {
     cursor: pointer;
     text-align: center;
     width: 200px;
+    position: relative;
 }
 
-.item:hover {
-    background: #d2d2d2;
+.details-container {
+    position: relative;
+}
+
+.item:hover .details-container {
+    background: #ffffff;
+    filter: brightness(.75);
 }
 
 .item img {
@@ -232,6 +109,7 @@ body {
 .item-name {
     display: block;
     text-align: center;
+    font-size: 14px;
 }
 
 .item-price {
@@ -240,4 +118,116 @@ body {
     font-weight: 600;
     padding-top: 5px;
 }
+
+.item:hover .save-button-wrapper {
+    opacity: 1;
+    transform:translateY(-100px) rotateY(180deg);
+}
+
+.save-button-wrapper {
+    position: absolute;
+    bottom: 10px;
+    left: 91px;
+    font-size: 30px;
+    color: #ffffff;
+    opacity: 0;
+    transition: all .75s ease;
+}
+
+.save-button:hover, .remove-button:hover {
+    color: yellow;
+}
+
+.save-button {
+    padding: 10px;
+}
+
+.remove-button {
+    color: #e9e670;
+    padding: 10px;
+    display: none;
+}
+
+.saved .save-button {
+    display: none;
+}
+
+.saved .remove-button {
+    display: inline-block;
+}
+
+.save-icon {
+    position: absolute;
+    right: 5px;
+    top: 7px;
+    color: #f78787;
+    display: none;
+}
+
+.saved .save-icon {
+    display: block;
+}
 /* INVENTORY */
+
+/* ITEM POPUP */
+#item-wrapper-popup {
+    background: white;
+    height: 90%;
+    min-height: 600px;
+    min-width: 500px;
+    width: 90%;
+    margin: 25px auto;
+}
+
+#item-wrapper-popup h2 {
+    margin: 30px 10px;
+    font-size: 18px;
+    width: 500px;
+}
+
+table {
+    margin: 0 auto;
+    width: 80%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+tbody {
+    margin: 25px auto 0 auto;
+    width: 80%;
+    text-align: left;
+    border-collapse: collapse;
+    border: 1px solid #dcdcdc;
+}
+
+tr {
+    height: 50px;
+    cursor: pointer;
+}
+
+tbody tr:hover {
+    background: #f9f9f9;
+}
+
+#top-section-wrapper {
+    padding: 15px 20px;
+    display: flex;
+}
+
+.favorite-button {
+    background: transparent;
+    padding: 10px 50px;
+    border-radius: 3px;
+    margin: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#favorite-button {
+    border: 2px solid #27b727;
+}
+
+#unfavorite-button {
+    border: 2px solid red;
+}
+/* ITEM POPUP */
