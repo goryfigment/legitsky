@@ -15,157 +15,533 @@
     "items": [
       {
         "id": 1,
-        "name": "Nintendo Switch - 32GB",
+        "name": "Nintendo Switch- 32GB",
         "category": "Console",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNintendo-Switch-32GB-Gray-Console-with-Neon-Red-Neon-Blue-Joy-Con%2F264105667290%3Fepid%3D23024812516%26hash%3Ditem3d7decaada%3Ag%3AhH0AAOSwJd1b49Uw%3Ark%3A17%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
-        "price": "285.00",
-        "affiliate": "Ebay",
-        "picture": "nintendo-switch-32gb.png"
+        "picture": "nintendo-switch-32gb.png",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "Used - Manufacturer Refurbished",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNintendo-Switch-32GB-Console-with-Neon-Blue-and-Red-Controllers%2F401500663380%3Fhash%3Ditem5d7b4dee54%3Ag%3ALv4AAOSwhZdamBWa%3Ark%3A2%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "287.99",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNintendo-Switch-32GB-Console-Red-and-Blue-Joy-Con-New-Free-Shipping%2F362534305484%3Fepid%3D23024812516%26hash%3Ditem5468ba7ecc%3Ag%3Ai9gAAOSwsGpcPkBN%3Ark%3A6%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "275.00",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNintendo-Switch-32GB-Console-with-Neon-Blue-and-Neon-Red-Joy-Con%2F302901819731%3Fepid%3D23024812516%26hash%3Ditem46865af953%3Ag%3A2vwAAOSw68hayhR5%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "289.99",
+            "shipping": "0.00"
+          }
+        ]
       },
       {
         "id": 2,
-        "name": "Nintendo Switch Console + 2 Games",
+        "name": "Nintendo Switch Console + 2 Game",
         "category": "Console",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNintendo-Switch-with-Neon-Blue-and-Neon-Red-Joy-Con-2-GAMES%2F292870732415%3F_trkparms%3Daid%253D555018%2526algo%253DPL.SIM%2526ao%253D1%2526asc%253D20131003132420%2526meid%253D235cb5be63bc49c280e776f240a965ec%2526pid%253D100005%2526rk%253D2%2526rkt%253D12%2526mehot%253Dpp%2526sd%253D302901819731%2526itm%253D292870732415%26_trksid%3Dp2047675.c100005.m1851&campid=5338332315&toolid=20008",
-        "price": "319.99",
-        "affiliate": "Ebay",
-        "picture": "Switch + 2 games.PNG"
+        "picture": "Switch + 2 games.PNG",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNintendo-Switch-with-Neon-Blue-and-Neon-Red-Joy-Con-2-GAMES%2F292870732415%3Fhash%3Ditem443074ba7f%3Ag%3AUgcAAOSwZnpcPfVJ%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "299.99",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used - Like New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNintendo-Switch-32GB-Console-with-Neon-Red-and-Neon-Blue-Joy-Con-And-2-Games%2F173741587107%3Fepid%3D23024812516%26hash%3Ditem2873ce3aa3%3Ag%3AMzQAAOSw8fRcPSS7%3Ark%3A3%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "400.00",
+            "shipping": "25.00"
+          }
+        ]
       },
       {
         "id": 3,
-        "name": "Nintendo Switch Mario Kart 8 Deluxe Console Bundle ",
+        "name": "Nintendo Switch Mario Kart 8 Deluxe Console Bundle",
         "category": "Console",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNEW-Nintendo-Switch-Mario-Kart-8-Deluxe-Gaming-Console-Bundle-w-Neon-Joy-Cons%2F303017743340%3F_trkparms%3Daid%253D555018%2526algo%253DPL.SIM%2526ao%253D1%2526asc%253D20131003132420%2526meid%253D50f7241d8cc14c3ea403e5aa694c92c8%2526pid%253D100005%2526rk%253D3%2526rkt%253D12%2526sd%253D192779376955%2526itm%253D303017743340%26_trksid%3Dp2047675.c100005.m1851&campid=5338332315&toolid=20008",
-        "price": "399.99",
-        "affiliate": "Ebay",
-        "picture": "NS-mario-kart-bundle.PNG"
+        "picture": "NS-mario-kart-bundle.PNG",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNintendo-Switch-Mario-Kart-8-Deluxe-Bundle-Console-Neon-Blue-Red-Joy-Con%2F302984563243%3Fhash%3Ditem468b498a2b%3Ag%3ANL8AAOSwlINcB6lz%3Ark%3A16%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "369.95",
+            "shipping": "7.25"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNintendo-switch-console-mario-kart-8-deluxe-bundle-NIB-USA-seller-FREE-SHIPPING%2F173724715597%3Fhash%3Ditem2872ccca4d%3Ag%3AJr0AAOSwHjtcBkvr%3Ark%3A6%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "369.59",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNEW-Nintendo-Switch-Mario-Kart-8-Deluxe-Console-Bundle-Red-Blue-Joy-Con-FastShip%2F292876795112%3Fepid%3D23024812516%26hash%3Ditem4430d13ce8%3Ag%3A09EAAOSwa3lb-xBz%3Ark%3A2%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "378.85",
+            "shipping": "0.00"
+          }
+        ]
       },
       {
         "id": 4,
         "name": "Nintendo Switch Super Smash Bros Ultimate Limited Edition Console",
         "category": "Console",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNintendo-Switch-Super-Smash-Bros-Ultimate-Limited-Edition-Console%2F264083160400%3Fhash%3Ditem3d7c953d50%3Ag%3A6YMAAOSwKtlb~XtF%3Ark%3A5%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "480.00",
-        "affiliate": "Ebay",
-        "picture": "NS-super-smash-bros-ultimate-console.PNG"
+        "picture": "NS-super-smash-bros-ultimate-console.PNG",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNEW-Nintendo-Switch-Mario-Kart-8-Deluxe-Gaming-Console-Bundle-w-Neon-Joy-Cons%2F303017743340%3F_trkparms%3Daid%253D555018%2526algo%253DPL.SIM%2526ao%253D1%2526asc%253D20131003132420%2526meid%253D50f7241d8cc14c3ea403e5aa694c92c8%2526pid%253D100005%2526rk%253D3%2526rkt%253D12%2526sd%253D192779376955%2526itm%253D303017743340%26_trksid%3Dp2047675.c100005.m1851&campid=5338332315&toolid=20008",
+            "price": "485.00",
+            "shipping": "24.06"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNintendo-Switch-Super-Smash-Bros-Ultimate-Limited-Edition-Console%2F223316889971%3Fhash%3Ditem33feb95173%3Ag%3A9~cAAOSwezRcCpoK%3Ark%3A2%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "449.99",
+            "shipping": "13.65"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNintendo-Switch-Super-Smash-Bros-Ultimate-Limited-Edition-Console%2F183624280834%3Fhash%3Ditem2ac0dc2b02%3Ag%3AtV0AAOSwHF1cMq2z%3Ark%3A10%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "460.00",
+            "shipping": "18.70"
+          }
+        ]
       },
       {
         "id": 5,
         "name": "Nintendo Switch Pokemon Let's Go Pikachu Limited Edition Console",
         "category": "Console",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNintendo-Switch-Pokemon-Lets-Go-Pikachu-Limited-Edition-Console%2F292893728877%3Fepid%3D20025867439%26hash%3Ditem4431d3a06d%3Ag%3AU5IAAOSwzFhcFm1f%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "515.00",
-        "affiliate": "Ebay",
-        "picture": "NS-pokemon-pikachu-console.PNG"
+        "picture": "NS-pokemon-pikachu-console.PNG",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNintendo-Switch-Pikachu-Eevee-Edition-with-Pokemon-Lets-Go-Pikachu-Bundle-%2F223294453491%3F_trksid%3Dp2349526.m4383.l4275.c1%23viTabs_0&campid=5338332315&toolid=20008",
+            "price": "520.00",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FPokemon-Lets-Go-Pikachu-Poke-Ball-Plus-Nintendo-Switch-Pikachu-Console%2F192724576983%3F_trkparms%3Daid%253D555018%2526algo%253DPL.SIM%2526ao%253D1%2526asc%253D20131003132420%2526meid%253D2794a70e1a754a019d37caf2ad077e71%2526pid%253D100005%2526rk%253D1%2526rkt%253D12%2526mehot%253Dlo%2526sd%253D223294453491%2526itm%253D192724576983%26_trksid%3Dp2047675.c100005.m1851&campid=5338332315&toolid=20008",
+            "price": "499.94",
+            "shipping": "18.46"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNintendo-Switch-Pikachu-Eevee-Edition-with-Pokemon-Lets-Go-Pikachu-Bundle%2F163396425174%3Fepid%3D20025867439%26hash%3Ditem260b2f95d6%3Ag%3Arj4AAOSw~4Bb-wrv%3Asc%3AUSPSPriorityMailLargeFlatRateBox!85353!US!-1%3Ark%3A4%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "534.80",
+            "shipping": "0.00"
+          }
+        ]
       },
       {
         "id": 6,
         "name": "Nintendo Switch Pokemon Let's Go Eevee Limited Edition Console",
         "category": "Console",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FPokemon-Lets-Go-Eevee-Poke-Ball-Plus-Nintendo-Switch-Eevee-Console%2F153317587362%3Fhash%3Ditem23b270b9a2%3Ark%3A4%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "539.83",
-        "affiliate": "Ebay",
-        "picture": "NS-pokemon-eevee-console.PNG"
+        "picture": "NS-pokemon-eevee-console.PNG",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FPokemon-Lets-Go-Eevee-Nintendo-Switch-Console-Bundle-BRAND-NEW-NEVER-OPENED%2F163487757545%3Fhash%3Ditem2610a134e9%3Ag%3Ap0cAAOSwL-1cPV6N%3Ark%3A6%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "530.00",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNEW-Nintendo-Switch-Pikachu-Eevee-Edition-with-Pokemon-Lets-go-Eevee-Bundle%2F163413500692%3Fepid%3D26025866136%26hash%3Ditem260c342314%3Ag%3AUw0AAOSwVIBb-xvo%3Ark%3A6%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "538.88",
+            "shipping": "0.00"
+          }
+        ]
       },
       {
         "id": 7,
         "name": "Super Smash Bros Ultimate Special Edition",
         "category": "Video Game",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSuper-Smash-Bros-Ultimate-Special-Edition-Nintendo-Switch%2F123552698201%3Fepid%3D24025221394%26hash%3Ditem1cc4508f59%3Ag%3AoPwAAOSwPVFcGbIq%3Ark%3A20%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
-        "price": "175.00",
-        "affiliate": "Ebay",
-        "picture": "super smash bros ultimate special edition.PNG"
+        "picture": "super smash bros ultimate special edition.PNG",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSuper-Smash-Bros-Ultimate-Special-Edition-Nintendo-Switch%2F123552698201%3Fepid%3D24025221394%26hash%3Ditem1cc4508f59%3Ag%3AoPwAAOSwPVFcGbIq%3Ark%3A20%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "170.00",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used - Very Good",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSuper-Smash-Bros-Ultimate-Special-Edition-Nintendo-Switch%2F192789065304%3Fepid%3D24025221394%26hash%3Ditem2ce31fae58%3Ag%3AhDsAAOSw5wJcOoZ0%3Ark%3A20%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "159.95",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSuper-Smash-Bros-Ultimate-Special-Edition-Nintendo-Switch-READ-DESCRIPTION%2F254067128115%3Fepid%3D24025221394%26hash%3Ditem3b2794b733%3Ag%3A~S0AAOSwHglcDxgH%3Ark%3A22%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "159.99",
+            "shipping": "0.00"
+          }
+        ]
       },
       {
         "id": 8,
         "name": "Super Smash Bros Ultimate Limited Edition Bundle",
         "category": "Video Game",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSuper-Smash-Bros-Ultimate-Limited-Edition-Nintendo-Switch%2F233044434712%3Fhash%3Ditem364287df18%3Ag%3Ae1sAAOSwZbVcEa05%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "169.99",
-        "affiliate": "Ebay",
-        "picture": "super-smash-bros-ultimate-Limited-edition-bundle.PNG"
+        "picture": "super-smash-bros-ultimate-Limited-edition-bundle.PNG",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSuper-Smash-Bros-Ultimate-Limited-Edition-Nintendo-Switch%2F233044434712%3Fhash%3Ditem364287df18%3Ag%3Ae1sAAOSwZbVcEa05%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "169.99",
+            "shipping": "12.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSuper-Smash-Bros-Ultimate-Limited-Edition-Nintendo-Switch-Europe-UK-EU-Version%2F163471218630%3Fhash%3Ditem260fa4d7c6%3Ag%3AnewAAOSwlINcMZJT%3Ark%3A16%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "149.98",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSuper-Smash-Bros-Ultimate-Limited-Edition-Nintendo-Switch-UK-EU-Brand-New%2F173737937305%3Fhash%3Ditem2873968999%3Ag%3A7tcAAOSwc6ZcOtbv%3Ark%3A26%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "135.00",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSuper-Smash-Bros-Ultimate-Limited-Edition-FREE-SHIPPING-IN-HAND-Nintendo-Switch%2F123538239683%3Fhash%3Ditem1cc373f0c3%3Ag%3A5noAAOSwTxhcDy73%3Ark%3A21%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "139.95",
+            "shipping": "0.00"
+          }
+        ]
       },
       {
         "id": 9,
-        "name": "Nintendo Switch Super Smash Bros Ultimate Pro Controller",
-        "category": "Accessory",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNintendo-Super-Smash-Bros-Ultimate-Edition-Pro-Controller-Switch%2F233031081582%3Fhash%3Ditem3641bc1e6e%3Ag%3A11gAAOSwu9JcBOxY%3Asc%3AUSPSFirstClass!85353!US!-1%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "81.00",
-        "affiliate": "Ebay",
-        "picture": "super-smash-bros-ultimate-pro-controller.PNG"
+        "name": "Mario Kart 8 Deluxe",
+        "category": "Video Game",
+        "picture": "Mario Kart 8.PNG",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMario-Kart-8-Deluxe-Nintendo-Switch%2F323619735705%3Fepid%3D237216403%26hash%3Ditem4b593d4899%3Ag%3AmsgAAOSwfBFblpsK%3Ark%3A6%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "59.99",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMario-Kart-8-Deluxe-Nintendo-Switch%2F162926833321%3Fepid%3D237216403%26hash%3Ditem25ef322ea9%3Ag%3AjTAAAOSwSypZAJfm%3Ark%3A8%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "52.99",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMario-Kart-8-Deluxe-Nintendo-Switch-2017%2F233093974477%3Fepid%3D237216403%26hash%3Ditem36457bc9cd%3Ag%3AlcEAAOSw5cZcPJBw%3Ark%3A4%3Apf%3A0%26LH_ItemCondition%3D1000%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "55.00",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used - Like New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMario-Kart-8-Deluxe-USED%2F323645466328%3Fepid%3D237216403%26hash%3Ditem4b5ac5e6d8%3Ag%3AjIsAAOSwp3dcNS1~%3Ark%3A9%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "54.00",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used - Good",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNintendo-Mario-Kart-8-Deluxe-Nintendo-Switch-Game-Only-6051-SM44%2F222881000098%3Fepid%3D237216403%26hash%3Ditem33e4be2aa2%3Ag%3Ad7QAAOSwg5VbUfD6%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "48.99",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used - Very Good",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMario-Kart-8-Deluxe-Nintendo-Switch-1-Authentic-Game-Only-Great-Price%2F323649929221%3Fepid%3D237216403%26hash%3Ditem4b5b0a0005%3Ag%3AyrEAAOSwqztcPVdZ%3Ark%3A4%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "46.85",
+            "shipping": "3.99"
+          }
+        ]
       },
       {
         "id": 10,
-        "name": "Mario Kart 8 Deluxe",
+        "name": "Super Mario Odyssey",
         "category": "Video Game",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMario-Kart-8-Deluxe-Nintendo-Switch%2F323619735705%3Fepid%3D237216403%26hash%3Ditem4b593d4899%3Ag%3AmsgAAOSwfBFblpsK%3Ark%3A6%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "59.99",
-        "affiliate": "Ebay",
-        "picture": "Mario Kart 8.PNG"
+        "picture": "Mario Odyssey.png",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMario-Kart-8-Deluxe-Nintendo-Switch%2F323619735705%3Fepid%3D237216403%26hash%3Ditem4b593d4899%3Ag%3AmsgAAOSwfBFblpsK%3Ark%3A6%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "53.99",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSuper-Mario-Odyssey-Nintendo-Switch-2017-BRAND-NEW-FREE-SHIP-FAST%2F254053530311%3Fepid%3D238258311%26hash%3Ditem3b26c53ac7%3Ag%3AXooAAOSw-yJcL8mH%3Ark%3A5%3Apf%3A0%26LH_ItemCondition%3D1000%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "51.94",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used - Like New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2Fsuper-mario-odyssey-for-nintendo-switch-work-great%2F153340076286%3Fhash%3Ditem23b3c7e0fe%3Ag%3AdSoAAOSwiJZcPQoU%3Asc%3AUSPSFirstClass!85374!US!-1%3Ark%3A3%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "45.85",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used - Acceptable",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSuper-Mario-Odyssey-Nintendo-Switch-2017-TESTED-WORKING-CARTRIDGE-ONLY%2F163480259498%3Fepid%3D238258311%26hash%3Ditem26102ecbaa%3Ag%3AkDAAAOSwAThcN2WN%3Ark%3A4%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "46.99",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used - Good",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSuper-Mario-Odyssey-Nintendo-Switch-2017-Tested-Free-Shipping%2F273648117700%3Fepid%3D238258311%26hash%3Ditem3fb6b2e7c4%3Ag%3Ac1kAAOSwgQdbxPWb%3Ark%3A5%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "47.00",
+            "shipping": "0.00"
+          }
+        ]
       },
       {
         "id": 11,
-        "name": "Super Mario Odyssey",
+        "name": "The Legend of Zelda: Breath of the Wild Starter Pack",
         "category": "Video Game",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSuper-Mario-Odyssey-Nintendo-Switch-affiliate-New-Retail-Pack%2F192532033468%3Fepid%3D238258311%26hash%3Ditem2cd3cdafbc%3Ag%3Aa~cAAOSw--xbGE6b%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "53.99",
-        "affiliate": "Ebay",
-        "picture": "Mario Odyssey.png"
+        "picture": "Zelda-breath-of-the-wild.jpg",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FThe-Legend-of-Zelda-Breath-of-the-Wild-Starter-Pack-Nintendo-Switch%2F192672786064%3Fhash%3Ditem2cdc316690%3Ag%3AHVoAAOSwSYdbrboH%3Ark%3A3%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "59.99",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FThe-Legend-of-Zelda-Breath-of-the-Wild-Starter-Pack-Switch-Brand-New%2F263963185651%3Fepid%3D26023771343%26hash%3Ditem3d756e91f3%3Ag%3A62sAAOSwlApbrmju%3Ark%3A2%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "64.11",
+            "shipping": "0.00"
+          }
+        ]
       },
       {
         "id": 12,
-        "name": "The Legend of Zelda: Breath of the Wild Starter Pack",
+        "name": "Dragon Ball Fighterz",
         "category": "Video Game",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FThe-Legend-of-Zelda-Breath-of-the-Wild-Starter-Pack-Nintendo-Switch%2F192672786064%3Fhash%3Ditem2cdc316690%3Ag%3AHVoAAOSwSYdbrboH%3Ark%3A3%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "59.99",
-        "affiliate": "Ebay",
-        "picture": "Zelda-breath-of-the-wild.jpg"
+        "picture": "Dragon-ball-fighterz-switch.jpg",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FDragon-Ball-Z-FighterZ-affiliate-New-Dragonball-Z-Fighters-Nintendo-Switch-2018%2F233075068748%3Fepid%3D7022382614%26hash%3Ditem36445b4f4c%3Ag%3ATPEAAOSwiE1b9QPS%3Ark%3A2%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "39.95",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNEW-Dragon-Ball-Fighterz-Nintendo-Switch-Factory-Sealed%2F323629045705%3Fhash%3Ditem4b59cb57c9%3Ag%3Ah5kAAOSwFAtcAFwX%3Ark%3A9%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "37.95",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FDRAGON-BALL-FighterZ-Nintendo-Switch%2F323647250688%3Fepid%3D7022382614%26hash%3Ditem4b5ae12100%3Ag%3AyJsAAOSw7fxbzT1K%3Ark%3A7%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "35.99",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used - Very Good",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FDragon-Ball-FighterZ-Switch-Factory-Refurbished%2F263985555887%3Fhash%3Ditem3d76c3e9af%3Ag%3AQzMAAOSwOYRbv6Lu%3Ark%3A3%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "29.79",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used - Good",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FDragon-Ball-FighterZ-for-Nintendo-Switch-CARTRIDGE-ONLY-No-Case%2F352568709391%3Fhash%3Ditem5216bb910f%3Ag%3A2-IAAOSwdRFcM5oM%3Ark%3A4%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "29.95",
+            "shipping": "0.00"
+          }
+        ]
       },
       {
         "id": 13,
-        "name": "Dragon Ball Fighterz",
+        "name": "Crash Bandicoot N Sane Trilogy",
         "category": "Video Game",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FDragon-Ball-Z-FighterZ-affiliate-New-Dragonball-Z-Fighters-Nintendo-Switch-2018%2F233075068748%3Fepid%3D7022382614%26hash%3Ditem36445b4f4c%3Ag%3ATPEAAOSwiE1b9QPS%3Ark%3A2%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "39.95",
-        "affiliate": "Ebay",
-        "picture": "Dragon-ball-fighterz-switch.jpg"
+        "picture": "crash-bandicot-trilogy.jpg",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FCrash-Bandicoot-N-Sane-Trilogy-W-Bonus-Levels-Nintendo-Switch-NEW%2F153301403572%3Fepid%3D245239710%26hash%3Ditem23b179c7b4%3Ag%3AClEAAOSwFWdbCz9-%3Ark%3A2%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "33.97",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FCrash-Bandicoot-N-Sane-Trilogy-Nintendo-Switch%2F202512735996%3Fepid%3D245239710%26hash%3Ditem2f26b31efc%3Ag%3AhwkAAOSwkHJbk0XD%3Ark%3A6%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "29.99",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used - Like New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FCrash-Bandicoot-N-Sane-Trilogy-Nintendo-Switch-2018%2F273657490828%3Fhash%3Ditem3fb741ed8c%3Ag%3AVMUAAOSwCXxcPWoi%3Ark%3A2%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "27.98",
+            "shipping": "0.00"
+          }
+        ]
       },
       {
         "id": 14,
-        "name": "Crash Bandicoot N Sane Trilogy",
+        "name": "Diablo 3",
         "category": "Video Game",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FCrash-Bandicoot-N-Sane-Trilogy-W-Bonus-Levels-Nintendo-Switch-NEW%2F153301403572%3Fepid%3D245239710%26hash%3Ditem23b179c7b4%3Ag%3AClEAAOSwFWdbCz9-%3Ark%3A2%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "34.00",
-        "affiliate": "Ebay",
-        "picture": "crash-bandicot-trilogy.jpg"
+        "picture": "Diablo3.jpg",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FDiablo-III-3-Eternal-Collection-Nintendo-Switch-Brand-New-Factory-Sealed%2F233095134269%3Fhash%3Ditem36458d7c3d%3Ag%3Ay-wAAOSwviBcPXza%3Ark%3A2%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "44.99",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FDiablo-3-Eternal-Collection-Nintendo-Switch-Free-Shipping%2F303031032563%3Fhash%3Ditem468e0e9af3%3Ag%3AfdwAAOSwukZcPlH5%3Asc%3AUSPSPriority!85374!US!-1%3Ark%3A5%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "45.95",
+            "shipping": "0.00"
+          }
+        ]
       },
       {
         "id": 15,
-        "name": "Diablo 3",
+        "name": "Splatoon 2",
         "category": "Video Game",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FDiablo-III-3-Eternal-Collection-Nintendo-Switch-2018-New-SEALED-Fast-Shipping%2F323634388509%3Fhash%3Ditem4b5a1cde1d%3Ag%3A6CwAAOSwdZBcLswZ%3Asc%3AUSPSFirstClass!85353!US!-1%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "34.00",
-        "affiliate": "Ebay",
-        "picture": "Diablo3.jpg"
+        "picture": "Splatoon2.jpg",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSplatoon-2-Nintendo-Switch-2017-affiliate-New%2F183073775567%3Fepid%3D237011110%26hash%3Ditem2aa00c1fcf%3Ag%3A28EAAOSwydpa53ay%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "51.79",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FBRAND-NEW-Splatoon-2-Nintendo-Switch-2017-FACTORY-SEALED%2F273658638614%3Fepid%3D237011110%26hash%3Ditem3fb7537116%3Ag%3AFCoAAOSwXINcPl9s%3Asc%3AUSPSFirstClass!85374!US!-1%3Ark%3A2%3Apf%3A0%26LH_ItemCondition%3D1000%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "47.99",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSplatoon-2-Nintendo-Switch-2017-NEW-Sealed%2F173738010604%3Fepid%3D237011110%26hash%3Ditem287397a7ec%3Ag%3AUtQAAOSwfBlcOqv5%3Ark%3A4%3Apf%3A0%26LH_ItemCondition%3D1000%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "46.00",
+            "shipping": "2.99"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used - Like New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSplatoon-2-Nintendo-Switch-2017-Game-Only-7805-SM72%2F153340934499%3Fepid%3D237011110%26hash%3Ditem23b3d4f963%3Ag%3AMh4AAOSwe2FZx5kf%3Ark%3A1%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "40.00",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used - Very Good",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSplatoon-2-Nintendo-Switch-Complete-Free-Ship%2F312428839794%3Fepid%3D237011110%26hash%3Ditem48be35c372%3Ag%3AMl8AAOSwPR9bu75o%3Ark%3A2%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "41.99",
+            "shipping": "0.00"
+          }
+        ]
       },
       {
         "id": 16,
-        "name": "Splatoon 2",
-        "category": "Video Game",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSplatoon-2-Nintendo-Switch-2017-affiliate-New%2F183073775567%3Fepid%3D237011110%26hash%3Ditem2aa00c1fcf%3Ag%3A28EAAOSwydpa53ay%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "51.79",
-        "affiliate": "Ebay",
-        "picture": "Splatoon2.jpg"
-      },
-      {
-        "id": 17,
         "name": "Super Mario Party",
         "category": "Video Game",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSuper-Mario-Party-Nintendo-Switch-Video-Game-Sealed-affiliate-New%2F192679279993%3Fhash%3Ditem2cdc947d79%3Ag%3A2agAAOSwa6Jbtlky%3Ark%3A2%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "54.89",
-        "affiliate": "Ebay",
-        "picture": "Super-mario-party.jpg"
-      }
+        "picture": "Super-mario-party.jpg",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSuper-Mario-Party-Nintendo-Switch-Video-Game-Sealed-affiliate-New%2F192679279993%3Fhash%3Ditem2cdc947d79%3Ag%3A2agAAOSwa6Jbtlky%3Ark%3A2%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "54.89",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNIBS-Super-Mario-Party-Nintendo-Nintendo-Switch-045496594305-Free-shipping%2F273642310240%3Fhash%3Ditem3fb65a4a60%3Ag%3AOLYAAOSw1qhcMfDJ%3Ark%3A2%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "51.00",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used - Like New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSuper-Mario-Party-Nintendo-Switch-Video-Game%2F153341112743%3Fhash%3Ditem23b3d7b1a7%3Ag%3AhNEAAOSwe~lcPlSj%3Ark%3A3%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "44.99",
+            "shipping": "3.75"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used - Like New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSuper-Mario-Party-Nintendo-Switch-Video-Game%2F153341112743%3Fhash%3Ditem23b3d7b1a7%3Ag%3AhNEAAOSwe~lcPlSj%3Ark%3A3%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "39.99",
+            "shipping": "3.75"
+          }
+        ]
+      },
     ]
   },
   "xbox": {
@@ -194,8 +570,8 @@
             "condition": "Used",
             "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMicrosoft-Xbox-One-500gb-Black-Console-Bundle-w-accessories-ie-controller-etc%2F321472795908%3Fhash%3Ditem4ad9459504%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
             "price": "179.99",
-            "shipping": "0.00",
-            
+            "shipping": "0.00"
+
           }
         ]
       },
@@ -211,8 +587,8 @@
             "condition": "Used",
             "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMicrosoft-Xbox-One-1-TB-Black-Console-without-Kinect%2F192009096273%3Fepid%3D218378777%26hash%3Ditem2cb4a24c51%3Ag%3ASbgAAOSwImRYEJBj%3Ark%3A27%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
             "price": "179.99",
-            "shipping": "0.00",
-            
+            "shipping": "0.00"
+
           }
         ]
       },
@@ -377,7 +753,7 @@
         "price": "249.99",
         "brand": "Ebay",
         "picture": "talesofvesperia-premiumbundle.PNG"
-      },
+      }
     ]
   }
 }
