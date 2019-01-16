@@ -200,9 +200,15 @@ $(document).ready(function() {
         var item = globals.banner['items'][parseInt($this.attr('data-index'))];
 
         var id = parseInt($this.attr('data-id'));
-        var index = savedList.indexOf(id);
 
-        item['saved'] = index != -1 ? false : true;
+        if (savedList !== undefined) {
+            alert(savedList)
+            var index = savedList.indexOf(id);
+            item['saved'] = index != -1 ? false : true;
+        } else {
+            item['saved'] = false;
+        }
+
         item['banner_name'] = globals.banner_name;
 
         $overlay.append(itemPopup(item));

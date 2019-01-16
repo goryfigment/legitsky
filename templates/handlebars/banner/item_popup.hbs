@@ -3,7 +3,6 @@
         <img src="{{concat '/templates/bundle/assets/banner/' banner_name '/' picture}}"/>
         <div class="item-details-wrapper">
             <h2>{{name}}</h2>
-            <div class="item-description">{{description}}</div>
         </div>
         <div class="right-section">
             <button class="favorite-button" id="{{#if saved}}favorite{{else}}unfavorite{{/if}}-button" data-id="{{id}}">{{#if saved}}Favorite{{else}}Undo Favorite{{/if}}</button>

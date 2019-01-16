@@ -324,6 +324,10 @@ table img {
     display: flex;
 }
 
+#top-section-wrapper img {
+    max-height: 180px;
+}
+
 .favorite-button {
     background: transparent;
     padding: 10px 50px;

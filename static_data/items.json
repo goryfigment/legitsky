@@ -2,14 +2,10 @@
   "nintendo-switch": {
     "category": [
       {
-        "name": "Console",
-        "icon": "fab fa-nintendo-switch",
-        "color": "#ff6666"
+        "name": "Console"
       },
       {
-        "name": "Video Game",
-        "icon": "fas fa-gamepad",
-        "color": "#000000"
+        "name": "Video Game"
       }
     ],
     "items": [
@@ -547,14 +543,10 @@
   "xbox": {
     "category": [
       {
-        "name": "Console",
-        "icon": "fab fa-xbox",
-        "color": "#0ad10a"
+        "name": "Console"
       },
       {
-        "name": "Video Game",
-        "icon": "fas fa-gamepad",
-        "color": "#000000"
+        "name": "Video Game"
       }
     ],
     "items": [
