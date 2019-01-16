@@ -194,21 +194,24 @@ $(document).ready(function() {
         var $overlay = $('#overlay');
         $overlay.addClass('active');
 
-        var savedData = JSON.parse(localStorage.getItem('saved'));
+        var savedData = localStorage.getItem('saved');
+        var savedList = [];
 
-        var savedList = savedData[globals.banner_name];
-        var item = globals.banner['items'][parseInt($this.attr('data-index'))];
-
-        var id = parseInt($this.attr('data-id'));
-
-        if (savedList !== undefined) {
-            alert(savedList)
-            var index = savedList.indexOf(id);
-            item['saved'] = index != -1 ? false : true;
-        } else {
-            item['saved'] = false;
+        if (savedData !== null) {
+            savedData = JSON.parse(savedData);
         }
 
+        if(savedData.hasOwnProperty(globals.banner_name)) {
+            savedList = savedData[globals.banner_name];
+        }
+
+        console.log(savedList)
+
+        var item = globals.banner['items'][parseInt($this.attr('data-index'))];
+        var id = parseInt($this.attr('data-id'));
+        var index = savedList.indexOf(id);
+
+        item['saved'] = index != -1 ? false : true;
         item['banner_name'] = globals.banner_name;
 
         $overlay.append(itemPopup(item));

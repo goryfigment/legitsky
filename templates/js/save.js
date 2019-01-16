@@ -83,6 +83,7 @@ $(document).ready(function() {
         var id = parseInt($this.attr('data-id'));
         var $numberSaved = $('#number-saved');
         var numberSaved = $numberSaved.text();
+        var bannerName = $this.attr('data-banner_name');
 
         var savedData = {};
 
@@ -90,11 +91,11 @@ $(document).ready(function() {
             savedData = JSON.parse(localStorage.getItem('saved'));
         }
 
-        if(!savedData.hasOwnProperty(globals.banner_name)) {
-            savedData[globals.banner_name] = [];
+        if(!savedData.hasOwnProperty(bannerName)) {
+            savedData[bannerName] = [];
         }
 
-        savedData[globals.banner_name].push(id);
+        savedData[bannerName].push(id);
         $('.item[data-id=' + String(id) + ']').addClass('saved');
         $this.attr("id","unfavorite-button");
         $this.text('Undo Favorite');
@@ -107,8 +108,9 @@ $(document).ready(function() {
         e.stopPropagation();
         var $this = $(this);
         var id = parseInt($this.attr('data-id'));
+        var bannerName = $this.attr('data-banner_name');
         var savedData = JSON.parse(localStorage.getItem('saved'));
-        var savedList = savedData[globals.banner_name];
+        var savedList = savedData[bannerName];
         var index = savedList.indexOf(id);
         var $numberSaved = $('#number-saved');
         var numberSaved = $numberSaved.text();
