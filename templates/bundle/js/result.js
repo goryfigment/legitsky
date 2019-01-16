@@ -10372,17 +10372,17 @@ return jQuery;
 
 /***/ }),
 
-/***/ 37:
+/***/ 38:
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(6);
-__webpack_require__(38);
 __webpack_require__(39);
+__webpack_require__(40);
 __webpack_require__(7);
 
 var $ = __webpack_require__(2);
-var helper = __webpack_require__(40);
-__webpack_require__(41);
+var helper = __webpack_require__(41);
+__webpack_require__(42);
 
 function getGoogleUrl() {
     $('#google-link').attr('href', 'https://www.google.com/search?tbm=shop&q=' + encodeURIComponent(globals.q).replace(/%20/g, "+"));
@@ -10575,13 +10575,6 @@ $(document).ready(function() {
 
 /***/ }),
 
-/***/ 38:
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
 /***/ 39:
 /***/ (function(module, exports) {
 
@@ -10590,6 +10583,13 @@ $(document).ready(function() {
 /***/ }),
 
 /***/ 40:
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ 41:
 /***/ (function(module, exports) {
 
 function numberCommaFormat(x) {
@@ -10726,7 +10726,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 41:
+/***/ 42:
 /***/ (function(module, exports, __webpack_require__) {
 
 var $ = __webpack_require__(2);
@@ -10793,4 +10793,4 @@ $(document).ready(function() {
 
 /***/ })
 
-},[37]);
+},[38]);

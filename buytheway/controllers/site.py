@@ -34,6 +34,9 @@ def site(request):
 
 
 def search(request):
+    print request.GET
+    print request.GET['q']
+
     return render(request, 'result.html', {'base_url': get_base_url(), 'q': request.GET['q']})
 
 

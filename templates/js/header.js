@@ -22,6 +22,16 @@ function init() {
     }
 }
 
+function submitForm(e) {
+    var $searchInput = $('#search-input');
+
+    if ($searchInput.val().trim().length > 0 && e.keyCode == 13) {
+        document.getElementById("search-value").setAttribute('value',$searchInput.val());
+        $('#submit').click();
+        $searchInput.prop('disabled', true);
+    }
+}
+
 $(document).ready(function() {
     init();
 
@@ -32,12 +42,11 @@ $(document).ready(function() {
     });
 
     $(document).on('keydown', '#search-input', function (e) {
-        var $searchInput =  $('#search-input');
+        submitForm(e);
+    });
 
-        if ($searchInput.val().trim().length > 0 && e.keyCode == 13) {
-            $('#submit').click();
-            $searchInput.prop('disabled', true);
-        }
+    $(document).on('click', '#search-icon-button', function (e) {
+        submitForm(e);
     });
 
     $('form').submit(function(e){

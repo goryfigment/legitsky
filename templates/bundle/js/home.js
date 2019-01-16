@@ -10572,25 +10572,6 @@ module.exports = __webpack_require__(11)['default'];
 
 /***/ }),
 /* 4 */
-/***/ (function(module, exports) {
-
-module.exports = function() {
-    var outStr = '';
-    for(var arg in arguments){
-        if(typeof arguments[arg]!='object'){
-            if(arguments[arg] == 'base_url') {
-                arguments[arg] = globals.base_url;
-            } else if(arguments[arg] == 'banner_name') {
-                arguments[arg] = globals.banner_name;
-            }
-            outStr += arguments[arg];
-        }
-    }
-    return outStr;
-};
-
-/***/ }),
-/* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10701,6 +10682,25 @@ exports.logger = _logger2['default'];
 
 
 /***/ }),
+/* 5 */
+/***/ (function(module, exports) {
+
+module.exports = function() {
+    var outStr = '';
+    for(var arg in arguments){
+        if(typeof arguments[arg]!='object'){
+            if(arguments[arg] == 'base_url') {
+                arguments[arg] = globals.base_url;
+            } else if(arguments[arg] == 'banner_name') {
+                arguments[arg] = globals.banner_name;
+            }
+            outStr += arguments[arg];
+        }
+    }
+    return outStr;
+};
+
+/***/ }),
 /* 6 */
 /***/ (function(module, exports) {
 
@@ -10718,40 +10718,16 @@ exports.logger = _logger2['default'];
 
 /***/ }),
 /* 8 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var Handlebars = __webpack_require__(3);
-function __default(obj) { return obj && (obj.__esModule ? obj["default"] : obj); }
-module.exports = (Handlebars["default"] || Handlebars).template({"1":function(container,depth0,helpers,partials,data) {
-    var alias1=container.lambda, alias2=container.escapeExpression;
-
-  return "    <a href=\"/banner/"
-    + alias2(alias1((depth0 != null ? depth0.url : depth0), depth0))
-    + "\"><img src="
-    + alias2(__default(__webpack_require__(4)).call(depth0 != null ? depth0 : (container.nullContext || {}),"/templates/bundle/assets/home/",(depth0 != null ? depth0.url : depth0),".png",{"name":"concat","hash":{},"data":data}))
-    + " title=\""
-    + alias2(alias1((depth0 != null ? depth0.name : depth0), depth0))
-    + "\" /><div class=\"banner-item\">"
-    + alias2(alias1((depth0 != null ? depth0.name : depth0), depth0))
-    + "</div></a>\r\n";
-},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-    var stack1;
-
-  return ((stack1 = helpers.each.call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? depth0.banners : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "");
-},"useData":true});
-
-/***/ }),
-/* 9 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 10 */
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var $ = __webpack_require__(2);
-var bannerTemplate = __webpack_require__(54);
+var bannerTemplate = __webpack_require__(10);
 
 function init() {
     var $categoryPopup = $('#category-popup');
@@ -10774,6 +10750,16 @@ function init() {
     }
 }
 
+function submitForm(e) {
+    var $searchInput = $('#search-input');
+
+    if ($searchInput.val().trim().length > 0 && e.keyCode == 13) {
+        document.getElementById("search-value").setAttribute('value',$searchInput.val());
+        $('#submit').click();
+        $searchInput.prop('disabled', true);
+    }
+}
+
 $(document).ready(function() {
     init();
 
@@ -10784,12 +10770,11 @@ $(document).ready(function() {
     });
 
     $(document).on('keydown', '#search-input', function (e) {
-        var $searchInput =  $('#search-input');
+        submitForm(e);
+    });
 
-        if ($searchInput.val().trim().length > 0 && e.keyCode == 13) {
-            $('#submit').click();
-            $searchInput.prop('disabled', true);
-        }
+    $(document).on('click', '#search-icon-button', function (e) {
+        submitForm(e);
     });
 
     $('form').submit(function(e){
@@ -10803,6 +10788,26 @@ $(document).ready(function() {
         $(this).closest('a').click();
     });
 });
+
+/***/ }),
+/* 10 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Handlebars = __webpack_require__(3);
+function __default(obj) { return obj && (obj.__esModule ? obj["default"] : obj); }
+module.exports = (Handlebars["default"] || Handlebars).template({"1":function(container,depth0,helpers,partials,data) {
+    var alias1=container.lambda, alias2=container.escapeExpression;
+
+  return "    <a href=\"/banner/"
+    + alias2(alias1((depth0 != null ? depth0.url : depth0), depth0))
+    + "\"><div class=\"banner-item\">"
+    + alias2(alias1((depth0 != null ? depth0.name : depth0), depth0))
+    + "</div></a>\r\n";
+},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1;
+
+  return ((stack1 = helpers.each.call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? depth0.banners : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "");
+},"useData":true});
 
 /***/ }),
 /* 11 */
@@ -10820,7 +10825,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'd
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
 
-var _handlebarsBase = __webpack_require__(5);
+var _handlebarsBase = __webpack_require__(4);
 
 var base = _interopRequireWildcard(_handlebarsBase);
 
@@ -11402,7 +11407,7 @@ var _exception = __webpack_require__(1);
 
 var _exception2 = _interopRequireDefault(_exception);
 
-var _base = __webpack_require__(5);
+var _base = __webpack_require__(4);
 
 function checkRevision(compilerInfo) {
   var compilerRevision = compilerInfo && compilerInfo[0] || 1,
@@ -11774,14 +11779,14 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
 __webpack_require__(6);
 __webpack_require__(36);
+__webpack_require__(8);
 __webpack_require__(9);
-__webpack_require__(10);
 __webpack_require__(7);
 __webpack_require__(27);
 __webpack_require__(28);
 __webpack_require__(29);
 
-var bannerTemplate = __webpack_require__(8);
+var bannerTemplate = __webpack_require__(37);
 
 var $ = __webpack_require__(2);
 
@@ -11839,24 +11844,7 @@ $(document).ready(function() {
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 37 */,
-/* 38 */,
-/* 39 */,
-/* 40 */,
-/* 41 */,
-/* 42 */,
-/* 43 */,
-/* 44 */,
-/* 45 */,
-/* 46 */,
-/* 47 */,
-/* 48 */,
-/* 49 */,
-/* 50 */,
-/* 51 */,
-/* 52 */,
-/* 53 */,
-/* 54 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Handlebars = __webpack_require__(3);
@@ -11866,7 +11854,11 @@ module.exports = (Handlebars["default"] || Handlebars).template({"1":function(co
 
   return "    <a href=\"/banner/"
     + alias2(alias1((depth0 != null ? depth0.url : depth0), depth0))
-    + "\"><div class=\"banner-item\">"
+    + "\"><img src="
+    + alias2(__default(__webpack_require__(5)).call(depth0 != null ? depth0 : (container.nullContext || {}),"/templates/bundle/assets/home/",(depth0 != null ? depth0.url : depth0),".png",{"name":"concat","hash":{},"data":data}))
+    + " title=\""
+    + alias2(alias1((depth0 != null ? depth0.name : depth0), depth0))
+    + "\" /><div class=\"banner-item\">"
     + alias2(alias1((depth0 != null ? depth0.name : depth0), depth0))
     + "</div></a>\r\n";
 },"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
