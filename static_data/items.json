@@ -648,101 +648,281 @@
       }
     ],
     "items": [
-      {
+       {
+        "id": 1,
         "name": "PS4 Original 500GB",
         "category": "Console",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSony-PlayStation-4-PS4-500-GB-Black-Console-w-accessories-controller-etc%2F321459436277%3Fepid%3D167317351%26hash%3Ditem4ad879baf5%3Ag%3AIYEAAOSwt4xaWQTm%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "254.99",
-        "brand": "Ebay",
-        "picture": "PS4-console.jpg"
+        "picture": "PS4-console.jpg",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "Used - Seller Refurbished",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSony-PlayStation-4-PS4-500-GB-Black-Console-w-accessories-controller-etc%2F321459436277%3Fepid%3D167317351%26hash%3Ditem4ad879baf5%3Ag%3AIYEAAOSwt4xaWQTm%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "249.99",
+            "shipping": "0.00"
+          }
+        ]
       },
       {
+        "id": 2,
         "name": "PS4 Original 500GB - Arkam Knight Bundle/No Box",
         "category": "Console",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FPS4-500GB-PlayStation-4-Console-Batman-Arkham-Knight-Bundle-Very-Good-7Z%2F152514888750%3Fhash%3Ditem238298842e%3Ark%3A5%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "294.75",
-        "brand": "Ebay",
-        "picture": "ps4-arkam-knight-bundle.jpg"
+        "picture": "ps4-arkam-knight-bundle.jpg",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "Used",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FPS4-500GB-PlayStation-4-Console-Batman-Arkham-Knight-Bundle-Very-Good-7Z%2F152514888750%3Fhash%3Ditem238298842e%3Ark%3A5%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "294.75",
+            "shipping": "0.00"
+          }
+        ]
       },
       {
+        "id": 3,
         "name": "PS4 Slim Console 500GB",
         "category": "Console",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FPlayStation-PS4-Slim-Console-500GB-Model-Video-Game-Systems-Very-Good%2F332914477054%3Fhash%3Ditem4d833fc7fe%3Ark%3A4%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "293.46",
-        "brand": "Ebay",
-        "picture": "ps4-slim-console.png"
+        "picture": "ps4-slim-console.png",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "Used",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FPlayStation-PS4-Slim-Console-500GB-Model-Video-Game-Systems-Very-Good%2F332914477054%3Fhash%3Ditem4d833fc7fe%3Ark%3A4%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "293.46",
+            "shipping": "0.00"
+          }
+        ]
       },
       {
+        "id": 4,
         "name": "PS4 Pro Console 1TB",
         "category": "Console",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSony-PlayStation-4-Pro-1TB-Black-Console%2F192722096984%3Fepid%3D231989806%26hash%3Ditem2cdf21d358%3Ark%3A16%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "369.99",
-        "brand": "Ebay",
-        "picture": "PS4-pro-console.jpg"
+        "picture": "PS4-pro-console.jpg",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "Used - Seller Refurbished",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSony-PlayStation-4-Pro-1TB-Black-Console%2F192722096984%3Fepid%3D231989806%26hash%3Ditem2cdf21d358%3Ark%3A16%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "369.99",
+            "shipping": "0.00"
+          }
+        ]
       },
       {
+        "id": 5,
         "name": "PS4 Pro Console 1TB",
         "category": "Console",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSony-PlayStation-4-PS4-Pro-1TB-Console%2F223320535879%3Fepid%3D237847184%26hash%3Ditem33fef0f347%3Ag%3Al4YAAOSw6X1cOFRq%3Ark%3A7%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "379.99",
-        "brand": "Ebay",
-        "picture": "PS4-pro-console.png"
+        "picture": "PS4-pro-console.jpg",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSony-PlayStation-4-PS4-Pro-1TB-Console-%2F223325958462%3F_trksid%3Dp2349526.m4383.l4275.c1%23viTabs_0&campid=5338332315&toolid=20008",
+            "price": "379.99",
+            "shipping": "0.00"
+          }
+        ]
       },
       {
+        "id": 6,
         "name": "Fallout 76",
         "category": "Video Game",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FFallout-76-PlayStation-4-PS4-Brand-New-Factory-Sealed%2F223269886399%3Fhash%3Ditem33fbec19bf%3Ag%3AV4MAAOSwEJ1cBizc%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "42.22",
-        "brand": "Ebay",
-        "picture": "fallout-76.png"
+        "picture": "fallout-76.png",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FFallout-76-PlayStation-4-PS4-Brand-New-Factory-Sealed%2F223269886399%3Fhash%3Ditem33fbec19bf%3Ag%3AV4MAAOSwEJ1cBizc%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "42.22",
+            "shipping": "0.00"
+          }
+        ]
       },
       {
+        "id": 7,
         "name": "Call of Duty Black Ops 4",
         "category": "Video Game",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FCall-of-Duty-Black-Ops-4-IIII-IV-Sony-PlayStation-4-PS4-Brand-New-Sealed%2F223202628126%3Fepid%3D245278605%26hash%3Ditem33f7e9d21e%3Ag%3Aqv4AAOSwlkFb0NDY%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "42.98",
-        "brand": "Ebay",
-        "picture": "Cod-black-ops-ps4.png"
+        "picture": "Cod-black-ops-ps4.png",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FCall-of-Duty-Black-Ops-4-IIII-IV-Sony-PlayStation-4-PS4-Brand-New-Sealed%2F223202628126%3Fepid%3D245278605%26hash%3Ditem33f7e9d21e%3Ag%3Aqv4AAOSwlkFb0NDY%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "42.98",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FCall-of-Duty-Black-Ops-4-PlayStation-4-Standard-Edition-Disc%2F303016853361%3Fepid%3D245278605%26hash%3Ditem468d363f71%3Ag%3ASV0AAOSwjfdcO7iZ%3Asc%3AShippingMethodStandard!92225!US!-1%3Ark%3A15%3Apf%3A0%26LH_ItemCondition%3D1000%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "32.98",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FCall-of-Duty-Black-Ops-4-PlayStation-4-Standard-Edition-Disc%2F163465229592%3Fepid%3D245278605%26hash%3Ditem260f497518%3Ag%3ABJcAAOSw-GNcO6aU%3Asc%3AShippingMethodStandard!92225!US!-1%3Ark%3A17%3Apf%3A0%26LH_ItemCondition%3D1000%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "33.00",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used - Like New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FCall-of-Duty-Black-Ops-4-IIII-Play-Station-4-PS4%2F264133691589%3Fhash%3Ditem3d7f9848c5%3Ag%3AsSUAAOSwFIRbxLli%3Ark%3A20%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "30.95",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used - Very Good",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FCall-of-Duty-Black-Ops-IIII-COD-4-PlayStation-4-2018-PS4-FREE-SHIPPING%2F323649212732%3Fepid%3D245278605%26hash%3Ditem4b5aff113c%3Ag%3AqCgAAOSw~wVcOFvC%3Ark%3A23%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "31.69",
+            "shipping": "0.00"
+          }
+        ]
       },
       {
+        "id": 8,
         "name": "Marvel's Spiderman",
         "category": "Video Game",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMarvel-s-Spider-Man-PlayStation-4-PS4-Game-Disc-Latest-2018-Version%2F382649497414%3Fepid%3D223403937%26hash%3Ditem5917aff746%3Ag%3AC94AAOSwAx9b~sB1%3Ark%3A7%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "36.99",
-        "brand": "Ebay",
-        "picture": "marvels-spiderman-ps4.PNG"
+        "picture": "marvels-spiderman-ps4.PNG",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMarvel-s-Spider-Man-PlayStation-4-PS4-Game-Disc-Latest-2018-Version%2F382649497414%3Fepid%3D223403937%26hash%3Ditem5917aff746%3Ag%3AC94AAOSwAx9b~sB1%3Ark%3A7%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "38.99",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMarvel-s-Spider-Man-PlayStation-4-Brand-New%2F183421434973%3Fepid%3D223403937%26hash%3Ditem2ab4c4fc5d%3Ag%3A3tsAAOSwJK9bkqxC%3Asc%3AUSPSFirstClass!92225!US!-1%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "45.99",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used - Very Good",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMarvels-Spider-Man-PS4-Factory-Refurbished%2F263959659955%3Fhash%3Ditem3d7538c5b3%3Ag%3A7dQAAOSw6-tbq-A4%3Ark%3A2%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "33.94",
+            "shipping": "0.00"
+          }
+        ]
       },
       {
+        "id": 8,
         "name": "Red Dead Redemption 2",
         "category": "Video Game",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FRed-Dead-Redemption-2-PS4-Factory-Refurbished%2F264040052623%3Fepid%3D15025898504%26hash%3Ditem3d7a03778f%3Ag%3AnasAAOSw-GNb7Gm2%3Ark%3A2%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "48.05",
-        "brand": "Ebay",
-        "picture": "Red-dead-redemption-2-ps4.PNG"
+        "picture": "Red-dead-redemption-2-ps4.PNG",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "Used - Very Good",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMarvel-s-Spider-Man-PlayStation-4-PS4-Game-Disc-Latest-2018-Version%2F382649497414%3Fepid%3D223403937%26hash%3Ditem5917aff746%3Ag%3AC94AAOSwAx9b~sB1%3Ark%3A7%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "38.44",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used - Very Good",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FRed-Dead-Redemption-2-II-PS4-Playstation-4-Discs-Only-Great-Condition%2F113550610063%3Fhash%3Ditem1a7024ce8f%3Ag%3AMtwAAOSwmFxcNxfb%3Ark%3A8%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "39.99",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FRed-Dead-Redemption-2-Sony-PlayStation-4-2018%2F143089573795%3Fhash%3Ditem2150cd9fa3%3Ag%3AJMQAAOSwRs5cJCiX%3Ark%3A4%3Apf%3A0%26LH_BIN%3D1%26LH_ItemCondition%3D1000&campid=5338332315&toolid=20008",
+            "price": "46.19",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FRed-Dead-Redemption-2-PlayStation-4%2F292893644796%3Fepid%3D728157803%26hash%3Ditem4431d257fc%3Ag%3Ae20AAOSwf1xcIO9S%3Ark%3A5%3Apf%3A0%26LH_BIN%3D1%26LH_ItemCondition%3D1000&campid=5338332315&toolid=20008",
+            "price": "48.00",
+            "shipping": "0.00"
+          }
+        ]
       },
       {
+        "id": 9,
         "name": "Assassin's Creed Odyssey",
         "category": "Video Game",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FAssassins-Creed-Odyssey-PlayStation-4-PS4-Standard-Edition-Bran-new-Sealed%2F143028858944%3Fepid%3D17021987225%26hash%3Ditem214d2f3040%3Ag%3AyvsAAOSwuCdb~Cwb%3Ark%3A3%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "36.75",
-        "brand": "Ebay",
-        "picture": "Assassins-creed-odyssey-ps4.PNG"
+        "picture": "Assassins-creed-odyssey-ps4.PNG",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FAssassins-Creed-Odyssey-PlayStation-4-PS4-Standard-Edition-Bran-new-Sealed%2F143028858944%3Fepid%3D17021987225%26hash%3Ditem214d2f3040%3Ag%3AyvsAAOSwuCdb~Cwb%3Ark%3A3%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "34.75",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FAssassins-Creed-Odyssey-PS4-NEW%2F163299701813%3Fhash%3Ditem26056bb435%3Ag%3AmSIAAOSwSBhbuRiX%3Ark%3A3%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "36.00",
+            "shipping": "0.00"
+          }
+        ]
       },
       {
+        "id": 10,
         "name": "Tales of Vesperia Definitive Edition Anniversary Bundle",
         "category": "Video Game",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FTales-of-Vesperia-Definitive-Edition-Anniversary-Bundle-PS4-playstation-4%2F153335890356%3Fhash%3Ditem23b38801b4%3Ag%3AKrEAAOSwhzhcOB8~%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "189.00",
-        "brand": "Ebay",
-        "picture": "talesofvesperia-anniversarybundle.png"
+        "picture": "talesofvesperia-anniversarybundle.png",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FTales-of-Vesperia-Definitive-Edition-Anniversary-Bundle-NEW-FACTORY-SEALED%2F173742074736%3Fhash%3Ditem2873d5ab70%3Ag%3Amj8AAOSw8zRcPaIo%3Ark%3A8%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "179.00",
+            "shipping": "12.99"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FTALES-OF-VESPERIA-DEFINITIVE-EDITION-ANNIVERSARY-BUNDLE-PS4%2F132917624342%3Fepid%3D2295059685%26hash%3Ditem1ef281fe16%3Ag%3A-tIAAOSwuZVcO4b0%3Ark%3A2%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "194.99",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FTales-of-Vesperia-Definitive-Edition-Anniversary-Bundle-PS4-Playstation-4-2019%2F333015497973%3Fepid%3D2295059685%26hash%3Ditem4d89453cf5%3Ag%3AWysAAOSw-elcPQh2%3Asc%3AUSPSPriority!92225!US!-1%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "199.90",
+            "shipping": "0.00"
+          }
+        ]
       },
       {
+        "id": 11,
         "name": "Tales of Vesperia Definitive Edition Premium Bundle",
         "category": "Video Game",
-        "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FTALES-OF-VESPERIA-DEFINITIVE-EDITION-PREMIUM-COLLECTORS-EU-PS4-PREORDER%2F303026841539%3Fhash%3Ditem468dcea7c3%3Ag%3AUxoAAOSwMhVcNu98%3Ark%3A29%3Apf%3A0&campid=5338332315&toolid=20008",
-        "price": "249.99",
-        "brand": "Ebay",
-        "picture": "talesofvesperia-premiumbundle.PNG"
+        "picture": "talesofvesperia-premiumbundle.png",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FTALES-OF-VESPERIA-DEFINITIVE-EDITION-PREMIUM-COLLECTORS-EU-PS4-PREORDER%2F303026841539%3Fhash%3Ditem468dcea7c3%3Ag%3AUxoAAOSwMhVcNu98%3Ark%3A29%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "249.99",
+            "shipping": "15.00"
+          }
+        ]
       }
     ]
   }
