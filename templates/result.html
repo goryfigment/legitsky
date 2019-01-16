@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>{{ q }}</title>
+    <title>Rise Up Gamers: {{ q }}</title>
     <link rel='shortcut icon' type='image/x-icon' href="{% static 'bundle/assets/riseupgamers/riseupgamers.ico' %}" />
     <script>
         var globals = {};
@@ -13,7 +13,7 @@
 </head>
 <body>
     <div id="top-section">
-        <a id="home-title" href="{{ base_url }}">Legitsky</a>
+        <a id="home-title" href="{{ base_url }}"><img src="{% static 'bundle/assets/riseupgamers/riseupgamers-logo.png' %}" /></a>
         <form id="search-wrapper" action="/search" method="get">
             <input id="search-input" name="q" value="{{ q }}" autocomplete="off" />
             <span class="search-icon"><i class="fas fa-search"></i></span>

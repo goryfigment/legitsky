@@ -5,6 +5,13 @@
     align-items: center;
 }
 
+#top-section img {
+    height: 78px;
+    position: absolute;
+    top: -2px;
+    left: 12px;
+}
+
 #home-title {
     margin-right: 10px;
     font-size: 31px;
