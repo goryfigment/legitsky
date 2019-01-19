@@ -2,16 +2,49 @@
   {
     "id": 1,
     "name": "Nintendo Switch",
-    "url": "nintendo-switch"
+    "url": "nintendo-switch",
+    "featured_banner": [
+      {
+        "background": "super-smash.gif"
+      },
+      {
+        "background": "pokemon.jpg"
+      },
+      {
+        "background": "mario-party.jpg"
+      }
+    ]
   },
   {
     "id": 2,
     "name": "Xbox",
-    "url": "xbox"
+    "url": "xbox",
+    "featured_banner": [
+      {
+        "background": "call-of-duty.png"
+      },
+      {
+        "background": "red-redemption.jpg"
+      },
+      {
+        "background": "rainbow-six.jpg"
+      }
+    ]
   },
   {
     "id": 3,
     "name": "Playstation",
-    "url": "playstation"
+    "url": "playstation",
+    "featured_banner": [
+      {
+        "background": "spider-man.jpg"
+      },
+      {
+        "background": "spyro.png"
+      },
+      {
+        "background": "ace-combat.jpg"
+      }
+    ]
   }
 ]

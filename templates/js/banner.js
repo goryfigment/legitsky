@@ -11,8 +11,19 @@ var $ = require('jquery');
 var items = require('./../handlebars/banner/items.hbs');
 var category = require('./../handlebars/banner/category.hbs');
 var itemPopup = require('./../handlebars/banner/item_popup.hbs');
+var featuredBanner = require('./../handlebars/banner/featured_banner.hbs');
 
 function init() {
+    var $bannerWrapper = $('#banner-wrapper');
+
+    for (var b = 0; b < globals.banners.length; b++) {
+        var currentBanner = globals.banners[b];
+        if (currentBanner['url'] == globals.banner_name) {
+            $bannerWrapper.append(featuredBanner(currentBanner));
+            break;
+        }
+    }
+
     var $inventoryContainer = $('#inventory-container');
     var itemData = globals.banner;
 
@@ -35,7 +46,7 @@ function init() {
     var $categoryContainer = $('#category-container');
     $categoryContainer.append(category(globals.banner));
 
-    $('#banner-wrapper').slick({
+    $bannerWrapper.slick({
         dots: true,
         infinite: true,
         speed: 1500,

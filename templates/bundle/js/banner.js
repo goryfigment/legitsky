@@ -11902,8 +11902,19 @@ var $ = __webpack_require__(3);
 var items = __webpack_require__(31);
 var category = __webpack_require__(33);
 var itemPopup = __webpack_require__(34);
+var featuredBanner = __webpack_require__(45);
 
 function init() {
+    var $bannerWrapper = $('#banner-wrapper');
+
+    for (var b = 0; b < globals.banners.length; b++) {
+        var currentBanner = globals.banners[b];
+        if (currentBanner['url'] == globals.banner_name) {
+            $bannerWrapper.append(featuredBanner(currentBanner));
+            break;
+        }
+    }
+
     var $inventoryContainer = $('#inventory-container');
     var itemData = globals.banner;
 
@@ -11926,7 +11937,7 @@ function init() {
     var $categoryContainer = $('#category-container');
     $categoryContainer.append(category(globals.banner));
 
-    $('#banner-wrapper').slick({
+    $bannerWrapper.slick({
         dots: true,
         infinite: true,
         speed: 1500,
@@ -12116,6 +12127,22 @@ $(document).ready(function() {
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 45 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Handlebars = __webpack_require__(2);
+function __default(obj) { return obj && (obj.__esModule ? obj["default"] : obj); }
+module.exports = (Handlebars["default"] || Handlebars).template({"1":function(container,depth0,helpers,partials,data) {
+    return "    <img style=\"width: 1400px;height: 400px;\" src=\""
+    + container.escapeExpression(__default(__webpack_require__(5)).call(depth0 != null ? depth0 : (container.nullContext || {}),"/templates/bundle/assets/featured_banner/","banner_name","/",(depth0 != null ? depth0.background : depth0),{"name":"concat","hash":{},"data":data}))
+    + "\" />\r\n";
+},"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
+    var stack1;
+
+  return ((stack1 = helpers.each.call(depth0 != null ? depth0 : (container.nullContext || {}),(depth0 != null ? depth0.featured_banner : depth0),{"name":"each","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "");
+},"useData":true});
 
 /***/ })
 ],[43]);

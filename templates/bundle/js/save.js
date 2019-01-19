@@ -12004,11 +12004,12 @@ module.exports = (Handlebars["default"] || Handlebars).template({"1":function(co
 /* 42 */,
 /* 43 */,
 /* 44 */,
-/* 45 */
+/* 45 */,
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(6);
-__webpack_require__(46);
+__webpack_require__(47);
 __webpack_require__(7);
 __webpack_require__(8);
 __webpack_require__(26);
@@ -12017,7 +12018,7 @@ var $ = __webpack_require__(3);
 var items = __webpack_require__(31);
 var category = __webpack_require__(33);
 
-var saveTemplate = __webpack_require__(47);
+var saveTemplate = __webpack_require__(48);
 var itemPopup = __webpack_require__(34);
 
 function init() {
@@ -12159,13 +12160,13 @@ $(document).ready(function() {
 });
 
 /***/ }),
-/* 46 */
+/* 47 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 47 */
+/* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Handlebars = __webpack_require__(2);
@@ -12184,11 +12185,11 @@ module.exports = (Handlebars["default"] || Handlebars).template({"1":function(co
     + "\"/></td>\r\n            <td>"
     + alias2(alias1((depth0 != null ? depth0.name : depth0), depth0))
     + "</td>\r\n            <td>"
-    + alias2(__default(__webpack_require__(48)).call(alias3,(depth0 != null ? depth0.lowest_price : depth0),{"name":"numCommaFormat","hash":{},"data":data}))
+    + alias2(__default(__webpack_require__(49)).call(alias3,(depth0 != null ? depth0.lowest_price : depth0),{"name":"numCommaFormat","hash":{},"data":data}))
     + "</td>\r\n            <td><button class=\"offer-button\">"
     + alias2(alias1((depth0 != null ? depth0.offer : depth0), depth0))
     + " Offer"
-    + ((stack1 = __default(__webpack_require__(49)).call(alias3,(depth0 != null ? depth0.offer : depth0),">",1,{"name":"ifCond","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = __default(__webpack_require__(50)).call(alias3,(depth0 != null ? depth0.offer : depth0),">",1,{"name":"ifCond","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "</button></td>\r\n        </tr>\r\n";
 },"2":function(container,depth0,helpers,partials,data) {
     return "s";
@@ -12201,7 +12202,7 @@ module.exports = (Handlebars["default"] || Handlebars).template({"1":function(co
 },"useData":true});
 
 /***/ }),
-/* 48 */
+/* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var helper = __webpack_require__(30);
@@ -12210,7 +12211,7 @@ module.exports = function(x) {
 };
 
 /***/ }),
-/* 49 */
+/* 50 */
 /***/ (function(module, exports) {
 
 module.exports = function(v1, operator, v2, options) {
@@ -12239,4 +12240,4 @@ module.exports = function(v1, operator, v2, options) {
 };
 
 /***/ })
-],[45]);
+],[46]);
