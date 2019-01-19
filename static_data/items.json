@@ -634,7 +634,7 @@
 
     ]
   },
-    "PS4": {
+    "playstation": {
     "category": [
       {
         "name": "Console",
@@ -658,8 +658,29 @@
           {
             "seller": "Ebay",
             "condition": "Used - Seller Refurbished",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSony-PlayStation-4-PS4-500-GB-Jet-Black-Console-ONLY%2F122437613723%3Fhash%3Ditem1c81d9b89b%3Ag%3Ad~oAAOSw03lY6bEh%3Ark%3A3%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "199.99",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used - Seller Refurbished",
             "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSony-PlayStation-4-PS4-500-GB-Black-Console-w-accessories-controller-etc%2F321459436277%3Fepid%3D167317351%26hash%3Ditem4ad879baf5%3Ag%3AIYEAAOSwt4xaWQTm%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
-            "price": "249.99",
+            "price": "239.99",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used - Seller Refurbished",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSony-Playstation-4-PS4-Model-CUH-1115A-500GB-Black-Game-Console-Working-Great%2F303034012560%3Fepid%3D167317351%26hash%3Ditem468e3c1390%3Ag%3A96gAAOSwNDhbwNsJ%3Asc%3AUSPSFirstClass!92225!US!-1%3Ark%3A3%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "248.00",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used - Seller Refurbished",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSony-Playstation-4-500GB-Jet-Black-Video-Game-Console-Gaming-System-PS4-Bundle%2F332927743830%3Fhash%3Ditem4d840a3756%3Ag%3AQcoAAOSw-4JcJNoS%3Ark%3A10%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "260.95",
             "shipping": "0.00"
           }
         ]
@@ -675,7 +696,28 @@
             "seller": "Ebay",
             "condition": "Used",
             "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FPS4-500GB-PlayStation-4-Console-Batman-Arkham-Knight-Bundle-Very-Good-7Z%2F152514888750%3Fhash%3Ditem238298842e%3Ark%3A5%3Apf%3A0&campid=5338332315&toolid=20008",
-            "price": "294.75",
+            "price": "291.19",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FPlayStation-4-500GB-Console-Batman-Arkham-Knight-Bundle-Limited-Edition%2F183632222442%3Fhash%3Ditem2ac15558ea%253Ag%253AqI8AAOSwOWdcFXPZ%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "299.99",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FLimited-Edition-500gb-Steel-Grey-Sony-PlayStation-4-Batman-Arkham-Knight-bundle%2F163398750002%3Fepid%3D215876420%26hash%3Ditem260b530f32%253Ag%253AEkoAAOSw-sVb%257EHUd%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "365.00",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSony-PlayStation-4-Batman-Arkham-Knight-Limited-Edition-Bundle-500GB-Steel-Gre%2F292858004309%3Fepid%3D215876420%26hash%3Ditem442fb28355%253Ag%253AreYAAOSw8kVcDSfn%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "442.99",
             "shipping": "0.00"
           }
         ]
@@ -692,6 +734,20 @@
             "condition": "Used",
             "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FPlayStation-PS4-Slim-Console-500GB-Model-Video-Game-Systems-Very-Good%2F332914477054%3Fhash%3Ditem4d833fc7fe%3Ark%3A4%3Apf%3A0&campid=5338332315&toolid=20008",
             "price": "293.46",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSony-PlayStation-4-Slim-1TB-Jet-Black-Console-Brand-New%2F183452380451%3Fepid%3D236958512%26hash%3Ditem2ab69d2d23%3Ag%3AxXQAAOSwPCZbqXQ1%3Ark%3A6%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "298.99",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FPlayStation-4-Slim-1TB-PS4-Game-Console-w-Controller-Black-US-Warranty%2F141326306007%3Fepid%3D10007690601%26hash%3Ditem20e7b44ad7%3Ag%3ACFYAAOSwMVdYIlKk%3Ark%3A2%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "307.99",
             "shipping": "0.00"
           }
         ]
