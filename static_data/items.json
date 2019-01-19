@@ -624,9 +624,23 @@
         [
           {
             "seller": "Ebay",
-            "condition": "Used",
+            "condition": "Used - Seller Refurbished",
             "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMicrosoft-Xbox-One-500gb-Black-Console-Bundle-w-accessories-ie-controller-etc%2F321472795908%3Fhash%3Ditem4ad9459504%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
             "price": "179.99",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used - Seller Refurbished",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMicrosoft-XBOX-One-500gb-Gaming-Console-Only%2F191830160717%3Fepid%3D219502426%26hash%3Ditem2ca9f7f54d%3Ark%3A5%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "129.99",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used - Seller Refurbished",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMicrosoft-Xbox-One-500-GB-Black-Console-without-Kinect%2F172379231381%3Fepid%3D219502426%26hash%3Ditem28229a5495%3Ag%3AU18AAOSwQNRXMEbE%3Ark%3A10%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "139.99",
             "shipping": "0.00"
           }
         ]
@@ -642,7 +656,14 @@
             "seller": "Ebay",
             "condition": "Used",
             "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMicrosoft-Xbox-One-1-TB-Black-Console-without-Kinect%2F192009096273%3Fepid%3D218378777%26hash%3Ditem2cb4a24c51%3Ag%3ASbgAAOSwImRYEJBj%3Ark%3A27%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
-            "price": "179.99",
+            "price": "174.99",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMicrosoft-Xbox-One-1540-1TB-Gaming-Console-Black%2F253996473363%3Fepid%3D203786033%26hash%3Ditem3b235e9c13%3Ag%3ApfoAAOSwhyZbv58z%3Asc%3AShippingMethodStandard!92225!US!-1%3Ark%3A42%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "155.00",
             "shipping": "0.00"
           }
         ]
@@ -656,9 +677,44 @@
         [
           {
             "seller": "Ebay",
-            "condition": "Used",
+            "condition": "Used - Seller Refrubished",
             "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FXbox-One-S-500GB-Open-Box-Damaged-Retail-Box-Factory-Refurbished%2F263759532804%3Fhash%3Ditem3d694b1304%3Ag%3A7U8AAOSwM~taaioV%3Ark%3A3%3Apf%3A0&campid=5338332315&toolid=20008",
             "price": "199.99",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used - Seller Refrubished",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FXbox-One-S-500-GB-White-Console-Refurbished%2F253932685248%3Fhash%3Ditem3b1f9147c0%3Ag%3A86sAAOSwqFBbt8SC%3Asc%3AUSPSFirstClass!92225!US!-1%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "194.99",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used - Manufacturer Refrubished",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMicrosoft-Xbox-One-S-500-GB-White-Console-Only-with-Power-Cord-Refurbished%2F264126758911%3Fepid%3D240505125%26hash%3Ditem3d7f2e7fff%3Ag%3A0JcAAOSwwPRcPd9s%3Asc%3AUSPSFirstClass!92225!US!-1%3Ark%3A2%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "163.99",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMicrosoft-Xbox-One-S-Minecraft-Favorites-Bundle-500GB-White-Console%2F183642545825%3Fepid%3D230125765%26hash%3Ditem2ac1f2dea1%3Ag%3AsLsAAOSwYwZcQiTZ%3Ark%3A3%3Apf%3A0%26LH_ItemCondition%3D1000%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "225.00",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMicrosoft-Xbox-One-S-500GB-White-Console-BRAND-NEW%2F254060981425%3Fepid%3D240505125%26hash%3Ditem3b2736ecb1%3Ag%3AGp8AAOSw0YlcNloY%3Ark%3A7%3Apf%3A0%26LH_ItemCondition%3D1000%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "239.99",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMicrosoft-Xbox-One-S-500GB-White-Console-Brand-new-never-opened-3-games-included%2F143087422919%3Fepid%3D240505125%26hash%3Ditem2150accdc7%3Ag%3A4yQAAOSwRY1cOKnQ%3Ark%3A6%3Apf%3A0%26LH_ItemCondition%3D1000%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "298.29",
             "shipping": "0.00"
           }
         ]
@@ -683,10 +739,37 @@
         "id": 5,
         "name": "Xbox One X 1TB",
         "category": "Console",
-        "price": "348.16",
         "picture": "xbox-x.jpg",
         "offers":
         [
+          {
+            "seller": "Ebay",
+            "condition": "New - Open Box",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FOpen-Box-Microsoft-Xbox-One-S-1TB-Console-White%2F303003326749%3Fepid%3D726315798%26hash%3Ditem468c67d91d%3Ark%3A4%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "179.99",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMicrosoft-Xbox-One-S-1TB-White-Gaming-Console-Console-Only-No-Controller-NEW%2F233093513817%3Fepid%3D726315798%26hash%3Ditem364574c259%3Ag%3Ae0IAAOSwf1xcPBgV%3Asc%3AFedExHomeDelivery!92225!US!-1%3Ark%3A3%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "181.00",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FXbox-One-S-1TB-Forza-Horizon-4-Console-Bundle-Full-game-download-included%2F302991629315%3Fepid%3D18024455466%26hash%3Ditem468bb55c03%3Ag%3AZ2AAAOSwr-BcEKYc%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "199.99",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FXbox-One-S-1TB-Fortnite-Bundle-Full-game-download-of-Fortnite-Battle-Royale%2F292869254884%3Fepid%3D2298284588%26hash%3Ditem44305e2ee4%3Ag%3AVQgAAOSwBqZcFDfo%3Ark%3A2%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "214.99",
+            "shipping": "0.00"
+          },
           {
             "seller": "Ebay",
             "condition": "Used",
@@ -695,8 +778,314 @@
             "shipping": "0.00"
           }
         ]
+      },
+     {
+        "id": 6,
+        "name": "DOOM",
+        "category": "Video Game",
+        "picture": "doom.jpg",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "Used - Good",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2F1-x-Loose-Doom-Xbox-One%2F273609820548%3Fepid%3D66317390%26hash%3Ditem3fb46a8984%3Ag%3AyuMAAOSwHOZcEv2D%3Ark%3A1%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "7.28",
+            "shipping": "2.99"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used - Very Good",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FGame-ONLY-Doom-Microsoft-Xbox-One-2016-Works-perfectly-Ships-NEXT-DAY%2F183596283294%3Fepid%3D66317390%26hash%3Ditem2abf30f59e%3Ag%3AsX8AAOSwOVlcG9SU%3Ark%3A2%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "8.99",
+            "shipping": "2.90"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used - Acceptable",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FDoom-Microsoft-Xbox-One-2016-game-disc-only%2F273511375584%3Fepid%3D66317390%26hash%3Ditem3fae8c62e0%3Ag%3AJQMAAOSwzgBY29Wh%3Ark%3A5%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "12.95",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNew-Doom-Microsoft-Xbox-One-2016%2F132901199455%3Fepid%3D66317390%26hash%3Ditem1ef1875e5f%3Ag%3AS3wAAOSwtINcJS63%3Ark%3A2%3Apf%3A0%26LH_ItemCondition%3D1000%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "14.95",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FDoom-Multiplayer-Deathmatch-Modern-Shooting-Action-Play-Video-Games-Xbox-One%2F113326695126%3Fepid%3D66317390%26hash%3Ditem1a62cc22d6%3Ag%3AABYAAOSwT-Bbz9R0%3Ark%3A4%3Apf%3A0%26LH_ItemCondition%3D1000%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "16.47",
+            "shipping": "0.00"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Fallout 4",
+        "category": "Video Game",
+        "picture": "fallout-4.jpg",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "Used - Very Good",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FFallout-4-Xbox-One-Factory-Refurbished%2F263105312945%3Fhash%3Ditem3d424c78b1%3Ag%3A8VcAAOSwZrhaVkTj%3Ark%3A7%3Apf%3A0%26autorefresh%3Dtrue&campid=5338332315&toolid=20008",
+            "price": "8.84",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used - Good",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FFallout-4-Xbox-One%2F283342753873%3Fhash%3Ditem41f88b5051%3Ag%3ANlYAAOSwveFcQN2C%3Ark%3A2%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "7.00",
+            "shipping": "1.50"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used - Good",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FFallout-4-Microsoft-Xbox-One-2015%2F312406002823%3Fepid%3D217501431%26hash%3Ditem48bcd94c87%3Ag%3AWGIAAOSwax5Y29Ss%3Ark%3A3%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "6.00",
+            "shipping": "3.50"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FFallout-4-Microsoft-Xbox-One-2015%2F303033272958%3Fepid%3D217501431%26hash%3Ditem468e30ca7e%3Ag%3AlIkAAOSwrAFcQS1U%3Ark%3A3%3Apf%3A0%26LH_ItemCondition%3D1000%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "10.00",
+            "shipping": "3.50"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FFallout-4-Microsoft-Xbox-One-2015-Free-Shipping%2F113480793530%3Fepid%3D217501431%26hash%3Ditem1a6bfb7dba%3Ag%3AWGIAAOSwax5Y29Ss%3Ark%3A6%3Apf%3A0%26LH_ItemCondition%3D1000%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "14.91",
+            "shipping": "0.00"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "State of Decay 2",
+        "category": "Video Game",
+        "picture": "state-of-decay-2.jpg",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "Used",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FState-of-Decay-2-Xbox-One-Factory-Refurbished%2F263959659873%3Fhash%3Ditem3d7538c561%3Ag%3AkAkAAOSwlY5bq-A1%3Ark%3A10%3Apf%3A0%26autorefresh%3Dtrue&campid=5338332315&toolid=20008",
+            "price": "15.86",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used - Very Good",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FState-of-Decay-2-Ultimate-Edition-Microsoft-Xbox-One-2018%2F254053955235%3Fepid%3D245239580%26hash%3Ditem3b26cbb6a3%3Ag%3ArkEAAOSwX6RcMEVP%3Ark%3A1%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "19.49",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used - Like New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FState-of-Decay-2-Xbox-One-Complete%2F233095118913%3Fepid%3D223387480%26hash%3Ditem36458d4041%3Ag%3AxDAAAOSwTxJcPJYD%3Ark%3A19%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "16.50",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FState-of-Decay-2-Microsoft-Xbox-One-May-22-2018-Rated-Mature%2F382732668163%3Fepid%3D223387480%26hash%3Ditem591ca50d03%3Ag%3AKwIAAOSwfBlcPfrB%3Ark%3A41%3Apf%3A0%26LH_ItemCondition%3D1000%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "17.95",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FState-of-Decay-2-Microsoft-Xbox-One-2018-NEW-SEALED-Free-Shipping%2F264112870791%3Fepid%3D223387480%26hash%3Ditem3d7e5a9587%3Ag%3ATdoAAOSwuQhcJ6sU%3Ark%3A42%3Apf%3A0%26LH_ItemCondition%3D1000%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "19.60",
+            "shipping": "0.00"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Call of Duty: Black Ops 4",
+        "category": "Video Game",
+        "picture": "cod-balk-ops-4.jpg",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "Used - Very Good",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FCall-of-Duty-Black-Ops-4-Xbox-One-Factory-Refurbished%2F264020116656%3Fhash%3Ditem3d78d344b0%3Ag%3Ap3sAAOSwfplb3JTF%3Ark%3A18%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "26.82",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FCall-of-Duty-Black-Ops-4-Xbox-One%2F292754680114%3Fepid%3D245256094%26hash%3Ditem442989e932%3Ag%3AhQwAAOSw989bs~au%3Ark%3A2%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "39.99",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FCall-of-Duty-Black-Ops-4-IIII-IV-Microsoft-Xbox-One-2018-Brand-New-Sealed%2F223210023790%3Fepid%3D245256094%26hash%3Ditem33f85aab6e%3Ag%3ADbIAAOSwqOFb1~Kv%3Asc%3AUSPSFirstClass!92225!US!-1%3Ark%3A3%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "44.44",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FBrand-New-Call-of-Duty-Black-OPS-4-Microsoft-Xbox-One-Sealed%2F362534443391%3Fepid%3D245256094%26hash%3Ditem5468bc997f%3Ark%3A4%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "38.99",
+            "shipping": "0.00"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Assassin's Creed Odyssey",
+        "category": "Video Game",
+        "picture": "cod-balk-ops-4.jpg",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FAssassins-Creed-Odyssey-Standard-Edition-Xbox-One-Disc%2F123586699472%3Fhash%3Ditem1cc65760d0%3Ag%3AHRYAAOSwZqlcNZNN%3Ark%3A6%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "27.60",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used -Acceptable",
+            "url": "hhttps://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FAssassins-Creed-Odyssey-XBOX-ONE%2F143095127578%3Fhash%3Ditem2151225e1a%3Ag%3AEmkAAOSw4sNcQfxu%3Ark%3A2%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "19.99",
+            "shipping": "3.99"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used - Very Good",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FAssassins-Creed-Odyssey-Standard-Edition-Xbox-One%2F123601719341%3Fhash%3Ditem1cc73c902d%3Ag%3Ao1EAAOSwJ4hcQnD4%3Ark%3A4%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "21.70",
+            "shipping": "3.75"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FAssassins-Creed-Odyssey-Standard-Edition-Xbox-One-Disc%2F202531242143%3Fhash%3Ditem2f27cd809f%3Ag%3AqagAAOSwsDZcOvWW%3Ark%3A7%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "28.18",
+            "shipping": "0.00"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Grand Theft Auto V",
+        "category": "Video Game",
+        "picture": "grand-theft-5.jpg",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "Used",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FGrand-Theft-Auto-V-Xbox-One-Factory-Refurbished%2F263046364632%3Fhash%3Ditem3d3ec8fdd8%3Ag%3Atk0AAOSwEW9aVkTN%3Ark%3A20%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "12.20",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FGrand-Theft-Auto-V-GTA-5-Xbox-One-US-version-Factory-Sealed%2F263802868938%3Fepid%3D214701266%26hash%3Ditem3d6be054ca%3Ag%3ARX0AAOSwgoxbJZa4%3Ark%3A1%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "26.95",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FGrand-Theft-Auto-V-5-XBOX-One-Games-Action-Video-Game%2F163448802303%3Fepid%3D214701266%26hash%3Ditem260e4ecbff%3Ag%3AOHYAAOSwY3tbN4L5%3Ark%3A2%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "18.44",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FGRAND-THEFT-AUTO-V-FIVE-GTA5-XBOX-ONE-ONLINE-CONTENT-UPDATES-SEALED-NT-3831%2F264126895243%3Fepid%3D214701266%26hash%3Ditem3d7f30948b%3Ag%3AyAIAAOSwnh5cNk2F%3Ark%3A2%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "21.99",
+            "shipping": "0.00"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Star Wars Battlefront",
+        "category": "Video Game",
+        "picture": "star-war-battlefront.jpg",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "Used",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FStar-Wars-Battlefront-Xbox-One-Factory-Refurbished%2F263005211276%3Fhash%3Ditem3d3c550a8c%3Ag%3Aox4AAOSw1GlaVkTR%3Ark%3A22%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "5.67",
+            "shipping": "0.00"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Mortal Kombat XL",
+        "category": "Video Game",
+        "picture": "mortal-kombat-xl.jpg",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "Used",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMortal-Kombat-XL-Xbox-One-affiliate-New%2F263575879267%3Fepid%3D219520922%26hash%3Ditem3d5e58be63%3Ag%3AIKcAAOSw9vlaVkes%3Ark%3A3%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "19.75",
+            "shipping": "0.00"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Mortal Kombat XL",
+        "category": "Video Game",
+        "picture": "mortal-kombat-xl.jpg",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "Used",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FMortal-Kombat-XL-Xbox-One-affiliate-New%2F263575879267%3Fepid%3D219520922%26hash%3Ditem3d5e58be63%3Ag%3AIKcAAOSw9vlaVkes%3Ark%3A3%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "19.75",
+            "shipping": "0.00"
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Red Dead Redemption 2",
+        "category": "Video Game",
+        "picture": "red-dead-redemption-2.jpg",
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "Used",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FRed-Dead-Redemption-2-Xbox-One-Factory-Refurbished%2F264040052628%3Fepid%3D5025887523%26hash%3Ditem3d7a037794%3Ag%3AKPgAAOSwE~Zb7GnG%3Ark%3A2%3Apf%3A0&campid=5338332315&toolid=20008",
+            "price": "55.66",
+            "shipping": "0.00"
+          }
+        ]
       }
-
     ]
   },
     "playstation": {
