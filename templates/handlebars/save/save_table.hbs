@@ -12,7 +12,7 @@
         <tr class="item" data-banner_name="{{banner_name}}" data-id="{{id}}" data-index="{{index}}">
             <td width="110px"><img src="{{concat '/templates/bundle/assets/banner/' banner_name '/' picture}}"/></td>
             <td>{{name}}</td>
-            <td>{{lowest_price}}</td>
+            <td>{{numCommaFormat lowest_price}}</td>
             <td><button class="offer-button">{{offer}} Offer{{#ifCond offer '>' 1}}s{{/ifCond}}</button></td>
         </tr>
     {{/each}}

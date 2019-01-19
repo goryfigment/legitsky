@@ -1,4 +1,4 @@
-webpackJsonp([0],[
+webpackJsonp([1],[
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11769,7 +11769,8 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
 
 /***/ }),
-/* 30 */
+/* 30 */,
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Handlebars = __webpack_require__(2);
@@ -11778,7 +11779,7 @@ module.exports = (Handlebars["default"] || Handlebars).template({"1":function(co
     var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.lambda, alias3=container.escapeExpression;
 
   return "    <div class=\"item "
-    + ((stack1 = __default(__webpack_require__(31)).call(alias1,(depth0 != null ? depth0.id : depth0),(depths[1] != null ? depths[1].saved : depths[1]),{"name":"contains","hash":{},"fn":container.program(2, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = __default(__webpack_require__(32)).call(alias1,(depth0 != null ? depth0.id : depth0),(depths[1] != null ? depths[1].saved : depths[1]),{"name":"contains","hash":{},"fn":container.program(2, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "\" data-category=\""
     + alias3(alias2((depth0 != null ? depth0.category : depth0), depth0))
     + "\" data-id=\""
@@ -11801,7 +11802,7 @@ module.exports = (Handlebars["default"] || Handlebars).template({"1":function(co
 },"useData":true,"useDepths":true});
 
 /***/ }),
-/* 31 */
+/* 32 */
 /***/ (function(module, exports) {
 
 module.exports = function(elem, list, options) {
@@ -11812,7 +11813,7 @@ module.exports = function(elem, list, options) {
 };
 
 /***/ }),
-/* 32 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Handlebars = __webpack_require__(2);
@@ -11831,7 +11832,7 @@ module.exports = (Handlebars["default"] || Handlebars).template({"1":function(co
 },"useData":true});
 
 /***/ }),
-/* 33 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Handlebars = __webpack_require__(2);
@@ -11877,7 +11878,6 @@ module.exports = (Handlebars["default"] || Handlebars).template({"1":function(co
 },"useData":true});
 
 /***/ }),
-/* 34 */,
 /* 35 */,
 /* 36 */,
 /* 37 */,
@@ -11899,9 +11899,9 @@ __webpack_require__(28);
 __webpack_require__(29);
 
 var $ = __webpack_require__(3);
-var items = __webpack_require__(30);
-var category = __webpack_require__(32);
-var itemPopup = __webpack_require__(33);
+var items = __webpack_require__(31);
+var category = __webpack_require__(33);
+var itemPopup = __webpack_require__(34);
 
 function init() {
     var $inventoryContainer = $('#inventory-container');
@@ -11919,6 +11919,7 @@ function init() {
     for (var i = 0; i < bannerItems.length; i++) {
         var currentItem = bannerItems[i];
         currentItem['lowest_price'] = Math.min.apply(Math,currentItem['offers'].map(function(o){return o['price'];}));
+        currentItem['lowest_price'] = parseFloat(currentItem['lowest_price']).toFixed(2);
     }
 
     $inventoryContainer.append(items(itemData));

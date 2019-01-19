@@ -1,4 +1,4 @@
-webpackJsonp([1],[
+webpackJsonp([0],[
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11751,6 +11751,142 @@ module.exports = g;
 /* 28 */,
 /* 29 */,
 /* 30 */
+/***/ (function(module, exports) {
+
+function numberCommaFormat(x) {
+    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+}
+
+function replaceAll(str, find, replace) {
+    return str.replace(new RegExp(find.replace(/([.*+?^=!:${}()|\[\]\/\\])/g, "\\$1"), 'g'), replace);
+}
+
+function scrollToElement($container, $element, speed){
+    var elementTop = $element.offset().top;
+    var elementHeight = $element.height();
+    var containerTop = $container.offset().top;
+    var containerHeight = $container.height();
+
+    if ((((elementTop - containerTop) + elementHeight) > 0) && ((elementTop - containerTop) < containerHeight)) {
+
+    } else {
+        $container.animate({
+            scrollTop: $element.offset().top - $container.offset().top + $container.scrollTop()
+        }, speed);
+    }
+}
+
+function upAndDownPopups(keyCode, $popup, $options, scroll) {
+    var $selected = $popup.find('.selected');
+    var $firstOption = $options.filter(':visible').eq(0);
+    var $lastOption = $options.filter(':visible').eq(-1);
+
+    if (keyCode == 40) { //down arrow
+        var $nextOption = $options.slice($options.index($selected) + 1).filter(':visible').first();
+
+        if($selected.length) {
+            $selected.removeClass('selected');
+            if($nextOption.length){
+                $nextOption.addClass('selected');
+                if(scroll) {
+                    scrollToElement($popup, $nextOption, 50);
+                }
+            } else{
+                $firstOption.addClass('selected');
+                if(scroll) {
+                    scrollToElement($popup, $firstOption, 50);
+                }
+            }
+        } else {
+            $firstOption.addClass('selected');
+            if(scroll) {
+                scrollToElement($popup, $firstOption, 50);
+            }
+        }
+    } else if (keyCode == 38) { //up arrow
+        var $prevOption = $options.slice(0, $options.index($selected)).filter(':visible').last();
+
+        if($selected.length) {
+            $selected.removeClass('selected');
+            if($prevOption.length){
+                $prevOption.addClass('selected');
+                if(scroll) {
+                    scrollToElement($popup, $prevOption, 50);
+                }
+            }else{
+                $lastOption.addClass('selected');
+                if(scroll) {
+                    scrollToElement($popup, $lastOption, 50);
+                }
+            }
+        } else {
+            $lastOption.addClass('selected');
+            if(scroll) {
+                scrollToElement($popup, $lastOption, 50);
+            }
+        }
+    } else if(keyCode == 13) { //enter button
+        $selected.trigger('click');
+    }
+}
+
+function currencyFormat(cents) {
+    cents = Math.round(cents);
+
+    if (cents == 0) {
+        return cents.toFixed(2);
+    } else if(cents < 100){
+        if (cents > 0 || cents > -100) {
+            return (cents/100).toFixed(2);
+        } else {
+            cents = cents.toString();
+            return cents.substring(0,cents.length-2)+"."+cents.substring(cents.length-2)
+        }
+    }else {
+        cents = cents.toString();
+        return cents.substring(0,cents.length-2)+"."+cents.substring(cents.length-2)
+    }
+}
+
+function currencyMath(leftVal, operator, curRightVal, round, both) {
+    leftVal = parseFloat(leftVal);
+    curRightVal = parseFloat(curRightVal) * 100;
+
+    if (both == 'true') {
+        leftVal = leftVal * 100;
+    }
+
+    var cents = {
+        "+": curRightVal + leftVal,
+        "-": curRightVal - leftVal,
+        "*": curRightVal * leftVal,
+        "/": curRightVal / leftVal,
+        "%": curRightVal % leftVal
+    }[operator];
+
+    if (round == 'true') {
+        cents = Math.round(cents);
+    }
+
+    if (cents == 0) {
+        return cents.toFixed(2);
+    } else {
+        cents = cents.toString();
+        return cents.substring(0,cents.length-2)+"."+cents.substring(cents.length-2)
+    }
+}
+
+module.exports = {
+    numberCommaFormat: numberCommaFormat,
+    replaceAll: replaceAll,
+    scrollToElement: scrollToElement,
+    upAndDownPopups: upAndDownPopups,
+    currencyFormat: currencyFormat,
+    currencyMath: currencyMath
+};
+
+/***/ }),
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Handlebars = __webpack_require__(2);
@@ -11759,7 +11895,7 @@ module.exports = (Handlebars["default"] || Handlebars).template({"1":function(co
     var stack1, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=container.lambda, alias3=container.escapeExpression;
 
   return "    <div class=\"item "
-    + ((stack1 = __default(__webpack_require__(31)).call(alias1,(depth0 != null ? depth0.id : depth0),(depths[1] != null ? depths[1].saved : depths[1]),{"name":"contains","hash":{},"fn":container.program(2, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = __default(__webpack_require__(32)).call(alias1,(depth0 != null ? depth0.id : depth0),(depths[1] != null ? depths[1].saved : depths[1]),{"name":"contains","hash":{},"fn":container.program(2, data, 0, blockParams, depths),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "\" data-category=\""
     + alias3(alias2((depth0 != null ? depth0.category : depth0), depth0))
     + "\" data-id=\""
@@ -11782,7 +11918,7 @@ module.exports = (Handlebars["default"] || Handlebars).template({"1":function(co
 },"useData":true,"useDepths":true});
 
 /***/ }),
-/* 31 */
+/* 32 */
 /***/ (function(module, exports) {
 
 module.exports = function(elem, list, options) {
@@ -11793,7 +11929,7 @@ module.exports = function(elem, list, options) {
 };
 
 /***/ }),
-/* 32 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Handlebars = __webpack_require__(2);
@@ -11812,7 +11948,7 @@ module.exports = (Handlebars["default"] || Handlebars).template({"1":function(co
 },"useData":true});
 
 /***/ }),
-/* 33 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Handlebars = __webpack_require__(2);
@@ -11858,7 +11994,6 @@ module.exports = (Handlebars["default"] || Handlebars).template({"1":function(co
 },"useData":true});
 
 /***/ }),
-/* 34 */,
 /* 35 */,
 /* 36 */,
 /* 37 */,
@@ -11879,11 +12014,11 @@ __webpack_require__(8);
 __webpack_require__(26);
 
 var $ = __webpack_require__(3);
-var items = __webpack_require__(30);
-var category = __webpack_require__(32);
+var items = __webpack_require__(31);
+var category = __webpack_require__(33);
 
 var saveTemplate = __webpack_require__(47);
-var itemPopup = __webpack_require__(33);
+var itemPopup = __webpack_require__(34);
 
 function init() {
     var savedData = {};
@@ -11905,6 +12040,7 @@ function init() {
 
                 if(savedItems.indexOf(currentId) != -1) {
                     currentItem['lowest_price'] = Math.min.apply(Math,currentItem['offers'].map(function(o){return o['price'];}));
+                    currentItem['lowest_price'] = parseFloat(currentItem['lowest_price']).toFixed(2);
                     currentItem['banner_name'] = key;
                     currentItem['index'] = i;
                     savedItemList.push(currentItem);
@@ -12048,11 +12184,11 @@ module.exports = (Handlebars["default"] || Handlebars).template({"1":function(co
     + "\"/></td>\r\n            <td>"
     + alias2(alias1((depth0 != null ? depth0.name : depth0), depth0))
     + "</td>\r\n            <td>"
-    + alias2(alias1((depth0 != null ? depth0.lowest_price : depth0), depth0))
+    + alias2(__default(__webpack_require__(48)).call(alias3,(depth0 != null ? depth0.lowest_price : depth0),{"name":"numCommaFormat","hash":{},"data":data}))
     + "</td>\r\n            <td><button class=\"offer-button\">"
     + alias2(alias1((depth0 != null ? depth0.offer : depth0), depth0))
     + " Offer"
-    + ((stack1 = __default(__webpack_require__(48)).call(alias3,(depth0 != null ? depth0.offer : depth0),">",1,{"name":"ifCond","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
+    + ((stack1 = __default(__webpack_require__(49)).call(alias3,(depth0 != null ? depth0.offer : depth0),">",1,{"name":"ifCond","hash":{},"fn":container.program(2, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "</button></td>\r\n        </tr>\r\n";
 },"2":function(container,depth0,helpers,partials,data) {
     return "s";
@@ -12066,6 +12202,15 @@ module.exports = (Handlebars["default"] || Handlebars).template({"1":function(co
 
 /***/ }),
 /* 48 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var helper = __webpack_require__(30);
+module.exports = function(x) {
+    return helper.numberCommaFormat(x);
+};
+
+/***/ }),
+/* 49 */
 /***/ (function(module, exports) {
 
 module.exports = function(v1, operator, v2, options) {

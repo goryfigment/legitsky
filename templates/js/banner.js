@@ -28,6 +28,7 @@ function init() {
     for (var i = 0; i < bannerItems.length; i++) {
         var currentItem = bannerItems[i];
         currentItem['lowest_price'] = Math.min.apply(Math,currentItem['offers'].map(function(o){return o['price'];}));
+        currentItem['lowest_price'] = parseFloat(currentItem['lowest_price']).toFixed(2);
     }
 
     $inventoryContainer.append(items(itemData));

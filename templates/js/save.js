@@ -31,6 +31,7 @@ function init() {
 
                 if(savedItems.indexOf(currentId) != -1) {
                     currentItem['lowest_price'] = Math.min.apply(Math,currentItem['offers'].map(function(o){return o['price'];}));
+                    currentItem['lowest_price'] = parseFloat(currentItem['lowest_price']).toFixed(2);
                     currentItem['banner_name'] = key;
                     currentItem['index'] = i;
                     savedItemList.push(currentItem);

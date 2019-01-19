@@ -11774,11 +11774,12 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 /* 32 */,
 /* 33 */,
 /* 34 */,
-/* 35 */
+/* 35 */,
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(6);
-__webpack_require__(36);
+__webpack_require__(37);
 __webpack_require__(7);
 __webpack_require__(8);
 __webpack_require__(26);
@@ -11786,7 +11787,7 @@ __webpack_require__(27);
 __webpack_require__(28);
 __webpack_require__(29);
 
-var bannerTemplate = __webpack_require__(37);
+var bannerTemplate = __webpack_require__(38);
 
 var $ = __webpack_require__(3);
 
@@ -11838,13 +11839,13 @@ $(document).ready(function() {
 });
 
 /***/ }),
-/* 36 */
+/* 37 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 37 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Handlebars = __webpack_require__(2);
@@ -11868,4 +11869,4 @@ module.exports = (Handlebars["default"] || Handlebars).template({"1":function(co
 },"useData":true});
 
 /***/ })
-],[35]);
+],[36]);
