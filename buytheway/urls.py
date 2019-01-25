@@ -4,6 +4,9 @@ from buytheway.controllers import site
 from buytheway.controllers import ebay
 
 urlpatterns = [
+    url(r'^404/$', site.error_page, name='404'),
+    url(r'^500/$', site.server_error, name='500'),
+
     url(r'^admin/', admin.site.urls),
     url(r'^$', site.site, name='site'),
     url(r'^banner/(?P<name>[-A-Za-z]+)$', site.banner_site, name='banner'),

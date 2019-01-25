@@ -217,8 +217,6 @@ $(document).ready(function() {
             savedList = savedData[globals.banner_name];
         }
 
-        console.log(savedList)
-
         var item = globals.banner['items'][parseInt($this.attr('data-index'))];
         var id = parseInt($this.attr('data-id'));
         var index = savedList.indexOf(id);
@@ -227,6 +225,56 @@ $(document).ready(function() {
         item['banner_name'] = globals.banner_name;
 
         $overlay.append(itemPopup(item));
+
+        $(".sub-image").hover(function() {
+            $('#image-preview').attr('src', $(this).attr("src"));
+        }, function () {
+            var $imagePreview = $('#image-preview');
+            $imagePreview.attr('src', $imagePreview.attr("data-click"));
+        });
+    });
+
+    $(document).on('click', '.sub-image', function () {
+        var $imagePreview = $('#image-preview');
+        var src = $(this).attr("src");
+        $imagePreview.attr('data-click', src);
+        $imagePreview.attr('src', src);
     });
     //OPERATION POPUP//
+
+    //FEATURED BANNER//
+    $(document).on('click', '.view-button', function (e) {
+        e.stopPropagation();
+        var $this = $(this);
+        var id = $this.attr('data-id');
+        var itemIndex = $('.item[data-id="' + id + '"]').attr('data-index');
+        var item = globals.banner['items'][parseInt(itemIndex)];
+        var $overlay = $('#overlay');
+        $overlay.addClass('active');
+
+        var savedData = localStorage.getItem('saved');
+        var savedList = [];
+
+        if (savedData !== null) {
+            savedData = JSON.parse(savedData);
+        }
+
+        if(savedData.hasOwnProperty(globals.banner_name)) {
+            savedList = savedData[globals.banner_name];
+        }
+
+        var saveIndex = savedList.indexOf(id);
+        item['saved'] = saveIndex != -1 ? false : true;
+        item['banner_name'] = globals.banner_name;
+
+        $overlay.append(itemPopup(item));
+
+        $(".sub-image").hover(function() {
+            $('#image-preview').attr('src', $(this).attr("src"));
+        }, function () {
+            var $imagePreview = $('#image-preview');
+            $imagePreview.attr('src', $imagePreview.attr("data-click"));
+        });
+    });
+    //FEATURED BANNER//
 });

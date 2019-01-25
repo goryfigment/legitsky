@@ -13,7 +13,7 @@
         "id": 1,
         "name": "Nintendo Switch- 32GB",
         "category": "Console",
-        "picture": "nintendo-switch-32gb.png",
+        "picture": ["nintendo-switch-32gb.png"],
         "offers":
         [
           {
@@ -43,7 +43,7 @@
         "id": 2,
         "name": "Nintendo Switch Console + 2 Game",
         "category": "Console",
-        "picture": "Switch + 2 games.PNG",
+        "picture": ["Switch + 2 games.PNG"],
         "offers":
         [
           {
@@ -66,7 +66,7 @@
         "id": 3,
         "name": "Nintendo Switch Mario Kart 8 Deluxe Console Bundle",
         "category": "Console",
-        "picture": "NS-mario-kart-bundle.PNG",
+        "picture": ["NS-mario-kart-bundle.PNG"],
         "offers":
         [
           {
@@ -96,7 +96,7 @@
         "id": 4,
         "name": "Nintendo Switch Super Smash Bros Ultimate Limited Edition Console",
         "category": "Console",
-        "picture": "NS-super-smash-bros-ultimate-console.PNG",
+        "picture": ["NS-super-smash-bros-ultimate-console.PNG"],
         "offers":
         [
           {
@@ -126,7 +126,7 @@
         "id": 5,
         "name": "Nintendo Switch Pokemon Let's Go Pikachu Limited Edition Console",
         "category": "Console",
-        "picture": "NS-pokemon-pikachu-console.PNG",
+        "picture": ["NS-pokemon-pikachu-console.PNG"],
         "offers":
         [
           {
@@ -156,7 +156,7 @@
         "id": 6,
         "name": "Nintendo Switch Pokemon Let's Go Eevee Limited Edition Console",
         "category": "Console",
-        "picture": "NS-pokemon-eevee-console.PNG",
+        "picture": ["NS-pokemon-eevee-console.PNG"],
         "offers":
         [
           {
@@ -179,7 +179,7 @@
         "id": 7,
         "name": "Super Smash Bros Ultimate Special Edition",
         "category": "Video Game",
-        "picture": "super smash bros ultimate special edition.PNG",
+        "picture": ["super smash bros ultimate special edition.PNG"],
         "offers":
         [
           {
@@ -209,7 +209,7 @@
         "id": 8,
         "name": "Super Smash Bros Ultimate Limited Edition Bundle",
         "category": "Video Game",
-        "picture": "super-smash-bros-ultimate-Limited-edition-bundle.PNG",
+        "picture": ["super-smash-bros-ultimate-Limited-edition-bundle.PNG"],
         "offers":
         [
           {
@@ -246,7 +246,7 @@
         "id": 9,
         "name": "Mario Kart 8 Deluxe",
         "category": "Video Game",
-        "picture": "Mario Kart 8.PNG",
+        "picture": ["Mario Kart 8.PNG"],
         "offers":
         [
           {
@@ -297,7 +297,7 @@
         "id": 10,
         "name": "Super Mario Odyssey",
         "category": "Video Game",
-        "picture": "Mario Odyssey.png",
+        "picture": ["Mario Odyssey.png"],
         "offers":
         [
           {
@@ -341,7 +341,7 @@
         "id": 11,
         "name": "The Legend of Zelda: Breath of the Wild Starter Pack",
         "category": "Video Game",
-        "picture": "Zelda-breath-of-the-wild.jpg",
+        "picture": ["Zelda-breath-of-the-wild.jpg"],
         "offers":
         [
           {
@@ -364,7 +364,7 @@
         "id": 12,
         "name": "Dragon Ball Fighterz",
         "category": "Video Game",
-        "picture": "Dragon-ball-fighterz-switch.jpg",
+        "picture": ["Dragon-ball-fighterz-switch.jpg"],
         "offers":
         [
           {
@@ -408,7 +408,7 @@
         "id": 13,
         "name": "Crash Bandicoot N Sane Trilogy",
         "category": "Video Game",
-        "picture": "crash-bandicot-trilogy.jpg",
+        "picture": ["crash-bandicot-trilogy.jpg"],
         "offers":
         [
           {
@@ -438,7 +438,7 @@
         "id": 14,
         "name": "Diablo 3",
         "category": "Video Game",
-        "picture": "Diablo3.jpg",
+        "picture": ["Diablo3.jpg"],
         "offers":
         [
           {
@@ -461,7 +461,7 @@
         "id": 15,
         "name": "Splatoon 2",
         "category": "Video Game",
-        "picture": "Splatoon2.jpg",
+        "picture": ["Splatoon2.jpg"],
         "offers":
         [
           {
@@ -505,7 +505,7 @@
         "id": 16,
         "name": "Super Mario Party",
         "category": "Video Game",
-        "picture": "Super-mario-party.jpg",
+        "picture": ["Super-mario-party.jpg"],
         "offers":
         [
           {
@@ -542,7 +542,7 @@
         "id": 17,
         "name": "Super Smash Bros Ultimate",
         "category": "Video Game",
-        "picture": "super smash bros ultimate.jpg",
+        "picture": ["super smash bros ultimate.jpg"],
         "offers":
         [
           {
@@ -602,6 +602,66 @@
             "shipping": "3.75"
           }
         ]
+      },
+      {
+        "id": 18,
+        "name": "Pokemon: Lets Go Pikachu!",
+        "category": "Console",
+        "picture": ["pokemon-pikachu.png"],
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FPokemon-Lets-Go-Pikachu-Nintendo-Switch-Game-Brand-New-Sealed-Fast-Shipping%2F333031743933%3Fhash%3Ditem4d8a3d21bd%3Ag%3AkFoAAOSwzTFcEE9o%3Ark%3A12%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "42.00",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FPokemon-Lets-Go-Pikachu-Perfect-Condition%2F233107144782%3Fepid%3D7025617809%26hash%3Ditem364644c04e%3Ag%3AlRgAAOSwxJ9cSTat%3Ark%3A13%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "42.22",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FPokemon-Lets-Go-Pikachu%2F292820829482%3Fepid%3D7025617809%26hash%3Ditem442d7b452a%3Ag%3Ai98AAOSw1Tdb77D6%3Ark%3A15%3Apf%3A0%26LH_ItemCondition%3D1000%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "47.99",
+            "shipping": "0.00"
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Pokemon: Lets Go Eevee!",
+        "category": "Console",
+        "picture": ["pokemon-eevee.png"],
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FPokemon-Lets-Go-Eevee-Brand-New%2F173744253168%3Fepid%3D23025610468%26hash%3Ditem2873f6e8f0%3Ag%3AOmsAAOSwtcRcP00w%3Ark%3A10%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "44.00",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FPokemon-Let-s-Go-Eevee-Nintendo-Switch-Used%2F292931397791%3Fhash%3Ditem443412689f%3Ag%3Al0cAAOSwyshcSQae%3Ark%3A11%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "44.00",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FPokemon-Lets-Go-Eevee%2F123499685883%3Fepid%3D23025610468%26hash%3Ditem1cc127a7fb%3Ag%3A4fYAAOSwWW5b8lPy%3Ark%3A19%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "45.99",
+            "shipping": "0.00"
+          }
+        ]
       }
     ]
   },
@@ -619,7 +679,7 @@
         "id": 1,
         "name": "Xbox One Original 500GB",
         "category": "Console",
-        "picture": "xbox-original.jpg",
+        "picture": ["xbox-original-console-box.jpg", "xbox-original-console.jpg", "xbox-original-controller.jpg", "xbox-original-kinect.jpg"],
         "offers":
         [
           {
@@ -649,7 +709,7 @@
         "id": 2,
         "name": "Xbox One Original 1TB",
         "category": "Console",
-        "picture": "xbox-original.jpg",
+        "picture": ["xbox-original-console-box.jpg", "xbox-original-console.jpg", "xbox-original-controller.jpg", "xbox-original-kinect.jpg"],
         "offers":
         [
           {
@@ -672,7 +732,7 @@
         "id": 3,
         "name": "Xbox One S 500GB",
         "category": "Console",
-        "picture": "xbox-s.jpg",
+        "picture": ["xbox-s.jpg"],
         "offers":
         [
           {
@@ -723,7 +783,7 @@
         "id": 4,
         "name": "Xbox One S 1TB",
         "category": "Console",
-        "picture": "xbox-s.jpg",
+        "picture": ["xbox-s.jpg"],
         "offers":
         [
           {
@@ -739,7 +799,7 @@
         "id": 5,
         "name": "Xbox One X 1TB",
         "category": "Console",
-        "picture": "xbox-x.jpg",
+        "picture": ["xbox-x.jpg"],
         "offers":
         [
           {
@@ -783,7 +843,7 @@
         "id": 6,
         "name": "DOOM",
         "category": "Video Game",
-        "picture": "doom.jpg",
+        "picture": ["doom.jpg"],
         "offers":
         [
           {
@@ -827,7 +887,7 @@
         "id": 7,
         "name": "Fallout 4",
         "category": "Video Game",
-        "picture": "fallout-4.jpg",
+        "picture": ["fallout-4.jpg"],
         "offers":
         [
           {
@@ -871,7 +931,7 @@
         "id": 8,
         "name": "State of Decay 2",
         "category": "Video Game",
-        "picture": "state-of-decay-2.jpg",
+        "picture": ["state-of-decay-2.jpg"],
         "offers":
         [
           {
@@ -915,7 +975,7 @@
         "id": 9,
         "name": "Call of Duty: Black Ops 4",
         "category": "Video Game",
-        "picture": "cod-balk-ops-4.jpg",
+        "picture": ["cod-black-ops-4.jpg"],
         "offers":
         [
           {
@@ -952,7 +1012,7 @@
         "id": 11,
         "name": "Assassin's Creed Odyssey",
         "category": "Video Game",
-        "picture": "cod-balk-ops-4.jpg",
+        "picture": ["cod-balk-ops-4.jpg"],
         "offers":
         [
           {
@@ -989,7 +1049,7 @@
         "id": 12,
         "name": "Grand Theft Auto V",
         "category": "Video Game",
-        "picture": "grand-theft-5.jpg",
+        "picture": ["grand-theft-5.jpg"],
         "offers":
         [
           {
@@ -1026,7 +1086,7 @@
         "id": 13,
         "name": "Star Wars Battlefront",
         "category": "Video Game",
-        "picture": "star-war-battlefront.jpg",
+        "picture": ["star-war-battlefront.jpg"],
         "offers":
         [
           {
@@ -1042,7 +1102,7 @@
         "id": 15,
         "name": "Mortal Kombat XL",
         "category": "Video Game",
-        "picture": "mortal-kombat-xl.jpg",
+        "picture": ["mortal-kombat-xl.jpg"],
         "offers":
         [
           {
@@ -1058,7 +1118,7 @@
         "id": 15,
         "name": "Mortal Kombat XL",
         "category": "Video Game",
-        "picture": "mortal-kombat-xl.jpg",
+        "picture": ["mortal-kombat-xl.jpg"],
         "offers":
         [
           {
@@ -1074,7 +1134,7 @@
         "id": 16,
         "name": "Red Dead Redemption 2",
         "category": "Video Game",
-        "picture": "red-dead-redemption-2.jpg",
+        "picture": ["red-dead-redemption-2.jpg"],
         "offers":
         [
           {
@@ -1082,6 +1142,71 @@
             "condition": "Used",
             "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FRed-Dead-Redemption-2-Xbox-One-Factory-Refurbished%2F264040052628%3Fepid%3D5025887523%26hash%3Ditem3d7a037794%3Ag%3AKPgAAOSwE~Zb7GnG%3Ark%3A2%3Apf%3A0&campid=5338332315&toolid=20008",
             "price": "55.66",
+            "shipping": "0.00"
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Tom Clancy's Rainbow Six Siege",
+        "category": "Video Game",
+        "picture": ["rainbow-six-siege.jpg"],
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "Used",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FTom-Clancys-Rainbow-Six-Siege-Microsoft-Xbox-One-2015%2F392221279653%3Fepid%3D197177964%26hash%3Ditem5b5235c5a5%3Ag%3AabAAAOSwXYtY25e-%3Ark%3A1%3Apf%3A1%26LH_BIN%3D1%26frcectupt%3Dtrue&campid=5338332315&toolid=20008",
+            "price": "9.00",
+            "shipping": "3.50"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FTom-Clancys-Rainbow-Six-Siege-Xbox-One-VideoGames%2F381873655350%3Fepid%3D197177964%26hash%3Ditem58e9718e36%3Ag%3AabAAAOSwXYtY25e-%3Ark%3A4%3Apf%3A1%26LH_BIN%3D1%26frcectupt%3Dtrue&campid=5338332315&toolid=20008",
+            "price": "15.64",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FTom-Clancys-Rainbow-Six-Siege-Xbox-One%2F362501737228%3Fepid%3D197177964%26hash%3Ditem5466c98b0c%3Ag%3AabAAAOSwXYtY25e-%3Ark%3A7%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "17.39",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FTom-Clancys-Rainbow-Six-Siege-Microsoft-Xbox-One-2015%2F303038918841%3Fepid%3D197177964%26hash%3Ditem468e86f0b9%3Ag%3A1IsAAOSw4F9cSKOo%3Ark%3A9%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "19.00",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FTom-Clancys-Rainbow-Six-Siege-Xbox-One-Factory-Refurbished%2F263112380692%3Fhash%3Ditem3d42b85114%3Ag%3AnAYAAOSw8-FaVkTf%3Ark%3A10%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "19.64",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FTom-Clancys-Rainbow-Six-Siege-Microsoft-Xbox-One-2015-New-Factory-Sealed%2F233104553831%3Fepid%3D197177964%26hash%3Ditem36461d3767%3Ag%3AabAAAOSwXYtY25e-%3Ark%3A1%3Apf%3A1%26LH_BIN%3D1%26LH_ItemCondition%3D1000%26frcectupt%3Dtrue&campid=5338332315&toolid=20008",
+            "price": "24.23",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FTom-Clancys-Rainbow-Six-Siege-XBOX-One-Game%2F202452014360%3Fhash%3Ditem2f23149518%3Ag%3Ay6oAAOSwLMJbVfdd%3Ark%3A2%3Apf%3A1%26LH_BIN%3D1%26LH_ItemCondition%3D1000%26frcectupt%3Dtrue&campid=5338332315&toolid=20008",
+            "price": "24.24",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FTom-Clancys-Rainbow-Six-Siege-Microsoft-Xbox-One-2015%2F113570103277%3Fepid%3D197177964%26hash%3Ditem1a714e3fed%3Ag%3AN04AAOSw0xtcQUIS%3Asc%3AUSPSFirstClass!85374!US!-1%3Ark%3A3%3Apf%3A1%26LH_BIN%3D1%26LH_ItemCondition%3D1000%26frcectupt%3Dtrue&campid=5338332315&toolid=20008",
+            "price": "24.49",
             "shipping": "0.00"
           }
         ]
@@ -1106,7 +1231,7 @@
         "id": 1,
         "name": "PS4 Original 500GB",
         "category": "Console",
-        "picture": "PS4-console.jpg",
+        "picture": ["PS4-console.png"],
         "offers":
         [
           {
@@ -1143,7 +1268,7 @@
         "id": 2,
         "name": "PS4 Original 500GB - Arkam Knight Bundle/No Box",
         "category": "Console",
-        "picture": "ps4-arkam-knight-bundle.jpg",
+        "picture": ["ps4-arkam-knight-bundle.jpg"],
         "offers":
         [
           {
@@ -1180,7 +1305,7 @@
         "id": 3,
         "name": "PS4 Slim Console 500GB",
         "category": "Console",
-        "picture": "ps4-slim-console.png",
+        "picture": ["ps4-slim-console.png"],
         "offers":
         [
           {
@@ -1217,7 +1342,7 @@
         "id": 4,
         "name": "PS4 Pro Console 1TB",
         "category": "Console",
-        "picture": "PS4-pro-console.jpg",
+        "picture": ["PS4-pro-console.jpg"],
         "offers":
         [
           {
@@ -1275,7 +1400,7 @@
         "id": 5,
         "name": "Fallout 76",
         "category": "Video Game",
-        "picture": "fallout-76.png",
+        "picture": ["fallout-76.png"],
         "offers":
         [
           {
@@ -1319,7 +1444,7 @@
         "id": 6,
         "name": "Call of Duty Black Ops 4",
         "category": "Video Game",
-        "picture": "Cod-black-ops-ps4.png",
+        "picture": ["Cod-black-ops-ps4.png"],
         "offers":
         [
           {
@@ -1356,7 +1481,7 @@
         "id": 7,
         "name": "Marvel's Spiderman",
         "category": "Video Game",
-        "picture": "marvels-spiderman-ps4.PNG",
+        "picture": ["spiderman.jpg"],
         "offers":
         [
           {
@@ -1393,7 +1518,7 @@
         "id": 8,
         "name": "Red Dead Redemption 2",
         "category": "Video Game",
-        "picture": "Red-dead-redemption-2-ps4.PNG",
+        "picture": ["Red-dead-redemption-2-ps4.PNG"],
         "offers":
         [
           {
@@ -1430,7 +1555,7 @@
         "id": 9,
         "name": "Assassin's Creed Odyssey",
         "category": "Video Game",
-        "picture": "Assassins-creed-odyssey-ps4.PNG",
+        "picture": ["Assassins-creed-odyssey-ps4.PNG"],
         "offers":
         [
           {
@@ -1467,7 +1592,7 @@
         "id": 10,
         "name": "Tales of Vesperia Definitive Edition Anniversary Bundle",
         "category": "Video Game",
-        "picture": "talesofvesperia-anniversarybundle.png",
+        "picture": ["talesofvesperia-anniversarybundle.png"],
         "offers":
         [
           {
@@ -1490,7 +1615,7 @@
         "id": 11,
         "name": "Tales of Vesperia Definitive Edition Premium Bundle",
         "category": "Video Game",
-        "picture": "talesofvesperia-premiumbundle.png",
+        "picture": ["talesofvesperia-premiumbundle.png"],
         "offers":
         [
           {
@@ -1499,6 +1624,73 @@
             "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FTALES-OF-VESPERIA-DEFINITIVE-EDITION-PREMIUM-COLLECTORS-EU-PS4-PREORDER%2F303026841539%3Fhash%3Ditem468dcea7c3%3Ag%3AUxoAAOSwMhVcNu98%3Ark%3A29%3Apf%3A0&campid=5338332315&toolid=20008",
             "price": "249.99",
             "shipping": "15.00"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Spyro the Dragon: Reignited Trilogy",
+        "category": "Video Game",
+        "picture": ["spyro-trilogy.png"],
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "Used",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSpyro-the-Dragon-Reignited-Trilogy-Sony-PlayStation-4-2018%2F113550541932%3Fepid%3D22021990636%26hash%3Ditem1a7023c46c%3Ag%3AVI4AAOSwJudbaYoR%3Ark%3A1%3Apf%3A1%26LH_BIN%3D1%26frcectupt%3Dtrue&campid=5338332315&toolid=20008",
+            "price": "25.00",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSpyro-Reignited-Trilogy-Playstation-4-PS4-Spyro-The-Dragon%2F202574574713%3Fhash%3Ditem2f2a62b479%3Ag%3Ao-gAAOSw~ltcSNt9%3Ark%3A2%3Apf%3A1%26LH_BIN%3D1%26frcectupt%3Dtrue&campid=5338332315&toolid=20008",
+            "price": "26.95",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "Used",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSpyro-the-Dragon-Reignited-Trilogy-Sony-PlayStation-4-2018%2F303039043828%3Fepid%3D22021990636%26hash%3Ditem468e88d8f4%3Ag%3Alv4AAOSwIbpcSMxM%3Ark%3A3%3Apf%3A1%26LH_BIN%3D1%26frcectupt%3Dtrue&campid=5338332315&toolid=20008",
+            "price": "27.50",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FSpyro-Reignited-Trilogy-Sony-PlayStation-4-PS4-Brand-New-and-Sealed%2F254093896845%3Fepid%3D3017767944%26hash%3Ditem3b292d2c8d%3Ag%3AynAAAOSwbjNcShbZ%3Asc%3AUSPSFirstClass!85014!US!-1%3Ark%3A8%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "29.85",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FNEW-SPYRO-REIGNITED-TRILOGY-REMASTER-PLAYSTATION-4-PS4-SEALED-FAST-FREE-SHIPPING%2F163489162522%3Fepid%3D3017767944%26hash%3Ditem2610b6a51a%3Ag%3AjWMAAOSwt3hcBtqa%3Ark%3A9%3Apf%3A0%26LH_BIN%3D1&campid=5338332315&toolid=20008",
+            "price": "29.90",
+            "shipping": "0.00"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "Ace Combat 7: Skies Unknown",
+        "category": "Video Game",
+        "picture": ["ace-combat.jpg"],
+        "offers":
+        [
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FAce-Combat-7-Skies-Unknown-PlayStation-4%2F233107625894%3Fhash%3Ditem36464c17a6%3Ag%3AzJkAAOSwBjxcSckO%3Ark%3A3%3Apf%3A1%26LH_BIN%3D1%26frcectupt%3Dtrue&campid=5338332315&toolid=20008",
+            "price": "53.00",
+            "shipping": "0.00"
+          },
+          {
+            "seller": "Ebay",
+            "condition": "New",
+            "url": "https://rover.ebay.com/rover/1/711-53200-19255-0/1?mpre=https%3A%2F%2Fwww.ebay.com%2Fitm%2FAce-Combat-7-Skies-Unknown-PS4-Brand-New%2F372576005710%3Fhash%3Ditem56bf42ae4e%3Ag%3A~TQAAOSw7MNcSjfb%3Ark%3A4%3Apf%3A1%26LH_BIN%3D1%26frcectupt%3Dtrue&campid=5338332315&toolid=20008",
+            "price": "53.99",
+            "shipping": "0.00"
           }
         ]
       }

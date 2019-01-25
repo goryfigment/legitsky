@@ -1,5 +1,21 @@
+from bs4 import BeautifulSoup
+import requests
+import os, json, ast
+
+file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'static_data/items.json'))
+banners = json.loads(open(file_path).read())
+
+for key, banner in banners.iteritems():
+    for item in banner['items']:
+        current_item = item
+        current_item['picture'] = [current_item['picture']]
+        print current_item
+
+print ast.literal_eval(json.dumps(banners))
 
 
+
+# print '\nTotal Broken Links: ' + str(total)
 
       # {
       #   "id": 6,

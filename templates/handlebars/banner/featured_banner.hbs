@@ -1,3 +1,9 @@
 {{#each featured_banner}}
-    <img style="width: 1400px;height: 400px;" src="{{concat '/templates/bundle/assets/featured_banner/' 'banner_name' '/' background}}" />
+    <div id="featured-banner-wrapper">
+        <img class="featured-banner" style="width: 1400px;height: 400px;" src="{{concat '/templates/bundle/assets/featured_banner/' 'banner_name' '/' background}}" />
+        {{#each product}}
+            <img class="product-image" style="top:{{this.top}};left:{{this.left}}" src="{{concat '/templates/bundle/assets/banner/' 'banner_name' '/' this.image}}"/>
+            <button class="view-button" data-id="{{this.id}}" style="top:{{button.top}};left:{{button.left}}">View offers</button>
+        {{/each}}
+    </div>
 {{/each}}

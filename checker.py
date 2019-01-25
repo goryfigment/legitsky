@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup
 import requests
-
 import os, json
 
 file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'static_data/items.json'))

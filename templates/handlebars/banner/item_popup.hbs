@@ -1,6 +1,13 @@
 <div id="item-wrapper-popup">
     <div id="top-section-wrapper">
-        <img src="{{concat '/templates/bundle/assets/banner/' banner_name '/' picture}}"/>
+        <div>
+            <img id="image-preview" data-index="{{@index}}" class="{{#ifCond @index '==' 0}}active{{/ifCond}}" data-click="{{concat '/templates/bundle/assets/banner/' banner_name '/' picture.[0]}}" src="{{concat '/templates/bundle/assets/banner/' banner_name '/' picture.[0]}}"/>
+            <div id="image-slider">
+                {{#each picture}}
+                    <img class="sub-image" data-index="{{@index}}" src="{{concat '/templates/bundle/assets/banner/' ../banner_name '/' this}}"/>
+                {{/each}}
+            </div>
+        </div>
         <div class="item-details-wrapper">
             <h2>{{name}}</h2>
         </div>

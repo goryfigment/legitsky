@@ -3,7 +3,7 @@
     border-bottom: 1px solid #0000000d;
     padding: 2px;
     height: 36px;
-    margin: 0 20px;
+    margin: 25px 20px 0 20px;
 }
 
 .remove-button {
@@ -51,6 +51,11 @@ table img {
     height: 100px;
 }
 
+.image-column {
+    text-align: center;
+    padding: 10px;
+}
+
 .offer-button, .link-button {
     background: #05b346;
     padding: 10px 50px;
@@ -59,6 +64,15 @@ table img {
     cursor: pointer;
     color: #fbfbfb;
     border: none;
+}
+
+#image-preview img {
+    max-height: 180px;
+}
+
+#image-slider img {
+    height: 40px;
+    cursor: pointer;
 }
 
 .offer-button:hover, .link-button:hover {
@@ -108,10 +122,6 @@ table img {
 #top-section-wrapper {
     padding: 15px 20px;
     display: flex;
-}
-
-#top-section-wrapper img {
-    max-height: 180px;
 }
 
 .favorite-button {

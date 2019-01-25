@@ -13,7 +13,7 @@ module.exports = {
         result: './templates/js/result.js',
         banner: './templates/js/banner.js',
         save: './templates/js/save.js',
-        404: './templates/js/404.js'
+        error: './templates/js/error.js'
     },
     output: {path: __dirname + '/templates/bundle', filename: 'js/[name].js', publicPath: '/templates/bundle/'},
     module: {
@@ -37,7 +37,7 @@ module.exports = {
 
         //HTML
         new HtmlWebpackPlugin({filename: '404.html', chunks: ['vendors','error'], minify: {collapseWhitespace: true}, hash: true, template: './templates/404.html'}),
-        //new HtmlWebpackPlugin({filename: '500.html', chunks: ['vendors','error'], minify: {collapseWhitespace: true}, hash: true, template: './templates/500.html'}),
+        new HtmlWebpackPlugin({filename: '500.html', chunks: ['vendors','error'], minify: {collapseWhitespace: true}, hash: true, template: './templates/500.html'}),
         new HtmlWebpackPlugin({filename: 'home.html', chunks: ['vendors','home'], minify: {collapseWhitespace: true}, hash: true, template: './templates/home.html'}),
         new HtmlWebpackPlugin({filename: 'result.html', chunks: ['vendors','result'], minify: {collapseWhitespace: true}, hash: true, template: './templates/result.html'}),
         new HtmlWebpackPlugin({filename: 'banner.html', chunks: ['vendors','banner'], minify: {collapseWhitespace: true}, hash: true, template: './templates/banner.html'}),

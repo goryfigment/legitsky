@@ -7,19 +7,25 @@ from django.http import HttpResponse
 
 
 def error_page(request):
-    data = {
-        'base_url': get_base_url()
-    }
+    try:
+        file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'static_data/banner.json'))
+        banners = json.loads(open(file_path).read())
+    except:
+        data = {'success': False, 'error_id': 2, 'error_msg:': 'IO Error', 'directory': file_path}
+        return HttpResponse(json.dumps(data), 'application/json')
 
-    return render(request, '404.html', data)
+    return render(request, '404.html', {'base_url': get_base_url(), 'banners': json.dumps(banners)})
 
 
 def server_error(request):
-    data = {
-        'base_url': get_base_url()
-    }
+    try:
+        file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'static_data/banner.json'))
+        banners = json.loads(open(file_path).read())
+    except:
+        data = {'success': False, 'error_id': 2, 'error_msg:': 'IO Error', 'directory': file_path}
+        return HttpResponse(json.dumps(data), 'application/json')
 
-    return render(request, '500.html', data)
+    return render(request, '500.html', {'base_url': get_base_url(), 'banners': json.dumps(banners)})
 
 
 def site(request):

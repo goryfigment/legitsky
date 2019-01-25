@@ -5,13 +5,59 @@
     "url": "nintendo-switch",
     "featured_banner": [
       {
-        "background": "super-smash.gif"
+        "background": "super-smash.gif",
+        "product": [
+          {
+            "id": 17,
+            "image": "super smash bros ultimate.jpg",
+            "top": "68px",
+            "left": "1230px",
+            "button": {
+              "top": "324px",
+              "left": "1212px"
+            }
+          }
+        ]
       },
       {
-        "background": "pokemon.jpg"
+        "background": "pokemon.jpg",
+        "product": [
+          {
+            "id": 18,
+            "image": "pokemon-pikachu.png",
+            "top": "92px",
+            "left": "82px",
+            "button": {
+              "top": "327px",
+              "left": "68px"
+            }
+          },
+          {
+            "id": 19,
+            "image": "pokemon-eevee.png",
+            "top": "92px",
+            "left": "1239px",
+            "button": {
+              "top": "327px",
+              "left": "1222px"
+            }
+          }
+        ]
       },
       {
-        "background": "mario-party.jpg"
+        "background": "mario-party.jpg",
+        "product": [
+          {
+            "id": 16,
+            "image": "Super-mario-party.jpg",
+            "top": "93px",
+            "left": "49px",
+            "button": {
+              "top": "330px",
+              "left": "33px"
+            }
+          }
+        ]
       }
     ]
   },
@@ -21,13 +67,49 @@
     "url": "xbox",
     "featured_banner": [
       {
-        "background": "call-of-duty.png"
+        "background": "red-redemption.jpg",
+        "product": [
+          {
+            "id": 16,
+            "image": "red-dead-redemption-2.jpg",
+            "top": "33px",
+            "left": "169px",
+            "button": {
+              "top": "132px",
+              "left": "369px"
+            }
+          }
+        ]
       },
       {
-        "background": "red-redemption.jpg"
+        "background": "call-of-duty.png",
+        "product": [
+          {
+            "id": 9,
+            "image": "cod-black-ops-4.jpg",
+            "top": "36px",
+            "left": "172px",
+            "button": {
+              "top": "267px",
+              "left": "172px"
+            }
+          }
+        ]
       },
       {
-        "background": "rainbow-six.jpg"
+        "background": "rainbow-six.jpg",
+        "product": [
+          {
+            "id": 17,
+            "image": "rainbow-six-siege.jpg",
+            "top": "85px",
+            "left": "98px",
+            "button": {
+              "top": "322px",
+              "left": "99px"
+            }
+          }
+        ]
       }
     ]
   },
@@ -37,13 +119,49 @@
     "url": "playstation",
     "featured_banner": [
       {
-        "background": "spider-man.jpg"
+        "background": "spider-man.jpg",
+        "product": [
+          {
+            "id": 7,
+            "image": "spiderman.jpg",
+            "top": "52px",
+            "left": "122px",
+            "button": {
+              "top": "286px",
+              "left": "127px"
+            }
+          }
+        ]
       },
       {
-        "background": "spyro.png"
+        "background": "spyro.png",
+        "product": [
+          {
+            "id": 12,
+            "image": "spyro-trilogy.png",
+            "top": "103px",
+            "left": "1126px",
+            "button": {
+              "top": "335px",
+              "left": "1127px"
+            }
+          }
+        ]
       },
       {
-        "background": "ace-combat.jpg"
+        "background": "ace-combat.jpg",
+        "product": [
+          {
+            "id": 13,
+            "image": "ace-combat.jpg",
+            "top": "25px",
+            "left": "60px",
+            "button": {
+              "top": "256px",
+              "left": "63px"
+            }
+          }
+        ]
       }
     ]
   }
