@@ -3,6 +3,9 @@ from django.contrib import admin
 from buytheway.controllers import site
 from buytheway.controllers import ebay
 
+handler404 = site.error_page
+handler500 = site.server_error
+
 urlpatterns = [
     url(r'^404/$', site.error_page, name='404'),
     url(r'^500/$', site.server_error, name='500'),
