@@ -10,8 +10,6 @@
         globals.base_url = '{{ base_url }}';
         globals.banners = {{ banners|safe }};
     </script>
-
-{#    <script async src="https://epnt.ebay.com/static/epn-smart-tools.js"></script>#}
 </head>
 <body>
     <%= require('html-loader!./partial/header.html') %>
