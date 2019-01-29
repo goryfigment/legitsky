@@ -210,3 +210,33 @@ input:-webkit-autofill {
     line-height: 25px;
 }
 /* HEADER */
+
+/* FOOTER */
+#footer-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    background: #1f1f1f;
+}
+
+#footer-wrapper nav {
+    padding: 16px 0;
+}
+
+#footer-wrapper a {
+    display: block;
+    color: #eaeaea;
+    text-decoration: none;
+}
+
+#footer-wrapper a:hover {
+    color: #ffffff;
+}
+
+#left-section {
+    margin: 12px 20px;
+}
+
+#footer-logo {
+    height: 92px;
+}
+/* FOOTER */

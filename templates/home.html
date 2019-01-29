@@ -10,8 +10,6 @@
         globals.base_url = '{{ base_url }}';
         globals.banners = {{ banners|safe }};
     </script>
-
-{#    <script async src="https://epnt.ebay.com/static/epn-smart-tools.js"></script>#}
 </head>
 <body>
     <%= require('html-loader!./partial/header.html') %>
@@ -20,17 +18,13 @@
         <img style="width: 1400px;height: 400px;" src="/templates/bundle/assets/home/home-banner.png" />
     </div>
 
-{#    <div id="highlights-wrapper">#}
-{#        <div style="width:900px; height:220px;">#}
-{#            <ins class="epn-placement" data-config-id="5c350d28891ea378d978e10a"></ins>#}
-{#        </div>#}
-{#    </div>#}
-
     <div id="category-wrapper">
         <h2>Category Banner</h2>
         <div id="banner-container">
 
         </div>
     </div>
+
+    <%= require('html-loader!./partial/footer.html') %>
 </body>
 </html>

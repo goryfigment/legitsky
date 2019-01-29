@@ -71,7 +71,23 @@
 #banner-container img {
     height: 200px;
 }
-/* CATEGORY *//* Slider */
+/* CATEGORY */
+
+/* POLICY */
+#policy-wrapper {
+    height: calc(100vh - 290px);
+    padding: 60px 100px 50px 100px;
+    overflow: auto;
+}
+
+#policy-wrapper p {
+    margin: 18px 30px;
+}
+
+#policy-wrapper h3 {
+    font-size: 15px;
+}
+/* POLICY *//* Slider */
 .slick-slider
 {
     position: relative;

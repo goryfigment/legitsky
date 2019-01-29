@@ -38,10 +38,12 @@ module.exports = {
         //HTML
         new HtmlWebpackPlugin({filename: '404.html', chunks: ['vendors','error'], minify: {collapseWhitespace: true}, hash: true, template: './templates/404.html'}),
         new HtmlWebpackPlugin({filename: '500.html', chunks: ['vendors','error'], minify: {collapseWhitespace: true}, hash: true, template: './templates/500.html'}),
+        new HtmlWebpackPlugin({filename: 'tos.html', chunks: ['vendors','error'], minify: {collapseWhitespace: true}, hash: true, template: './templates/tos.html'}),
+        new HtmlWebpackPlugin({filename: 'privacy_policy.html', chunks: ['vendors','error'], minify: {collapseWhitespace: true}, hash: true, template: './templates/privacy_policy.html'}),
         new HtmlWebpackPlugin({filename: 'home.html', chunks: ['vendors','home'], minify: {collapseWhitespace: true}, hash: true, template: './templates/home.html'}),
         new HtmlWebpackPlugin({filename: 'result.html', chunks: ['vendors','result'], minify: {collapseWhitespace: true}, hash: true, template: './templates/result.html'}),
         new HtmlWebpackPlugin({filename: 'banner.html', chunks: ['vendors','banner'], minify: {collapseWhitespace: true}, hash: true, template: './templates/banner.html'}),
-        new HtmlWebpackPlugin({filename: 'save.html', chunks: ['vendors','save'], minify: {collapseWhitespace: true}, hash: true, template: './templates/save.html'}),
+        new HtmlWebpackPlugin({filename: 'save.html', chunks: ['vendors','save'], minify: {collapseWhitespace: true}, hash: true, template: './templates/save.html'})
     ],
     resolve: {
         alias: {

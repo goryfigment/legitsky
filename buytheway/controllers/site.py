@@ -39,6 +39,28 @@ def site(request):
     return render(request, 'home.html', {'base_url': get_base_url(), 'banners': json.dumps(banners)})
 
 
+def tos(request):
+    try:
+        file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'static_data/banner.json'))
+        banners = json.loads(open(file_path).read())
+    except:
+        data = {'success': False, 'error_id': 2, 'error_msg:': 'IO Error', 'directory': file_path}
+        return HttpResponse(json.dumps(data), 'application/json')
+
+    return render(request, 'tos.html', {'base_url': get_base_url(), 'banners': json.dumps(banners)})
+
+
+def privacy_policy(request):
+    try:
+        file_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'static_data/banner.json'))
+        banners = json.loads(open(file_path).read())
+    except:
+        data = {'success': False, 'error_id': 2, 'error_msg:': 'IO Error', 'directory': file_path}
+        return HttpResponse(json.dumps(data), 'application/json')
+
+    return render(request, 'privacy_policy.html', {'base_url': get_base_url(), 'banners': json.dumps(banners)})
+
+
 def search(request):
     return render(request, 'result.html', {'base_url': get_base_url(), 'q': request.GET['q']})
 

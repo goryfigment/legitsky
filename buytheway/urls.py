@@ -9,6 +9,8 @@ handler500 = site.server_error
 urlpatterns = [
     url(r'^404/$', site.error_page, name='404'),
     url(r'^500/$', site.server_error, name='500'),
+    url(r'^tos/$', site.tos, name='tos'),
+    url(r'^privacy-policy/$', site.privacy_policy, name='privacy_policy'),
 
     url(r'^admin/', admin.site.urls),
     url(r'^$', site.site, name='site'),
