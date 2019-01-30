@@ -1,0 +1,42 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rise Up Gamers: Terms of Service</title>
+    <link rel='shortcut icon' type='image/x-icon' href="{% static 'bundle/assets/riseupgamers/riseupgamers.ico' %}" />
+    <script>
+        var globals = {};
+        globals.base_url = '{{ base_url }}';
+        globals.banners = {{ banners|safe }};
+    </script>
+</head>
+<body>
+    <%= require('html-loader!./partial/header.html') %>
+
+    <div id="policy-wrapper" style="height: calc(100vh - 180px);padding: 0 100px 0 100px;">
+        <h2 style="text-align: center">Contact Us</h2>
+
+        <form action="/test" method="GET">
+            <div class="input-wrapper">
+                <label for="name">Name</label>
+                <input id="name" name="first-name">
+            </div>
+
+            <div class="input-wrapper">
+                <label for="email">Email</label>
+                <input id="email" name="email">
+            </div>
+
+            <div class="input-wrapper">
+                <label for="message">Message</label>
+                <textarea id="message"></textarea>
+            </div>
+
+            <input id="contact-submit" type="submit" value="Submit">
+        </form>
+    </div>
+
+    <%= require('html-loader!./partial/footer.html') %>
+</body>
+</html>

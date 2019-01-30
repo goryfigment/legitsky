@@ -6,6 +6,7 @@ body {
     margin-left: auto;
     transition: 0.3s width ease;
     width: 100%;
+    min-height: calc(100vh - 60px);
 }
 
 /*CATEGORY*/

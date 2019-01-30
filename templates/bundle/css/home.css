@@ -1,3 +1,7 @@
+#main-wrapper {
+    min-height: calc(100vh - 60px);
+}
+
 /*BANNER*/
 #banner-wrapper {
     /*width: 1519px;*/
@@ -86,6 +90,57 @@
 
 #policy-wrapper h3 {
     font-size: 15px;
+}
+
+#policy-wrapper form {
+    width: 430px;
+    margin: 0 auto;
+}
+
+#policy-wrapper textarea {
+    resize: none;
+    height: 150px;
+    width: calc(100% - 30px);
+    padding: 10px;
+}
+
+#policy-wrapper .input-wrapper {
+    margin: 25px 0;
+}
+
+#policy-wrapper label {
+    display: block;
+    padding-bottom: 5px;
+    font-size: 19px;
+}
+
+#policy-wrapper input {
+    width: 400px;
+}
+
+#policy-wrapper input[type=submit] {
+    margin-left: 96px;
+    width: 210px;
+    background: #008c00;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#success-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#success-container h3 {
+    font-size: 32px;
+}
+
+#success-container div {
+    color: #ff8f83;
+    font-size: 23px;
+    margin: 30px 0;
+    font-weight: 900;
 }
 /* POLICY *//* Slider */
 .slick-slider

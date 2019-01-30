@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5 {
     margin: 0;
 }
 
-input {
+input, textarea {
     outline: none;
     border: none;
     border-radius: 1px;
@@ -51,7 +51,7 @@ input {
     color: #000;
 }
 
-input:-webkit-autofill {
+input:-webkit-autofill, textarea:-webkit-autofill {
     -webkit-box-shadow: 0 0 0 30px #353535 inset;
     -webkit-text-fill-color: #c2c3c3;
 }
