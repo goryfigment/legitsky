@@ -1012,7 +1012,7 @@
         "id": 11,
         "name": "Assassin's Creed Odyssey",
         "category": "Video Game",
-        "picture": ["cod-balk-ops-4.jpg"],
+        "picture": ["assassins-creed-origins.jpg"],
         "offers":
         [
           {
@@ -1342,7 +1342,7 @@
         "id": 4,
         "name": "PS4 Pro Console 1TB",
         "category": "Console",
-        "picture": ["PS4-pro-console.jpg"],
+        "picture": ["PS4-pro-console.PNG"],
         "offers":
         [
           {
@@ -1592,7 +1592,7 @@
         "id": 10,
         "name": "Tales of Vesperia Definitive Edition Anniversary Bundle",
         "category": "Video Game",
-        "picture": ["talesofvesperia-anniversarybundle.png"],
+        "picture": ["tales-of-ves.jpg"],
         "offers":
         [
           {
@@ -1615,7 +1615,7 @@
         "id": 11,
         "name": "Tales of Vesperia Definitive Edition Premium Bundle",
         "category": "Video Game",
-        "picture": ["talesofvesperia-premiumbundle.png"],
+        "picture": ["tales-of-ves.jpg"],
         "offers":
         [
           {

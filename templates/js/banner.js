@@ -26,7 +26,6 @@ function init() {
 
     var $inventoryContainer = $('#inventory-container');
     var itemData = globals.banner;
-
     var savedData = localStorage.getItem('saved');
 
     if (savedData !== null) {
@@ -209,11 +208,8 @@ $(document).ready(function() {
         var savedData = localStorage.getItem('saved');
         var savedList = [];
 
-        if (savedData !== null) {
+        if (savedData !== null && savedData.hasOwnProperty(globals.banner_name)) {
             savedData = JSON.parse(savedData);
-        }
-
-        if(savedData.hasOwnProperty(globals.banner_name)) {
             savedList = savedData[globals.banner_name];
         }
 
