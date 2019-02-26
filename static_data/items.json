@@ -66,7 +66,7 @@
         "id": 3,
         "name": "Nintendo Switch Mario Kart 8 Deluxe Console Bundle",
         "category": "Console",
-        "picture": ["NS-mario-kart-bundle.PNG"],
+        "picture": ["NS-mario-kart-bundle.JPG"],
         "offers":
         [
           {
@@ -96,7 +96,7 @@
         "id": 4,
         "name": "Nintendo Switch Super Smash Bros Ultimate Limited Edition Console",
         "category": "Console",
-        "picture": ["NS-super-smash-bros-ultimate-console.PNG"],
+        "picture": ["NS-super-smash-bros-ultimate-console.JPG"],
         "offers":
         [
           {
@@ -126,7 +126,7 @@
         "id": 5,
         "name": "Nintendo Switch Pokemon Let's Go Pikachu Limited Edition Console",
         "category": "Console",
-        "picture": ["NS-pokemon-pikachu-console.PNG"],
+        "picture": ["NS-pokemon-pikachu-console.JPG"],
         "offers":
         [
           {
@@ -156,7 +156,7 @@
         "id": 6,
         "name": "Nintendo Switch Pokemon Let's Go Eevee Limited Edition Console",
         "category": "Console",
-        "picture": ["NS-pokemon-eevee-console.PNG"],
+        "picture": ["NS-pokemon-eevee-console.JPG"],
         "offers":
         [
           {
@@ -179,7 +179,7 @@
         "id": 7,
         "name": "Super Smash Bros Ultimate Special Edition",
         "category": "Video Game",
-        "picture": ["super smash bros ultimate special edition.PNG"],
+        "picture": ["super smash bros ultimate special edition.JPG"],
         "offers":
         [
           {
@@ -209,7 +209,7 @@
         "id": 8,
         "name": "Super Smash Bros Ultimate Limited Edition Bundle",
         "category": "Video Game",
-        "picture": ["super-smash-bros-ultimate-Limited-edition-bundle.PNG"],
+        "picture": ["super-smash-bros-ultimate-Limited-edition-bundle.JPG"],
         "offers":
         [
           {
@@ -246,7 +246,7 @@
         "id": 9,
         "name": "Mario Kart 8 Deluxe",
         "category": "Video Game",
-        "picture": ["Mario Kart 8.PNG"],
+        "picture": ["Mario Kart 8.JPG"],
         "offers":
         [
           {
@@ -297,7 +297,7 @@
         "id": 10,
         "name": "Super Mario Odyssey",
         "category": "Video Game",
-        "picture": ["Mario Odyssey.png"],
+        "picture": ["Mario Odyssey.JPG"],
         "offers":
         [
           {
@@ -542,7 +542,7 @@
         "id": 17,
         "name": "Super Smash Bros Ultimate",
         "category": "Video Game",
-        "picture": ["super smash bros ultimate.jpg"],
+        "picture": ["super smash bros ultimat.jpg"],
         "offers":
         [
           {
@@ -607,7 +607,7 @@
         "id": 18,
         "name": "Pokemon: Lets Go Pikachu!",
         "category": "Console",
-        "picture": ["pokemon-pikachu.png"],
+        "picture": ["pokemon-pikachu.JPG"],
         "offers":
         [
           {
@@ -636,8 +636,8 @@
       {
         "id": 19,
         "name": "Pokemon: Lets Go Eevee!",
-        "category": "Console",
-        "picture": ["pokemon-eevee.png"],
+        "category": "Video Game",
+        "picture": ["pokemon-eevee.JPG"],
         "offers":
         [
           {
@@ -1229,7 +1229,7 @@
     "items": [
        {
         "id": 1,
-        "name": "PS4 Original 500GB",
+        "name": "PS4 Base Model 500GB",
         "category": "Console",
         "picture": ["PS4-console.png"],
         "offers":
@@ -1305,7 +1305,7 @@
         "id": 3,
         "name": "PS4 Slim Console 500GB",
         "category": "Console",
-        "picture": ["ps4-slim-console.png"],
+        "picture": ["ps4-slim-console.JPG"],
         "offers":
         [
           {
@@ -1342,7 +1342,7 @@
         "id": 4,
         "name": "PS4 Pro Console 1TB",
         "category": "Console",
-        "picture": ["PS4-pro-console.PNG"],
+        "picture": ["PS4-pro-console.JPG"],
         "offers":
         [
           {
@@ -1400,7 +1400,7 @@
         "id": 5,
         "name": "Fallout 76",
         "category": "Video Game",
-        "picture": ["fallout-76.png"],
+        "picture": ["fallout-76.JPG"],
         "offers":
         [
           {
@@ -1444,7 +1444,7 @@
         "id": 6,
         "name": "Call of Duty Black Ops 4",
         "category": "Video Game",
-        "picture": ["Cod-black-ops-ps4.png"],
+        "picture": ["Cod-black-ops-ps4.JPG"],
         "offers":
         [
           {
@@ -1481,7 +1481,7 @@
         "id": 7,
         "name": "Marvel's Spiderman",
         "category": "Video Game",
-        "picture": ["spiderman.jpg"],
+        "picture": ["marvels-spiderman-ps4.JPG"],
         "offers":
         [
           {
@@ -1518,7 +1518,7 @@
         "id": 8,
         "name": "Red Dead Redemption 2",
         "category": "Video Game",
-        "picture": ["Red-dead-redemption-2-ps4.PNG"],
+        "picture": ["Red-dead-redemption-2-ps4.JPG"],
         "offers":
         [
           {
@@ -1555,7 +1555,7 @@
         "id": 9,
         "name": "Assassin's Creed Odyssey",
         "category": "Video Game",
-        "picture": ["Assassins-creed-odyssey-ps4.PNG"],
+        "picture": ["Assassins-creed-odyssey-ps4.JPG"],
         "offers":
         [
           {
